@@ -1,0 +1,9 @@
+<?xml version="1.0"?><HotelElement><Id>120570601</Id><Name>Barrio Cafe San Juan Hotel</Name><Region><Id>17748</Id><Name>San Juan Del Sur</Name><CityId>17748</CityId></Region><Type>Hotel</Type><Address><Address1>Avenida Mercado</Address1><Address2 /><Address3 /><City>San Juan Del Sur</City><State /><Zip /><Country>Nicaragua</Country><Tel>01150525682294</Tel><Fax>01150525682294</Fax><Email /><Url /></Address><Stars>3</Stars><GeneralInfo><CheckInTime>15</CheckInTime><CheckOutTime>11</CheckOutTime></GeneralInfo><Description><Language>en</Language><Type>General</Type><Text>General Description
+3 star accommodations 
+Boutique hotel accommodations 
+
+Location
+Centrally located near by an Juan del Sur 
+
+Restaurants &amp; Lounges
+Onsite restaurant</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Centrally located near by an Juan del Sur</Text></Description><Rating><System>Stars</System><Score>30</Score><Description>Three star</Description></Rating><Rank>1</Rank></HotelElement>

@@ -1,0 +1,159 @@
+
+
+.display_none{display:none;}
+.display{}
+
+
+
+
+/* payment page */
+
+
+.tab_no {
+	float:left;
+	}
+
+
+.booking_steps{width:100%;float:left; font-family:Arial, Helvetica, sans-serif; margin-top:10px;}
+.booking_steps .margin-btm{margin-bottom:10px;}
+.booking_steps input{font-size:14px;}
+.right_summery{border:solid #e1e1e1;border-width:1px 1px 0 1px;width:188px;float:right;}
+.right_summery .heading{background-color:#f1f1f1;border-bottom:5px solid #e1e1e1;height:35px;padding-top:5px;}
+.right_summery .summery_title{line-height:30px;background:url(../images/arow_black_btm.png) no-repeat 175px;text-indent:5px;border-bottom:1px solid #e1e1e1;}
+.right_summery .summery_title_s{line-height:30px;background:url(../images/arow_black_top.png) no-repeat 175px;text-indent:5px;border-bottom:1px solid #e1e1e1;}
+.right_summery .summery_title_l{line-height:30px;background:url(../images/arow_black_left.png) no-repeat 175px;text-indent:5px;border-bottom:1px solid #e1e1e1;}
+.right_summery .summery_data{padding:5px;border-bottom:1px solid #e1e1e1;font-size:12px;word-break:break-all;}
+.right_summery .seprator{border-bottom:1px solid #e1e1e1;background-color:#ffffff;height:5px;}
+.right_summery .summery_data td{vertical-align:middle;}
+.right_summery .summery_data td table tr td{/*padding:0 5px;*/}
+.border_btm{border-bottom:1px solid #e1e1e1;}
+.border_all{border:1px solid #e1e1e1;}
+#steps_menu td{/*width:200.5px;*/}
+#steps_menu strong{float:left;font-size:40px;line-height:40px;width:40px;text-align:right;padding-right:3px;color:inherit;}
+.steps_menu_heading{float:left;font-size:18px;height:35px;padding-top:10px;color:inherit; font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+.steps_menu_number {float:left;font-size:25px;height:35px;padding-top:5px;color:inherit; font-family:Arial, Helvetica, sans-serif; font-weight:bold; margin-left:12px; margin-right:5px;}
+.booking_steps .step_selected{
+	color:#e36c0a;
+	font-size: 19px;
+	line-height: 40px;
+	height: 40px;
+	background:url(../images/arow01.png);
+	background-repeat:no-repeat;
+	background-position:260px 11px;
+	}
+.booking_steps .step_unselected{
+	color:#333;
+	cursor:pointer;
+	font-size: 19px;
+	line-height: 40px;
+	height: 40px;
+	background:url(../images/arow02.png);
+	background-repeat:no-repeat;
+	background-position:260px 11px;
+	}
+
+
+
+.booking_steps .step_unselected .tab_no {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	border:2px solid #aaa;
+	width:25px;
+	height:25px;
+	margin:7px;
+	line-height:25px;
+	text-align:center;
+	font-size:17px;
+	color:#aaa;
+	}
+
+	
+	
+	
+.booking_steps .step_selected .tab_no {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	border:2px solid #e36c0a;
+	width:25px;
+	height:25px;
+	margin:7px;
+	line-height:25px;
+	text-align:center;
+	font-size:17px;
+	color:#e36c0a;
+	}
+	
+	
+	
+	
+	
+	
+/*.booking_steps .step_unselected:hover{border:1px solid;border-color:#bebebe #bebebe #bebebe #bebebe;background-color:#e1e1e1;color:#000000;}*/
+.booking_data{/*border:solid #bebebe;border-width:0 1px 1px 1px*/;}
+.booking_step_box{/*border:5px solid #e1e1e1;padding:5px;*/font-size:12px;}
+.booking_step_box .email_filed{width:270px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .email_s{width:230px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .password_s{width:230px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .guest_login{width:300px;border-radius:5px;border:1px solid #bebebe;background-color:#e1e1e1;line-height:20px;padding:5px 0;}
+.booking_step_box .guest_login span a{color:#000000;text-decoration:none;font-size:12px;}
+.booking_step_box .guest_login span a:hover{color:#ff5a00;text-decoration:none;}
+.booking_step_box .guest_login .checkbox{margin:0 0 2px 0;padding:0;}
+.booking_step_box .member_login{margin:5px 10px 5px 10px;background-color:#ffffff;}
+.booking_step_box .member_login a{color:#444444;text-decoration:none;}
+.booking_step_box .member_login a:hover{color:#000000;text-decoration:underline;}
+.booking_step_box .pax_select{width:177px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 3px 3px ; line-height:26px; height:28px;}
+.booking_step_box .pax_title_select{width:87px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 3px 3px ; line-height:26px; height:28px;}
+.booking_step_box .pax_age_select{width:57px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 3px 3px ; line-height:26px; height:28px;}
+.booking_step_box .pax_input{width:145px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .pax_input_small{width:35px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .pax_input_medium{width:240px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .pax_input_large{width:425px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .pax_input_date{background:url(../images/calendar.gif) 105px no-repeat; width:95px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32; padding: 0px 22px 0px 8px; line-height:26px; height:26px;}
+.booking_step_box .pax_textarea{width:445px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32;margin:0;padding:0 5px;font-size:12px;}
+
+.payment_mnu .selected{height:40px;text-align:left;background:#e1e1e1 url(../images/arow_black_right.png) 130px no-repeat;padding-left:5px;}
+.payment_mnu .unselected{height:40px;text-align:left;background-color:#f1f1f1;cursor:pointer;padding-left:5px;padding-left:5px;}
+.payment_mnu .unselected:hover{height:40px;text-align:left;background:#e1e1e1 url(../images/arow_black_right.png) 130px no-repeat;}
+
+/*myaccount loading image class*/
+.popup_contact_padding {padding-top: 155px;}
+/*myaccount loading image class*/
+
+
+/*support form*/
+
+.support_form{}
+.support_form label{line-height:25px;padding-left:3px;}
+.textarea_common{width:376px; border-radius:5px; background-color:#FFFFFF; border:1px solid #f29e32;margin:0;padding:0 5px;font-size:12px;}
+
+/*support form*/
+
+/* jQuery css */
+
+.pr_mask{position:absolute;left:0;top:0;z-index:9000;background-color:#000;display:none;}
+#imgdiv{border:1px solid #000000;padding:10px;line-height:8px;position:absolute;z-index:9999;display:none;color:#000000;background-color:#f1f1f1;}
+#imgdiv .pr_close{display:block;line-height:30px;text-align:right;text-decoration:none;font-weight:bold;font-style:italic;color:#000000;}
+
+#mice_pop{padding:10px;position:absolute;z-index:9999;display:none;}
+#mice_pop .close_x{display:block;text-align:right;margin-right:-15px;margin-bottom:-15px;}
+
+#mask{position:absolute;left:0;top:0;z-index:9000;background-color:#000;display:none;}
+#sign_in_up_pop .window{position:absolute;display:none;z-index:9999;}
+#sign_in_up_pop .window .close{margin:-15px -15px 0 0;cursor:pointer;}
+#sign_in_up_pop label{line-height:20px;}
+#sign_in_up_pop .input_l{width:302px;border-radius:5px;background-color:#FFFFFF;border:1px solid #f29e32;padding:0px 22px 0px 8px;line-height:26px;height:28px;}
+#sign_in_up_pop .input_m{width:210px;border-radius:5px;background-color:#FFFFFF;border:1px solid #f29e32;padding:0px 22px 0px 8px;line-height:26px;height:28px;}
+#sign_in_up_pop .input_s{width:70px;border-radius:5px;background-color:#FFFFFF;border:1px solid #f29e32;padding:0 0 0 8px;line-height:26px;height:28px;}
+#signup_box{border:2px solid #f29e32;width:750px;height:320px;background-color:#ffffff;}
+#login_box{border:2px solid #f29e32;width:600px;height:250px;background-color:#ffffff;}
+#hotelPopup{border:2px solid #f29e32;width:350px;height:260px;background-color:#ffffff;}
+#sign_in_up_pop a{text-decoration:none;color:#777777;font-size:12px;}
+#sign_in_up_pop a:hover{text-decoration:none;color:#ff5a00;font-size:12px;}
+.login_title{display:block;line-height:40px;background-color:#e1e1e1;padding:0 10px;font-size:12px;border-bottom:1px solid #bebebe;}
+.hotel_popup_title{display:block;line-height:40px;background-color:#e1e1e1;padding:0 10px;font-size:15px;border-bottom:1px solid #bebebe;color:#a80800;}
+/* jQuery css */
+

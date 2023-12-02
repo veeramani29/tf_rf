@@ -1,0 +1,4 @@
+[11-Jun-2015 10:26:00 UTC] PHP Warning:  file_get_contents(priv.pem): failed to open stream: No such file or directory in /home/tftekhne/public_html/ideal/iDEAL_Advanced_PHP_Illustrationcode/Connector/Libraries/xmlseclibs.php on line 370
+[11-Jun-2015 10:26:00 UTC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /home/tftekhne/public_html/ideal/iDEAL_Advanced_PHP_Illustrationcode/Connector/Libraries/xmlseclibs.php on line 479
+[11-Jun-2015 11:36:29 UTC] PHP Warning:  file_get_contents(priv.pem): failed to open stream: No such file or directory in /home/tftekhne/public_html/ideal/iDEAL_Advanced_PHP_Illustrationcode/Connector/Libraries/xmlseclibs.php on line 370
+[11-Jun-2015 11:36:29 UTC] PHP Warning:  openssl_sign(): supplied key param cannot be coerced into a private key in /home/tftekhne/public_html/ideal/iDEAL_Advanced_PHP_Illustrationcode/Connector/Libraries/xmlseclibs.php on line 480

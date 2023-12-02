@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <Action xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none" s:mustUnderstand="1">http://localhost:8080/kestrel/AirService</Action>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <air:LowFareSearchReq xmlns:air="http://www.travelport.com/schema/air_v33_0" SolutionResult="true" PreferCompleteItinerary="true" TargetBranch="P2629804" AuthorizedBy="user" TraceId="trace">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v33_0" OriginApplication="UAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="AMS"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="BOM"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2016-12-28"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass xmlns:com="http://www.travelport.com/schema/common_v33_0" Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="BOM"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="AMS"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2017-01-12"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass xmlns:com="http://www.travelport.com/schema/common_v33_0" Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers>
+        <air:PreferredProviders>
+          <com:Provider xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="ACH"/>
+          <com:Provider xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="1G"/>
+        </air:PreferredProviders>
+        <!--  <air:PreferredCarriers>
+                    <com:Carrier xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="U2" />
+                    </air:PreferredCarriers>
+                  <air:FlightType DoubleInterlineCon="false" PreferNonStop="true" DoubleOnlineCon="false" NonStopDirects="true" SingleInterlineCon="false" SingleOnlineCon="false" StopDirects="false" TripleInterlineCon="false" TripleOnlineCon="false"></air:FlightType>-->
+      </air:AirSearchModifiers>
+      <com:SearchPassenger xmlns:com="http://www.travelport.com/schema/common_v33_0" Code="ADT"/>
+      <air:AirPricingModifiers FaresIndicator="PublicAndPrivateFares" CurrencyType="EUR"/>
+    </air:LowFareSearchReq>
+  </s:Body>
+</s:Envelope>

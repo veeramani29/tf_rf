@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v33_0" xmlns:common_v33_0="http://www.travelport.com/schema/common_v33_0" TransactionId="EFFB5F7B0A0759D31A80AEA8914BE5FE" ResponseTime="1238">
+      <common_v33_0:ResponseMessage Code="710414" Type="Warning" ProviderCode="1G">The FormOfPayment element was ignored for fee validation. Use CheckOBFees="All" or "FOPOnly" when including a FormOfPayment.</common_v33_0:ResponseMessage>
+      <common_v33_0:ResponseMessage Code="4400" Type="Warning" ProviderCode="1G">No Merchandising optional services returned for Flight(s) [EK][150]</common_v33_0:ResponseMessage>
+      <common_v33_0:ResponseMessage Code="4400" Type="Warning" ProviderCode="1G">No Merchandising optional services returned for Flight(s) [EK][506]</common_v33_0:ResponseMessage>
+      <common_v33_0:ResponseMessage Code="4400" Type="Warning" ProviderCode="1G">No Merchandising optional services returned for Flight(s) [EK][507]</common_v33_0:ResponseMessage>
+      <common_v33_0:ResponseMessage Code="4400" Type="Warning" ProviderCode="1G">No Merchandising optional services returned for Flight(s) [EK][149]</common_v33_0:ResponseMessage>
+      <air:AirItinerary>
+        <air:AirSegment Key="4+8vFjBAAA/BrkRH7GAAAA==" Group="0" Carrier="EK" FlightNumber="150" ProviderCode="1G" Origin="AMS" Destination="DXB" DepartureTime="2016-12-28T22:00:00.000+01:00" ArrivalTime="2016-12-29T07:35:00.000+04:00" FlightTime="395" TravelTime="395" Distance="3216" ClassOfService="R" Equipment="388" ChangeOfPlane="false" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="EK">Emirates</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P4|Y9|E9|R9|W0|M0|B0|U0|K0|H0|Q0|L0|T0|V0|X0"/>
+          </air:AirAvailInfo>
+          <air:FlightDetails Key="4+8vFjBAAA/BskRH7GAAAA==" Origin="AMS" Destination="DXB" DepartureTime="2016-12-28T22:00:00.000+01:00" ArrivalTime="2016-12-29T07:35:00.000+04:00" FlightTime="395" TravelTime="395" Distance="3216"/>
+        </air:AirSegment>
+        <air:AirSegment Key="4+8vFjBAAA/BtkRH7GAAAA==" Group="0" Carrier="EK" FlightNumber="506" ProviderCode="1G" Origin="DXB" Destination="BOM" DepartureTime="2016-12-29T09:35:00.000+04:00" ArrivalTime="2016-12-29T14:00:00.000+05:30" FlightTime="175" TravelTime="175" Distance="1201" ClassOfService="R" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="EK">Emirates</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P0|Y9|E9|R9|W0|M0|B0|U0|K0|H0|Q0|L0|T0|V0|X0"/>
+          </air:AirAvailInfo>
+          <air:FlightDetails Key="4+8vFjBAAA/BukRH7GAAAA==" Origin="DXB" Destination="BOM" DepartureTime="2016-12-29T09:35:00.000+04:00" ArrivalTime="2016-12-29T14:00:00.000+05:30" FlightTime="175" TravelTime="175" Distance="1201"/>
+        </air:AirSegment>
+        <air:AirSegment Key="4+8vFjBAAA/BvkRH7GAAAA==" Group="1" Carrier="EK" FlightNumber="507" ProviderCode="1G" Origin="BOM" Destination="DXB" DepartureTime="2017-01-12T15:30:00.000+05:30" ArrivalTime="2017-01-12T17:20:00.000+04:00" FlightTime="200" TravelTime="200" Distance="1201" ClassOfService="U" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="EK">Emirates</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P0|Y9|E9|R9|W9|M9|B9|U9|K9|H0|Q9|L9|T9|V0|X5|X0|L0|K0|U0|T0|O0|I6|Q0"/>
+          </air:AirAvailInfo>
+          <air:FlightDetails Key="4+8vFjBAAA/BwkRH7GAAAA==" Origin="BOM" Destination="DXB" DepartureTime="2017-01-12T15:30:00.000+05:30" ArrivalTime="2017-01-12T17:20:00.000+04:00" FlightTime="200" TravelTime="200" Distance="1201"/>
+          <air:Connection/>
+        </air:AirSegment>
+        <air:AirSegment Key="4+8vFjBAAA/BxkRH7GAAAA==" Group="1" Carrier="EK" FlightNumber="149" ProviderCode="1G" Origin="DXB" Destination="AMS" DepartureTime="2017-01-13T15:15:00.000+04:00" ArrivalTime="2017-01-13T20:00:00.000+01:00" FlightTime="465" TravelTime="465" Distance="3216" ClassOfService="U" Equipment="388" ChangeOfPlane="false" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+          <air:CodeshareInfo OperatingCarrier="EK">Emirates</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G">
+            <air:BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P0|Y9|E9|R9|W9|M9|B9|U9|K9|H0|Q9|L9|T9|V0|X5"/>
+          </air:AirAvailInfo>
+          <air:FlightDetails Key="4+8vFjBAAA/BykRH7GAAAA==" Origin="DXB" Destination="AMS" DepartureTime="2017-01-13T15:15:00.000+04:00" ArrivalTime="2017-01-13T20:00:00.000+01:00" FlightTime="465" TravelTime="465" Distance="3216"/>
+        </air:AirSegment>
+      </air:AirItinerary>
+      <air:AirPriceResult>
+        <air:AirPricingSolution Key="4+8vFjBAAA/BzkRH7GAAAA==" TotalPrice="EUR943.29" BasePrice="EUR608.00" ApproximateTotalPrice="EUR943.29" ApproximateBasePrice="EUR608.00" Taxes="EUR335.29" ApproximateTaxes="EUR335.29" QuoteDate="2016-12-11">
+          <air:AirSegmentRef Key="4+8vFjBAAA/BrkRH7GAAAA=="/>
+          <air:AirSegmentRef Key="4+8vFjBAAA/BtkRH7GAAAA=="/>
+          <air:AirSegmentRef Key="4+8vFjBAAA/BvkRH7GAAAA=="/>
+          <air:AirSegmentRef Key="4+8vFjBAAA/BxkRH7GAAAA=="/>
+          <air:AirPricingInfo Key="4+8vFjBAAA/B0kRH7GAAAA==" TotalPrice="EUR943.29" BasePrice="EUR608.00" ApproximateTotalPrice="EUR943.29" ApproximateBasePrice="EUR608.00" ApproximateTaxes="EUR335.29" Taxes="EUR335.29" LatestTicketingTime="2016-12-28T23:59:00.000+01:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+            <air:FareInfo Key="4+8vFjBAAA/B9kRH7GAAAA==" FareBasis="RKRZFNL1" PassengerTypeCode="ADT" Origin="AMS" Destination="BOM" EffectiveDate="2016-12-11T23:22:00.000+01:00" DepartureDate="2016-12-28" Amount="EUR412.00" NotValidBefore="2016-12-28" NotValidAfter="2016-12-28">
+              <common_v33_0:Endorsement Value="NON-END/FLEX PLUS"/>
+              <common_v33_0:Endorsement Value="111746"/>
+              <common_v33_0:Endorsement Value="NON-END/FLEX"/>
+              <air:FareRuleKey FareInfoRef="4+8vFjBAAA/B9kRH7GAAAA==" ProviderCode="1G">6UUVoSldxwgAp05TulnC7MbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5U9GsfIDrTVM3ExqSoG0520a8948pCI65dlq9Y5mHR+Qu0ZscBMSQ48jz0eOjNW7bYSfgD1cdWbLOI5nUXOPYCwbDqSTLDFTcCIbRqMTJch6v9tEaRJgF5C/YIEuJEeloUCU1bwM0Hb2hhniiT1pqRJTyB5x9tYSQLWhthMb3jlkWzqOvoYWUw8eo/Da2TpGkACA4xcw3/+ly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA4q+cJFUBzriwNmwgE7MqQt7PHybnt8kEFNFX/4N2RTgqd8EfE4xYDiJoq1vonX+w2Ku5zLZZ5Od</air:FareRuleKey>
+              <air:Brand Key="4+8vFjBAAA/B9kRH7GAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+            </air:FareInfo>
+            <air:FareInfo Key="4+8vFjBAAA/BBlRH7GAAAA==" FareBasis="UKEESNL1" PassengerTypeCode="ADT" Origin="BOM" Destination="AMS" EffectiveDate="2016-12-11T23:22:00.000+01:00" DepartureDate="2017-01-12" Amount="EUR196.00" NotValidBefore="2017-01-12" NotValidAfter="2017-01-12">
+              <common_v33_0:Endorsement Value="NON-END/FLEX PLUS"/>
+              <common_v33_0:Endorsement Value="111746"/>
+              <common_v33_0:Endorsement Value="NON-END/FLEX"/>
+              <air:FareRuleKey FareInfoRef="4+8vFjBAAA/BBlRH7GAAAA==" ProviderCode="1G">6UUVoSldxwgAp05TulnC7MbKj3F8T9EyxsqPcXxP0TIjSPOlaHfQe5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5U9GsfIDrTVM3ExqSoG050WS9l+4/GFk4ngXxKvlF5/83f1UwCbb2U8jz0eOjNW7c5+xJ5+M8cGLi2k81eHMw00Zb5I9d8twsCIbRqMTJch6v9tEaRJgF5C/YIEuJEeloUCU1bwM0Hb2hhniiT1pqSW/LcvQUQwuALWhthMb3jljHy+s5Qw2ooMAz6uvn8fs0ACA4xcw3/+ly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA4q+cJFUBzriwNmwgE7MqQt7PHybnt8kEFNFX/4N2RTgqd8EfE4xYDiJoq1vonX+w2Ku5zLZZ5Od</air:FareRuleKey>
+              <air:Brand Key="4+8vFjBAAA/BBlRH7GAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="R" CabinClass="Economy" FareInfoRef="4+8vFjBAAA/B9kRH7GAAAA==" SegmentRef="4+8vFjBAAA/BrkRH7GAAAA=="/>
+            <air:BookingInfo BookingCode="R" CabinClass="Economy" FareInfoRef="4+8vFjBAAA/B9kRH7GAAAA==" SegmentRef="4+8vFjBAAA/BtkRH7GAAAA=="/>
+            <air:BookingInfo BookingCode="U" CabinClass="Economy" FareInfoRef="4+8vFjBAAA/BBlRH7GAAAA==" SegmentRef="4+8vFjBAAA/BvkRH7GAAAA=="/>
+            <air:BookingInfo BookingCode="U" CabinClass="Economy" FareInfoRef="4+8vFjBAAA/BBlRH7GAAAA==" SegmentRef="4+8vFjBAAA/BxkRH7GAAAA=="/>
+            <air:TaxInfo Category="CJ" Amount="EUR10.53" Key="4+8vFjBAAA/B1kRH7GAAAA=="/>
+            <air:TaxInfo Category="RN" Amount="EUR13.00" Key="4+8vFjBAAA/B2kRH7GAAAA=="/>
+            <air:TaxInfo Category="F6" Amount="EUR17.78" Key="4+8vFjBAAA/B3kRH7GAAAA=="/>
+            <air:TaxInfo Category="ZR" Amount="EUR1.27" Key="4+8vFjBAAA/B4kRH7GAAAA=="/>
+            <air:TaxInfo Category="IN" Amount="EUR3.74" Key="4+8vFjBAAA/B5kRH7GAAAA=="/>
+            <air:TaxInfo Category="WO" Amount="EUR3.49" Key="4+8vFjBAAA/B6kRH7GAAAA=="/>
+            <air:TaxInfo Category="YM" Amount="EUR11.48" Key="4+8vFjBAAA/B7kRH7GAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="EUR274.00" Key="4+8vFjBAAA/B8kRH7GAAAA=="/>
+            <air:FareCalc>AMS EK X/DXB EK BOM 461.79RKRZFNL1 EK X/DXB EK AMS 220.52UKEESNL1 NUC682.31END ROE0.891079</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:ChangePenalty>
+              <air:Amount>EUR240.00</air:Amount>
+            </air:ChangePenalty>
+            <air:BaggageAllowances>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="AMS" Destination="BOM" Carrier="EK">
+                <air:URLInfo>
+                  <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSEK.BAGG</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>35K</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:BaggageAllowanceInfo TravelerType="ADT" Origin="BOM" Destination="AMS" Carrier="EK">
+                <air:URLInfo>
+                  <air:URL>MYTRIPANDMORE.COM/BAGGAGEDETAILSEK.BAGG</air:URL>
+                </air:URLInfo>
+                <air:TextInfo>
+                  <air:Text>30K</air:Text>
+                  <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                </air:TextInfo>
+                <air:BagDetails ApplicableBags="1stChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+                <air:BagDetails ApplicableBags="2ndChecked">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CHGS MAY APPLY IF BAGS EXCEED TTL WT ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:BagDetails>
+              </air:BaggageAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="AMS" Destination="DXB" Carrier="EK">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DXB" Destination="BOM" Carrier="EK">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="BOM" Destination="DXB" Carrier="EK">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+              <air:CarryOnAllowanceInfo Origin="DXB" Destination="AMS" Carrier="EK">
+                <air:TextInfo>
+                  <air:Text>1P</air:Text>
+                </air:TextInfo>
+                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
+                  <air:BaggageRestriction>
+                    <air:TextInfo>
+                      <air:Text>CARRYON HAND BAGGAGE ALLOWANCE</air:Text>
+                    </air:TextInfo>
+                  </air:BaggageRestriction>
+                </air:CarryOnDetails>
+              </air:CarryOnAllowanceInfo>
+            </air:BaggageAllowances>
+          </air:AirPricingInfo>
+          <air:FareNote Key="4+8vFjBAAA/BJlRH7GAAAA==">LAST DATE TO PURCHASE TICKET: 28DEC16</air:FareNote>
+          <air:FareNote Key="4+8vFjBAAA/BKlRH7GAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+          <air:FareNote Key="4+8vFjBAAA/BLlRH7GAAAA==">E-TKT REQUIRED</air:FareNote>
+          <air:FareNote Key="4+8vFjBAAA/BMlRH7GAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+        </air:AirPricingSolution>
+      </air:AirPriceResult>
+    </air:AirPriceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

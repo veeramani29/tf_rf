@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:LowFareSearchAsynchRsp xmlns:air="http://www.travelport.com/schema/air_v33_0" xmlns:common_v33_0="http://www.travelport.com/schema/common_v33_0" TransactionId="A0619B360A07425E98AAB2B6D7D9E8AC" ResponseTime="405" DistanceUnits="MI" SearchId="A0619B360A07425E98AAB2B6D7D9E8AC_OAMSIST14Dec16tftnull300-1-1MIACH1GnullfADTEURnullnullnullnullnullnullnullPAPnullff6933314">
+      <common_v33_0:ResponseMessage Code="15017" Type="Error" ProviderCode="ACH">No flight records found for this date or market</common_v33_0:ResponseMessage>
+      <common_v33_0:ResponseMessage Code="2023" Type="Warning" ProviderCode="ACH">Enhanced Flight Type indicator is not supported for the requested provider.</common_v33_0:ResponseMessage>
+      <common_v33_0:ResponseMessage Code="14" Type="Error" ProviderCode="1G">UNABLE - FLEX NOT ACTIVE THIS LOCATION</common_v33_0:ResponseMessage>
+      <air:AsyncProviderSpecificResponse ProviderCode="1G" MoreResults="false"/>
+    </air:LowFareSearchAsynchRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

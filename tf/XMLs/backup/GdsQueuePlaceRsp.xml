@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <gdsQueue:GdsQueuePlaceRsp xmlns:gdsQueue="http://www.travelport.com/schema/gdsQueue_v34_0" xmlns:common_v34_0="http://www.travelport.com/schema/common_v34_0" TraceId="trace" TransactionId="2D94AA320A076478D6A57F7A2958DB7B" ResponseTime="420">
+      <common_v34_0:ResponseMessage Code="7020" Type="Info">Booking successfully placed on Queue 52 for Pseudo City 52GY</common_v34_0:ResponseMessage>
+      <universal:UniversalRecord xmlns:universal="http://www.travelport.com/schema/universal_v34_0" xmlns:air="http://www.travelport.com/schema/air_v34_0" LocatorCode="KBM0LD" Version="0" Status="Active">
+        <common_v34_0:BookingTraveler Key="wnlk8Hh8SH6Ruj1mVRrLGw==" TravelerType="ADT" DOB="1988-01-21" Gender="F">
+          <common_v34_0:BookingTravelerName First="test" Last="test"/>
+          <common_v34_0:PhoneNumber Key="/dyRAm6gRceq4D9wPyu1+A==" Type="Mobile" Location="AMS" Number="67888292">
+            <common_v34_0:ProviderReservationInfoRef Key="Bs6RmEeYRIKlO19Iz1iA6Q=="/>
+          </common_v34_0:PhoneNumber>
+          <common_v34_0:Email Key="fkHqCiXvS1qimYq3pok87Q==" EmailID="test@test.nl">
+            <common_v34_0:ProviderReservationInfoRef Key="Bs6RmEeYRIKlO19Iz1iA6Q=="/>
+          </common_v34_0:Email>
+          <common_v34_0:Address Key="zFvAM54xSPqnwrjQ4OQu3A==">
+            <common_v34_0:AddressName>test</common_v34_0:AddressName>
+            <common_v34_0:Street>test</common_v34_0:Street>
+            <common_v34_0:City>test</common_v34_0:City>
+            <common_v34_0:PostalCode>3513ab</common_v34_0:PostalCode>
+            <common_v34_0:Country>NL</common_v34_0:Country>
+            <common_v34_0:ProviderReservationInfoRef Key="Bs6RmEeYRIKlO19Iz1iA6Q=="/>
+          </common_v34_0:Address>
+        </common_v34_0:BookingTraveler>
+        <common_v34_0:ActionStatus Key="vnMxDDucR++Igm0N8Ra80g==" Type="ACTIVE" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" ProviderCode="1G"/>
+        <universal:ProviderReservationInfo Key="Bs6RmEeYRIKlO19Iz1iA6Q==" ProviderCode="1G" LocatorCode="MTNDWE" CreateDate="2016-02-29T15:10:29.683+00:00" ModifiedDate="2016-02-29T15:10:29.683+00:00" HostCreateDate="2016-02-29" OwningPCC="6ZY9"/>
+        <air:AirReservation LocatorCode="ZLSVZ0" CreateDate="2016-02-29T15:10:29.134+00:00" ModifiedDate="2016-02-29T15:10:29.683+00:00">
+          <common_v34_0:SupplierLocator SupplierCode="9W" SupplierLocatorCode="NWSDDY" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" CreateDateTime="2016-02-29T15:10:00.000+00:00"/>
+          <common_v34_0:BookingTravelerRef Key="wnlk8Hh8SH6Ruj1mVRrLGw=="/>
+          <common_v34_0:ProviderReservationInfoRef Key="Bs6RmEeYRIKlO19Iz1iA6Q=="/>
+          <air:AirSegment Key="2W1omRFZTp2xnZ2vGbKetA==" Group="0" Carrier="9W" CabinClass="Economy" FlightNumber="231" ProviderCode="1G" Origin="AMS" Destination="BOM" DepartureTime="2016-03-31T11:20:00.000+02:00" ArrivalTime="2016-03-31T23:55:00.000+05:30" TravelTime="545" Distance="4262" ClassOfService="K" ETicketability="Yes" Equipment="333" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="jIJktlipRtKqZkIPpxcLdg==" Origin="AMS" Destination="BOM" DepartureTime="2016-03-31T11:20:00.000+02:00" ArrivalTime="2016-03-31T23:55:00.000+05:30" FlightTime="545" TravelTime="545" Equipment="333" DestinationTerminal="2"/>
+            <common_v34_0:SellMessage>ARRIVES BOM TERMINAL 2</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>*010 KL 3815*</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v34_0:SellMessage>
+          </air:AirSegment>
+          <air:AirSegment Key="m7a6TtmOTh66iUqiFFkMQw==" Group="1" Carrier="9W" CabinClass="Economy" FlightNumber="411" ProviderCode="1G" Origin="BOM" Destination="BLR" DepartureTime="2016-04-01T06:35:00.000+05:30" ArrivalTime="2016-04-01T08:20:00.000+05:30" TravelTime="105" Distance="519" ClassOfService="K" ETicketability="Yes" Equipment="738" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="cdvZWvM0S3StVnZYgoUteQ==" Origin="BOM" Destination="BLR" DepartureTime="2016-04-01T06:35:00.000+05:30" ArrivalTime="2016-04-01T08:20:00.000+05:30" FlightTime="105" TravelTime="105" Equipment="738" OriginTerminal="1B"/>
+            <common_v34_0:SellMessage>DEPARTS BOM TERMINAL 1B</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>*010 EY 8799*</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>*010 AF 6775 /AZ 2817 /DL 7539 /HM 5588 /KL 3681 /VS 8024*</common_v34_0:SellMessage>
+          </air:AirSegment>
+          <air:AirSegment Key="vhuobUq1RumnkNu2gBIzNA==" Group="2" Carrier="9W" CabinClass="Economy" FlightNumber="382" ProviderCode="1G" Origin="BLR" Destination="BOM" DepartureTime="2016-04-30T22:10:00.000+05:30" ArrivalTime="2016-04-30T23:50:00.000+05:30" TravelTime="100" Distance="519" ClassOfService="K" ETicketability="Yes" Equipment="737" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="XH4MJ9csREi9QWQLIZmjZQ==" Origin="BLR" Destination="BOM" DepartureTime="2016-04-30T22:10:00.000+05:30" ArrivalTime="2016-04-30T23:50:00.000+05:30" FlightTime="100" TravelTime="100" Equipment="73H" DestinationTerminal="1B"/>
+            <air:Connection Duration="155"/>
+            <common_v34_0:SellMessage>ARRIVES BOM TERMINAL 1B</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>*010 AF 6777 /AZ 2828 /DL 7538 /EY 8896 /HM 5589 /KL 3682 /VS 80*</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>* *</common_v34_0:SellMessage>
+          </air:AirSegment>
+          <air:AirSegment Key="0QgMH0cZQZWexxFjiTSNLQ==" Group="2" Carrier="9W" CabinClass="Economy" FlightNumber="232" ProviderCode="1G" Origin="BOM" Destination="AMS" DepartureTime="2016-05-01T02:25:00.000+05:30" ArrivalTime="2016-05-01T08:15:00.000+02:00" TravelTime="560" Distance="4262" ClassOfService="K" ETicketability="Yes" Equipment="333" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="MLUuQTm9SfCRRuPAg/dSiQ==" Origin="BOM" Destination="AMS" DepartureTime="2016-05-01T02:25:00.000+05:30" ArrivalTime="2016-05-01T08:15:00.000+02:00" FlightTime="560" TravelTime="560" Equipment="333" OriginTerminal="2"/>
+            <common_v34_0:SellMessage>DEPARTS BOM TERMINAL 2</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>*010 DL 7533 /KL 3814*</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v34_0:SellMessage>
+          </air:AirSegment>
+          <air:AirPricingInfo Key="R5cSWvlQTtGOf/kD8iXizQ==" TotalPrice="EUR702.58" BasePrice="EUR365.00" Taxes="EUR337.58" LatestTicketingTime="2016-03-28T23:59:00.000+02:00" TrueLastDateToTicket="2016-03-28T23:59:00.000+02:00" PricingMethod="Guaranteed" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="Bs6RmEeYRIKlO19Iz1iA6Q==" AirPricingInfoGroup="1" PricingType="StoredFare">
+            <air:FareInfo Key="e+euT4oCR3maBHQpWqcUEg==" FareBasis="K2LAPNL" PassengerTypeCode="ADT" Origin="AMS" Destination="BOM" EffectiveDate="2016-02-29T00:00:00.000+01:00" NotValidBefore="2016-03-31" NotValidAfter="2016-03-31" PseudoCityCode="6ZY9">
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:FareInfo Key="uuzHV6pfTOyC4sKd3V9zzw==" FareBasis="K2LAPNL" PassengerTypeCode="ADT" Origin="BOM" Destination="BLR" EffectiveDate="2016-02-29T00:00:00.000+01:00" Amount="NUC198.71" NotValidBefore="2016-04-01" NotValidAfter="2016-04-01" PseudoCityCode="6ZY9">
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:FareInfo Key="lKi0pfflT0m7/maVDW2vBg==" FareBasis="K2LAPNL" PassengerTypeCode="ADT" Origin="BLR" Destination="BOM" EffectiveDate="2016-02-29T00:00:00.000+01:00" NotValidBefore="2016-04-30" NotValidAfter="2016-04-30" PseudoCityCode="6ZY9">
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:FareInfo Key="kJk11k+sQtuhwVYumL3k+w==" FareBasis="K2LAPNL" PassengerTypeCode="ADT" Origin="BOM" Destination="AMS" EffectiveDate="2016-02-29T00:00:00.000+01:00" Amount="NUC198.71" NotValidBefore="2016-05-01" NotValidAfter="2016-05-01" PseudoCityCode="6ZY9">
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="e+euT4oCR3maBHQpWqcUEg==" SegmentRef="2W1omRFZTp2xnZ2vGbKetA=="/>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="uuzHV6pfTOyC4sKd3V9zzw==" SegmentRef="m7a6TtmOTh66iUqiFFkMQw=="/>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="lKi0pfflT0m7/maVDW2vBg==" SegmentRef="vhuobUq1RumnkNu2gBIzNA=="/>
+            <air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="kJk11k+sQtuhwVYumL3k+w==" SegmentRef="0QgMH0cZQZWexxFjiTSNLQ=="/>
+            <air:TaxInfo Category="CJ" Amount="EUR12.17" Key="fCnG58B5RHmNarHaGPcPEg=="/>
+            <air:TaxInfo Category="RN" Amount="EUR14.38" Key="gj2XDtcTQ+qb+mU6waVA1A=="/>
+            <air:TaxInfo Category="VV" Amount="EUR0.50" Key="2BVpUwJmSv+3H8XRQ1k8IA=="/>
+            <air:TaxInfo Category="IN" Amount="EUR4.79" Key="O0RDVmxFTJiXh58bkNzwaw=="/>
+            <air:TaxInfo Category="WO" Amount="EUR2.04" Key="z96cX8txR5a5utKkIKH9Mg=="/>
+            <air:TaxInfo Category="YQ" Amount="EUR300.00" Key="vHfJjZQRTvC9EaTUMS2kOA=="/>
+            <air:TaxInfo Category="YR" Amount="EUR3.70" Key="M+aI/5qqRXubKBMWf9ZpTA=="/>
+            <air:FareCalc>AMS 9W X/BOM 9W BLR 198.71K2LAPNL 9W X/BOM 9W AMS 198.71K2LAPNL NUC397.42END ROE0.918404</air:FareCalc>
+            <air:PassengerType Code="ADT" BookingTravelerRef="wnlk8Hh8SH6Ruj1mVRrLGw==">
+              <air:FareGuaranteeInfo GuaranteeDate="2016-02-29" GuaranteeType="Guaranteed"/>
+            </air:PassengerType>
+            <common_v34_0:BookingTravelerRef Key="wnlk8Hh8SH6Ruj1mVRrLGw=="/>
+            <air:TicketingModifiersRef Key="QXj4b5SRSnmRDgYBK+0BHw=="/>
+          </air:AirPricingInfo>
+          <air:TicketingModifiers PlatingCarrier="9W" Key="QXj4b5SRSnmRDgYBK+0BHw==">
+            <air:DocumentSelect IssueElectronicTicket="true"/>
+          </air:TicketingModifiers>
+        </air:AirReservation>
+        <common_v34_0:AgencyInfo>
+          <common_v34_0:AgentAction ActionType="Created" AgentCode="UAPI8187943395-FB19AC3A" BranchCode="P7028803" AgencyCode="S7009701" EventTime="2016-02-29T15:10:24.698+00:00"/>
+        </common_v34_0:AgencyInfo>
+        <common_v34_0:FormOfPayment Key="waYhKs5GQ1yyhe+QZgnz5g==" Type="Cash" Reusable="false" ProfileKey="X8XSJGxcR/qQss1UZemcPQ==">
+          <common_v34_0:ProviderReservationInfoRef Key="Bs6RmEeYRIKlO19Iz1iA6Q=="/>
+        </common_v34_0:FormOfPayment>
+      </universal:UniversalRecord>
+    </gdsQueue:GdsQueuePlaceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

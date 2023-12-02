@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <gdsQueue:GdsQueuePlaceRsp xmlns:gdsQueue="http://www.travelport.com/schema/gdsQueue_v34_0" xmlns:common_v34_0="http://www.travelport.com/schema/common_v34_0" TraceId="trace" TransactionId="F4E9AC450A0759BC241F6AF138724BFB" ResponseTime="451">
+      <common_v34_0:ResponseMessage Code="7020" Type="Info">Booking successfully placed on Queue 52 for Pseudo City 52GY</common_v34_0:ResponseMessage>
+      <universal:UniversalRecord xmlns:universal="http://www.travelport.com/schema/universal_v34_0" xmlns:air="http://www.travelport.com/schema/air_v34_0" LocatorCode="49JZKQ" Version="0" Status="Active">
+        <common_v34_0:BookingTraveler Key="oXeAJv3PRcmS5z4zY2BDXQ==" TravelerType="ADT" DOB="2002-07-18" Gender="M">
+          <common_v34_0:BookingTravelerName First="veera" Last="kamaraj"/>
+          <common_v34_0:PhoneNumber Key="iLtIgf1WRqmPwZ86JLl4Vg==" Type="Mobile" Location="AMS" Number="8970649021">
+            <common_v34_0:ProviderReservationInfoRef Key="0Vr28T3TRxylEsf6Frr+uw=="/>
+          </common_v34_0:PhoneNumber>
+          <common_v34_0:Email Key="zGulX3eUQtuhJKSGi9wapQ==" EmailID="veeramani.tekhne@gmail.com">
+            <common_v34_0:ProviderReservationInfoRef Key="0Vr28T3TRxylEsf6Frr+uw=="/>
+          </common_v34_0:Email>
+          <common_v34_0:Address Key="JJYXk0paS5C4XxkW4PtweA==">
+            <common_v34_0:AddressName>test</common_v34_0:AddressName>
+            <common_v34_0:Street>test</common_v34_0:Street>
+            <common_v34_0:City>Bangalore</common_v34_0:City>
+            <common_v34_0:PostalCode>560068</common_v34_0:PostalCode>
+            <common_v34_0:Country>NL</common_v34_0:Country>
+            <common_v34_0:ProviderReservationInfoRef Key="0Vr28T3TRxylEsf6Frr+uw=="/>
+          </common_v34_0:Address>
+        </common_v34_0:BookingTraveler>
+        <common_v34_0:ActionStatus Key="E8bM+UyTRXKfRcFEiiMviw==" Type="ACTIVE" ProviderReservationInfoRef="0Vr28T3TRxylEsf6Frr+uw==" ProviderCode="1G"/>
+        <universal:ProviderReservationInfo Key="0Vr28T3TRxylEsf6Frr+uw==" ProviderCode="1G" LocatorCode="3WGHGM" CreateDate="2016-07-16T18:13:20.930+00:00" ModifiedDate="2016-07-16T18:13:20.930+00:00" HostCreateDate="2016-07-16" OwningPCC="6ZY9"/>
+        <air:AirReservation LocatorCode="W88BWQ" CreateDate="2016-07-16T18:13:20.449+00:00" ModifiedDate="2016-07-16T18:13:20.930+00:00">
+          <common_v34_0:SupplierLocator SupplierCode="9W" SupplierLocatorCode="NCMROO" ProviderReservationInfoRef="0Vr28T3TRxylEsf6Frr+uw==" CreateDateTime="2016-07-16T18:13:00.000+00:00"/>
+          <common_v34_0:BookingTravelerRef Key="oXeAJv3PRcmS5z4zY2BDXQ=="/>
+          <common_v34_0:ProviderReservationInfoRef Key="0Vr28T3TRxylEsf6Frr+uw=="/>
+          <air:AirSegment Key="Diron9riQA2z3wGvcNU/kw==" Group="0" Carrier="9W" CabinClass="Economy" FlightNumber="464" ProviderCode="1G" Origin="MAA" Destination="BOM" DepartureTime="2016-08-23T05:40:00.000+05:30" ArrivalTime="2016-08-23T07:30:00.000+05:30" TravelTime="110" Distance="644" ClassOfService="H" ETicketability="Yes" Equipment="738" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0Vr28T3TRxylEsf6Frr+uw==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="f4MsStWFS7G6y/kKgW7ZVw==" Origin="MAA" Destination="BOM" DepartureTime="2016-08-23T05:40:00.000+05:30" ArrivalTime="2016-08-23T07:30:00.000+05:30" FlightTime="110" TravelTime="110" Equipment="738" OriginTerminal="1" DestinationTerminal="2"/>
+            <air:Connection Duration="155"/>
+            <common_v34_0:SellMessage>DEPARTS MAA TERMINAL 1  - ARRIVES BOM TERMINAL 2</common_v34_0:SellMessage>
+            <common_v34_0:SellMessage>*010 EY 8841 /VS 8065*</common_v34_0:SellMessage>
+          </air:AirSegment>
+          <air:AirSegment Key="p+w0UpBcQ2WeUyYrVHnI7A==" Group="0" Carrier="9W" CabinClass="Economy" FlightNumber="618" ProviderCode="1G" Origin="BOM" Destination="PNQ" DepartureTime="2016-08-23T10:05:00.000+05:30" ArrivalTime="2016-08-23T10:50:00.000+05:30" TravelTime="45" Distance="78" ClassOfService="H" ETicketability="Yes" Equipment="737" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0Vr28T3TRxylEsf6Frr+uw==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="grsQQOc6S4eyf5v186IuLQ==" Origin="BOM" Destination="PNQ" DepartureTime="2016-08-23T10:05:00.000+05:30" ArrivalTime="2016-08-23T10:50:00.000+05:30" FlightTime="45" TravelTime="45" Equipment="73H" OriginTerminal="2"/>
+            <air:Connection Duration="165"/>
+            <common_v34_0:SellMessage>DEPARTS BOM TERMINAL 2</common_v34_0:SellMessage>
+          </air:AirSegment>
+          <air:AirSegment Key="aff8uAf6SSWkfZZ7qW8rrQ==" Group="0" Carrier="9W" CabinClass="Economy" FlightNumber="2842" ProviderCode="1G" Origin="PNQ" Destination="BLR" DepartureTime="2016-08-23T13:35:00.000+05:30" ArrivalTime="2016-08-23T15:10:00.000+05:30" TravelTime="95" Distance="449" ClassOfService="H" ETicketability="Yes" Equipment="737" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0Vr28T3TRxylEsf6Frr+uw==" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true">
+            <air:FlightDetails Key="EdKqbM34Qm+hDBB92DnXgQ==" Origin="PNQ" Destination="BLR" DepartureTime="2016-08-23T13:35:00.000+05:30" ArrivalTime="2016-08-23T15:10:00.000+05:30" FlightTime="95" TravelTime="95" Equipment="73H"/>
+          </air:AirSegment>
+          <air:AirPricingInfo Key="NFcK9uw3TlSJchYNj+kf6Q==" TotalPrice="EUR222.37" BasePrice="INR14220" EquivalentBasePrice="EUR192.00" Taxes="EUR30.37" LatestTicketingTime="2016-08-23T23:59:00.000+02:00" TrueLastDateToTicket="2016-08-23T23:59:00.000+02:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="0Vr28T3TRxylEsf6Frr+uw==" AirPricingInfoGroup="1" PricingType="StoredFare">
+            <air:FareInfo Key="AWUWhtz7SGqp6u1ckn+EXg==" FareBasis="H2CFA" PassengerTypeCode="ADT" Origin="MAA" Destination="BOM" EffectiveDate="2016-07-16T00:00:00.000+02:00" NotValidBefore="2016-08-23" NotValidAfter="2016-08-23" PseudoCityCode="6ZY9">
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="15" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:FareInfo Key="cYtDBgWbSSaTucr11Uu3IQ==" FareBasis="H2CFA" PassengerTypeCode="ADT" Origin="BOM" Destination="PNQ" EffectiveDate="2016-07-16T00:00:00.000+02:00" Amount="NUC131.25" NotValidBefore="2016-08-23" NotValidAfter="2016-08-23" PseudoCityCode="6ZY9">
+              <air:FareSurcharge Key="iYMdhMdYSWy7iv4r+S785Q==" Type="Other" Amount="NUC10.00" SegmentRef="p+w0UpBcQ2WeUyYrVHnI7A=="/>
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="15" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:FareInfo Key="X3STo4+vQsC6LAU8mBrRag==" FareBasis="H2IPO" PassengerTypeCode="ADT" Origin="PNQ" Destination="BLR" EffectiveDate="2016-07-16T00:00:00.000+02:00" Amount="NUC81.75" NotValidBefore="2016-08-23" NotValidAfter="2016-08-23" PseudoCityCode="6ZY9">
+              <air:FareSurcharge Key="vFioUX2IRVG5XIRcm6IHnA==" Type="Other" Amount="NUC10.00" SegmentRef="aff8uAf6SSWkfZZ7qW8rrQ=="/>
+              <common_v34_0:Endorsement Value="NON ENDO"/>
+              <air:BaggageAllowance>
+                <air:MaxWeight Value="15" Unit="Kilograms"/>
+              </air:BaggageAllowance>
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="AWUWhtz7SGqp6u1ckn+EXg==" SegmentRef="Diron9riQA2z3wGvcNU/kw=="/>
+            <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="cYtDBgWbSSaTucr11Uu3IQ==" SegmentRef="p+w0UpBcQ2WeUyYrVHnI7A=="/>
+            <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="X3STo4+vQsC6LAU8mBrRag==" SegmentRef="aff8uAf6SSWkfZZ7qW8rrQ=="/>
+            <air:TaxInfo Category="F2" Amount="EUR0.41" Key="byaiHdZsRL+oPYyZ+szj3Q=="/>
+            <air:TaxInfo Category="G1" Amount="EUR0.41" Key="gjss8GnrSbKqyxdi3XsZsQ=="/>
+            <air:TaxInfo Category="IN" Amount="EUR2.58" Key="vtz3iVrwQA+Z7ofWLRRRAw=="/>
+            <air:TaxInfo Category="JN" Amount="EUR11.44" Key="Q61ypIAuTeWI0WLsSqming=="/>
+            <air:TaxInfo Category="WO" Amount="EUR3.37" Key="AhT8Zq2MSv+/3tPlfKFrEw=="/>
+            <air:TaxInfo Category="YQ" Amount="EUR10.80" Key="NFpZeOfAT5uH35jlg59HzA=="/>
+            <air:TaxInfo Category="YR" Amount="EUR1.36" Key="y/CQvUJkRV+G9WllbVCESQ=="/>
+            <air:FareCalc>MAA 9W X/BOM 9W PNQ Q MAAPNQ10.00 121.25H2CFA 9W BLR Q10.00 71.75H2IPO NUC213.00END ROE66.759</air:FareCalc>
+            <air:PassengerType Code="ADT" BookingTravelerRef="oXeAJv3PRcmS5z4zY2BDXQ==">
+              <air:FareGuaranteeInfo GuaranteeDate="2016-07-16" GuaranteeType="Guaranteed"/>
+            </air:PassengerType>
+            <common_v34_0:BookingTravelerRef Key="oXeAJv3PRcmS5z4zY2BDXQ=="/>
+            <air:ChangePenalty>
+              <air:Amount>EUR41.00</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty>
+              <air:Amount>EUR48.00</air:Amount>
+            </air:CancelPenalty>
+            <air:TicketingModifiersRef Key="dKODY8GaT/CWPq4Sj5VGYg=="/>
+          </air:AirPricingInfo>
+          <air:TicketingModifiers PlatingCarrier="9W" Key="dKODY8GaT/CWPq4Sj5VGYg==">
+            <air:DocumentSelect IssueElectronicTicket="true"/>
+          </air:TicketingModifiers>
+        </air:AirReservation>
+        <common_v34_0:AgencyInfo>
+          <common_v34_0:AgentAction ActionType="Created" AgentCode="UAPI2812502192-F1E8A252" BranchCode="P2629804" AgencyCode="S1472368" EventTime="2016-07-16T18:13:17.565+00:00"/>
+        </common_v34_0:AgencyInfo>
+        <common_v34_0:FormOfPayment Key="1yrX/+1RTOim8ZM+l8dIKQ==" Type="Cash" Reusable="false" ProfileKey="mrEyHF/FSb2Oj0qajIdigg==">
+          <common_v34_0:ProviderReservationInfoRef Key="0Vr28T3TRxylEsf6Frr+uw=="/>
+        </common_v34_0:FormOfPayment>
+      </universal:UniversalRecord>
+    </gdsQueue:GdsQueuePlaceRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

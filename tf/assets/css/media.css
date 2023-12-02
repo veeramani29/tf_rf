@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+.flexslider.listitem {
+    background: none repeat scroll 0 0 #ccc;
+    max-height: 200px;
+    min-height: 200px;}
+.listwrapr{background: none repeat scroll 0 0 #f2f2f2;
+    display: block;
+    max-height: 80px;
+    min-height: 80px;
+    overflow: hidden;}
+.colbt{border-right: 1px solid #ddd;
+    float: left;
+    padding: 15px 10px;
+    width: 20%;}
+.colbt:last-child{border-right:0;}
+.sanscol{display: block;
+    overflow: hidden;}
+.ma0 {
+ margin: 0 !important;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+.mobheder{display: block;
+    float: right;width: auto;}
+.simnavrit {margin: 0;}
+.splli {float: right;}
+.navbar-nav > li > a.ritspl{border-bottom:0;}
+.splcurency .dropdown-menu > li{width:100%;}
+.langugmob{width: 250px;}
+.aptnav li{display: block;
+    overflow: hidden;
+    width: 100%;}
+.aptnav li a.mnuic{background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: none;
+    height: 40px;
+    padding: 10px;
+    width: 100%;}
+.aptnav li a.mnuic strong{display:block;}
+.pagefilter {display: table;
+    margin: 5px auto;
+    width: 240px;}
+#mobilefilter {box-shadow: 10px 5px 15px -5px #000;
+    height: auto;
+    position: absolute;
+    width: 250px;
+    z-index: 100;}
+.collapse.filters {display: none;}
+.filtericon {display: block;}
+.repflight {display: block;
+    overflow: hidden;
+    padding: 10px 0;}
+.payrow .col-md-6, .payrow .col-md-4{margin-bottom:10px;padding:0;}
+.payrow{margin:0;}
+.concell{width:50%;}
+.htlmodin.widthmn {
+    width: 100%;}
+.celcar {
+    padding-top: 25px;
+    position: relative;}
+.fulcrnme {clear: both;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;}
+.flexslider .slides {
+    max-height: 220px;
+    overflow: hidden;}
+.apartlist{margin-bottom:20px;}
+.usraprtmnt {width: 100%;}
+.aprmntdets {
+    clear: both;
+    display: block;
+    overflow: hidden;}
+.aprtimg{margin:0 auto;}
+.pagedethed {margin: 0 20px 20px 0;}
+#bookings .padding20, #wishlist .padding20, #settings .padding20, #newsletter .padding20{padding:20px 0;}
+.padding20me{padding:20px 0;}
+#yourlisting .col-md-3, #yourlisting .col-md-9, #dashbord .col-md-3, #dashbord .col-md-9, #profile .col-md-3, #profile .col-md-9{padding:0;}
+#editprofile .rowit{padding:10px;}
+.dashrow1{margin:0;}
+.dashrow1 .col-md-3{margin-bottom:10px;}
+#wishlist .col-md-8{padding:0;}
+.enbleinkadd {
+    display: block;
+    float: none;
+    margin: 20px auto auto;
+    overflow: hidden;}
+.listwish{padding: 0 5px;}
+.stepfolow{margin-left:0;}
+.fullquestions{width:100%;}
+.enbleink{width:40%;}
+.mytbl {
+    margin-top: 20px;}
+.stepback{background:#ccc;}
+.cleardty{clear:both;}
+}
+
+@media (max-width: 768px) {
+.tabwid, .tabwid2 {width: 100%;}
+.tabwid {border-bottom: 1px solid #ddd;}
+.full550 {border-bottom: 1px solid #ddd;
+    text-align: center;
+    width: 100%;}
+.full550 .padwrap {border: 0 none;
+    display: table;
+    margin: 0 auto;}
+.full550 .modify.himargin {margin: 20px auto;}
+.upndwn a {font-size: 13px;
+    padding: 5px 25px 5px 5px;}
+.fifmb{margin-top: 15px;
+    width: 50%;}
+.sortul li{margin:4px;}
+.fulbuki,
+.sidebuki{width:100%;}
+.sidebuki{margin-bottom:20px;}
+.padleftpay{padding:0;}
+.concell{width:100%;display:block;overflow:hidden;}
+.showlistingwrp{width:100%;}
+.modify.lesmargin {
+    margin: 18px auto 10px;}
+
+
+
+.desklarge {
+    clear: both;
+    display: block;
+    float: none;
+    overflow: hidden;
+    width: 100%;}
+.fulatabb{display: block;
+    float: none;margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;}
+.padnobt {
+    padding: 0;
+    width: 100%;}
+.insidemaindets {
+    margin-bottom: 20px;}
+.fadebackgrnd{top:0;}
+.loadingload{left:50%;}
+.cenerstepbox{width:85%;}
+
+.fullaru{display: block;
+    float: none;
+    overflow: hidden;}
+.styconctx {
+    border: 0 none;
+    margin: 0;
+    padding: 0;}
+
+}
+
+
+
+@media (max-width: 650px) {
+.mobheder {float: right;}
+.searchindex{margin: 130px 0 20px;}
+.navbar-header{display: block;
+    overflow: hidden;
+    text-align: center;
+   }
+.navbar-brand.myband {display: table;
+    float: none;
+    margin: 0 auto;}
+.moditop{ margin-top: 115px;}
+.marintopcnt {margin: 100px 0 0;}
+.marintopcntpage {margin-top: 110px;}
+.fullapart{margin-top:115px;}
+.witeback{margin-top: 115px;}
+.sideslide, .stepfollow.stepfix{top: 116px;}
+}
+
+@media (max-width: 600px) {
+.ritcart{width: 450px;}
+.effect-moveleft.animate .container_cart {transform: translateX(-450px) rotateY(-55deg);}
+
+
+
+.selectbtn.FlightbookNow {float: left;}
+.norto2 {float: left;
+    width: 33.333%;}
+.nortocount {float: left;
+    width: 33.333%;}
+.pricefilt { background: none repeat scroll 0 0 #f6f6f6;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;}
+.litblue {background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    width: 100%;}
+.fulwidmob{clear: both;
+    display: block;
+    overflow: hidden;}
+.fblueline.onlyformobile{display: block;}
+.pricefilt{display:none;}
+.pricefilt.foronmob{display:block;}
+.pikeronwds, .pikerret {
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left;}
+.fulwidmob .repflight{padding:0 0 10px;}
+
+.fulwidmob .repflight.formultity {
+    background: none repeat scroll 0 0 #f0f0f0;
+    display: block;
+    margin: 5px;
+    overflow: hidden;
+    padding: 10px;}
+.pagedethed {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    overflow: hidden;}
+.pikeronwds {
+    background: url("../images/pick3.png") no-repeat scroll left center rgba(0, 0, 0, 0);}
+.pikerret {
+    background: url("../images/pick2.png") no-repeat scroll left center rgba(0, 0, 0, 0);}
+
+}
+
+
+@media (max-width: 550px) {
+.mobilemore{display:block;}
+.simnavrit {clear: both;
+    float: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;}
+.mobheder {float: none;}
+.splli {float: left;
+    width: 100%;}
+.navbar-wrappermy{position:static;}
+.ritspl.myspl{float:left;}
+.simnavrit.collapse{display:none;}
+.cartico{}
+.searchindex {margin: 20px 0;}
+.navbar-header{float:left;}
+.navbar-nav .open .dropdown-menu{width:100%;max-width:none;position:static;}
+.moditop{ margin-top: 0;}
+.fifmb.xm-12{width:100%;}
+.clsremove{margin-bottom: 10px;}
+.flitftr{background: none repeat scroll 0 0 #444;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;}
+.xm-6 {padding: 0 5px;
+    width: 50%;}
+.nopad.pdimp{padding:0 10px !important}
+.marintopcnt {margin: 0;}
+.marintopcntpage {margin-top: 0;}
+.popuofixissue{width:80%;}
+.roomnum{width:60%;}
+.modifil{background: none repeat scroll 0 0 #ddd;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;}
+.fullapart{margin-top:0;}
+.allamn{clear: both;
+    display: block;
+    overflow: hidden;}
+.marwnt{border: medium none;width:100%;float:left;}
+.marwnt:first-child{margin-bottom: 10px;}
+.pik{width:40%;}
+.fulinw{display: table;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;}
+.listwish{width:100%;padding:0; margin:5px 0;}
+.urlistimg{padding: 0;}
+.tomorelist{width:100%;}
+.listaptname{font-size:13px;}
+.celtbl {
+    display: block;
+    float: none;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: top;}
+.withedrow .rowit{padding:10px;}
+
+.witeback{margin-top: 0px;}
+.sideslide, .stepfollow.stepfix{top: 0px;}
+.scrollable-area{overflow-y: scroll;}
+
+}
+
+
+@media (max-width: 500px) {
+.ritcart{width: 400px;}
+.effect-moveleft.animate .container_cart {transform: translateX(-400px) rotateY(-55deg);}
+.flitad{padding:10px;margin-top:10px;}
+
+
+.fulat500{width:100%;}
+.fatfi{display: table;
+    margin: 10px auto;}
+.alldetss {display: table;
+    margin: 0 auto 20px;
+    text-align: center;}
+.lightbtn {display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;}
+.concell, .bookingli{padding:0;}
+.firsttopshow .col-xs-4{ width: 100%;
+    margin: 2px 0;}
+.toponlufilnus .col-xs-11{width: 85%;}
+.enbleink {width: 70%;}
+.flikrall {
+    padding: 0 10px;}
+.botufis {display: block;
+    padding: 0 10px 10px;}
+.verifysel{width:60%;}
+.bookingli .topfis {padding: 10px 0 0;}
+.fiwful{float: left;
+    width: 100%;}
+.fiwalso{ float: left;
+    padding: 0;
+    width: 100%;}
+.fullpikr{max-height:none;}
+.chkcal{float: left;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;}
+.fiwfulstp{margin: 0 0 10px;}
+.answrfux, .lablofux{height:auto;border:0;}
+.dfgh.botufis{display: table;
+    margin: 0 auto;
+    text-align: center;}
+.lefhgt{display: block;
+    margin: 5px 0 0;
+    overflow: hidden;
+    width: 100%;}
+}
+
+@media (max-width: 450px) {
+.tripmen {clear: both;
+    display: block;
+    margin: 5px 0;
+    overflow: hidden;}
+.adcap{float:none;display:block;overflow:hidden;}
+.ritcart{width: 100%;}
+.cartclose {background: url("../images/cartarow.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    height: 50px;
+    left: 0;
+    top: 0;
+    width: 40px;}
+.carthed {padding-left: 40px;}
+
+
+.hotelistrowhtl .xcel {display: block;
+    overflow: hidden;}
+.hotelistrowhtl .xcel .booknowhtl{margin-bottom:10px;}
+.minwidth{width:95%;min-width:0;}
+.colbt{width:33.333%;}
+.colbt:last-child{border-right: 1px solid #ddd;}
+.colbt:nth-child(3){border-right: 0;}
+.letpadrentt{padding: 10px 15px;}
+}
+
+@media (max-width: 400px) {
+.carthtlimg{width:50px;}
+.insigndiv {width: 100%;}
+.rowshare .col-xs-6{width:100%;}
+.imagestep {
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    text-align: center;}
+.urlisfg{float:left;width:100%;}
+.centgytabl{
+    display: table;
+    float: none;
+    margin: 0 auto;
+    width: auto;}
+}
+
+@media (max-width: 350px) {
+.intabs{padding:10px 0;}
+
+.filterkey{width:100%;}
+}

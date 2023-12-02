@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Redtag - Agent's Portal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://www.redtagtravels.com/agent/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://www.redtagtravels.com/agent/assets/css/styles.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="http://www.redtagtravels.com/agent/assets/css/font-awesome.min.css">
+        <link href="http://www.redtagtravels.com/agent/assets/css/awe-booking-font.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="http://www.redtagtravels.com/agent/assets/css/hotel-style12.css">
+        <link href="http://www.redtagtravels.com/agent/assets/css/hotel_details.css" type="text/css" rel="stylesheet" media="all">
+        <style>
+            .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{ border-top:0px; border-left:0px; border-right: 0px; border-bottom: 2px solid #f74623; }
+            .product-detail__info .rating-trip-reviews .item {
+                                                                width: 15.3333333333%;
+                                                                float: left;
+                                                                padding: 0 10px;
+                                                                margin-top: 10px;
+                                                            }
+            .photo{         
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+      }
+      .photo li {     
+          list-style:none;
+          margin-bottom:25px;           
+      }
+      .photo li img {
+          cursor: pointer;
+      }
+      .modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0;
+          width:100%;
+      }
+    .controls{          
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;          
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+      /*override modal for demo only*/
+      .modal-dialog {
+          max-width:500px;
+          padding-top: 90px;
+      }
+      @media screen and (min-width: 768px){
+          .modal-dialog {
+              width:500px;
+              padding-top: 90px;
+          }          
+      }
+      @media screen and (max-width:1500px){
+          #ads {
+              display:none;
+          }
+      }
+      
+      
+   .nav-tabs > li > a {
+    padding: 8px 5px;
+}
+        </style>
+    </head>
+    <body>
+        <!--########################### HEADER STARTS HERE ###############################################################--->
+        <!--########################### HEADER STARTS HERE ###############################################################--->
+<style>
+	.pad_top{padding:30px 0px 0px 0px;}
+</style>
+
+<div class="full-width top-header" id="redtop" style="padding-top:0px;">
+   
+    <div class="container">
+    <div class="col-md-3">
+    <div class="navbar-header">
+        <a href="http://www.redtagtravels.com/agent//home"><img src="http://www.redtagtravels.com/agent/assets/images/logo.png" height="150px;" width="250px;"  style="padding-bottom: 10px; margin-top: 0px;" class="img-responsive"></img></a>
+    </div>
+    </div>
+    <div class="col-md-9 pad_top">
+    	 <ul class="pull-right">
+            <li>
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                ask@redtagtravels.com
+            </li>
+            <li style="padding-right: 14px;">
+                <span class="glyphicon glyphicon-earphone"></span>&nbsp;
+                <a href="tel:(63) (02) 8012620, +639253115987">(63) (02) 8012620 / +639253115987</a>
+            </li>
+                        <li style="padding-right:5px;color:#555;font-weight:bold;">Welcome, &nbsp;AJT Software Labs</li>
+            <li>|</li>
+            <li style="padding-right: 14px;"><a href="http://www.redtagtravels.com/agent/index.php/home/logout" style="cursor:pointer;text-decoration:none;padding-left:5px;padding-right:5px;font-weight:bold;">Log Out</a></li>
+                    </ul>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default" id="nav">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="http://www.redtagtravels.com/agent/index.php/home/login">Home</a></li>
+                                <li><a href="http://www.redtagtravels.com/agent/index.php/home/searchengine">Flights</a></li>
+                <li><a href="http://www.redtagtravels.com/agent/index.php/home/searchengine">Hotels</a></li>
+                <li><a href="http://www.redtagtravels.com/agent/index.php/home/dashboard">Control Panel</a></li>
+                                                <li><a href="http://www.redtagtravels.com/agent/index.php/home/contactus">Contact Us</a></li>
+                            </ul>
+                        <ul class="nav navbar-nav" style="float:right;margin-top: 15px;">
+                <li style="color:#ffffff;padding-right:20px;">Account Id : TA1888</li>
+                <li style="color:#ffffff;">Deposit Balance : PHP 0</li>
+            </ul>
+                    </div>
+    </div>
+</nav>
+<!--############################ HEADER ENDS HERE ##############################################################--->
+        <!--############################ HEADER ENDS HERE ##############################################################--->
+        <section class="product-detail lgrayBg1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-12 hotel-item">
+                            <div class="product-detail__info">
+                            <div class="product-title">
+                                <h2>Park Plaza Westminster Bridge London</h2>
+                                <div class="hotel-star">
+                                                                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                    </div>
+                            </div>
+                            <div class="product-address"><span>WESTMINSTER BRIDGE ROAD 200 | 0448444156790</span></div>
+                            <div class="product-email"><i class="fa fa-envelope"></i> <a href="#">ppwlres@pphe.com</a></div>
+                            <div class="rating-trip-reviews">
+                                <div class="item good"><span class="count">7.5</span>
+                                    <h6>Average rating</h6>
+                                    <p>Good</p>
+                                </div>
+                                <div class="item">
+                                    <h6>Trip Advisor &gt;</h6><img src="http://www.redtagtravels.com/agent/assets/images/img/trips.png" alt=""></div>
+                                <div class="item">
+                                    <h6>Reviews</h6>
+                                    <p>No review yet</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12  hotel-item" style="padding-top: 13px;padding-bottom: 13px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15558.42727008338!2d77.6173985!3d12.868652699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1501921419210" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen>
+
+                        </iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <div class="col-md-12 hotel-item mar_top15" style="padding-bottom: 18px;">
+
+                        <div>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Room detail</a></li>
+                                <li role="presentation"><a href="#description" aria-controls="profile" role="tab" data-toggle="tab">Description</a></li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Facilities</a></li>
+                                <li role="presentation"><a href="#images" aria-controls="profile" role="tab" data-toggle="tab">Images</a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <div class="col-md-12" style="padding:0px; border-bottom: 2px solid #ccc;padding-top: 13px;">
+                                        <div class="col-md-6" style="padding-left:0px;">
+                                            <p>Room type</p>
+                                        </div>
+                                        <div class="col-md-2" style="padding-left:0px;">
+                                            <p>Condition</p>
+                                        </div>
+                                        <div class="col-md-2" style="padding-left:0px;">
+                                            <p>Today price</p>
+                                        </div>
+                                        <div class="col-md-2" style="padding-left:0px;">
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="padding:0px;padding-top: 22px;">
+                                        <div class="col-md-6" style="padding-left:0px;">
+                                            <div class="col-md-4" style="padding-left:0px;">
+                                                <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-8" style="padding-left:0px;">
+                                                <p>Superior Room + Free Wifi</p>
+                                                <p>total price for rooms</p>
+                                                <p><i class="awe-icon awe-icon-gym"></i> <i class="awe-icon awe-icon-car"></i> <i class="awe-icon awe-icon-food"></i> <i class="awe-icon awe-icon-level"></i> <i class="awe-icon awe-icon-wifi"></i></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2" style="padding-left:0px;">
+                                            <ul class="list-condition" style="padding-left:0px;">
+                                                <li>Breakfast</li>
+                                                <li>Cancellation Policy</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2" style="padding-left:0px;">
+                                            <div class="price">
+                                                <span class="amount">₱16,276.64</span> 
+                                                <em>including all taxes</em> 
+                                                <a href="" class="">Full price</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2" style="padding-left:0px;">
+                                            <a href="http://www.redtagtravels.com/agent/index.php/hotel/pre_booking/1/9/31" class="awe-btn">Book Now</a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="description">
+                                    <div class="product-descriptions" style=" padding-top: 15px;">
+                                                                        <p>
+                                            <b>General : </b></p><p><b>Property Location</b> <br>With a stay at Park Plaza Westminster Bridge London, you'll be centrally located in London, steps from London Aquarium and Florence Nightingale Museum. This 4-star hotel is close to London Eye and Big Ben.</p><p><b>Rooms</b> <br>Make yourself at home in one of the 1019 air-conditioned rooms featuring minibars and plasma televisions. Your memory foam bed comes with Egyptian cotton sheets. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with separate bathtubs and showers feature complimentary toiletries and hair dryers.</p><p><b>Rec, Spa, Premium Amenities</b> <br>Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You can take advantage of recreational amenities such as an indoor pool, a sauna, and a steam room. This hotel also features complimentary wireless Internet access, concierge services, and babysitting/childcare (surcharge).</p><p><b>Dining</b> <br>Enjoy a meal at one of the hotel's dining establishments, which include 3 restaurants and a coffee shop/café. From your room, you can also access 24-hour room service. Quench your thirst with your favorite drink at a bar/lounge. Buffet breakfasts are available daily for a fee.</p><p><b>Business, Other Amenities</b> <br>Featured amenities include high-speed (wired) Internet access (surcharge), a 24-hour business center, and a computer station. This hotel has 26 meeting rooms available for events.</p> <br> Pets not allowed  Check-in time starts at 2 PM  Check-out time is Noon <br> Enjoy a meal at one of the hotel's dining establishments, which include 3 restaurants and a coffee shop/café. From your room, you can also access 24-hour room service. Quench your thirst with your favorite drink at a bar/lounge. Buffet breakfasts are available daily for a fee. <br> Extra-person charges may apply and vary depending on hotel policy. <br>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges. <br>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.  <ul><li>No onsite parking is available. </li></ul> <br> Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You can take advantage of recreational amenities such as an indoor pool, a sauna, and a steam room. This hotel also features complimentary wireless Internet access, concierge services, and babysitting/childcare (surcharge). <br> Make yourself at home in one of the 1019 air-conditioned rooms featuring minibars and plasma televisions. Your memory foam bed comes with Egyptian cotton sheets. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with separate bathtubs and showers feature complimentary toiletries and hair dryers.                                        <p></p> 
+                                                                        <p>
+                                            <b>SurroundingArea : </b>With a stay at Park Plaza Westminster Bridge London, you'll be centrally located in London, steps from London Aquarium and Florence Nightingale Museum. This 4-star hotel is close to London Eye and Big Ben. <br> Distances are calculated in a straight line from the property's location to the point of interest or attraction, and may not reflect actual travel distance. <br><br> Distances are displayed to the nearest 0.1 mile and kilometer. </p><p>London Aquarium - 0.1 km / 0.1 mi <br>Florence Nightingale Museum - 0.2 km / 0.1 mi <br>London Eye - 0.2 km / 0.1 mi <br>St. Thomas' Hospital - 0.2 km / 0.1 mi <br>Westminster Bridge - 0.3 km / 0.2 mi <br>Southbank Centre - 0.5 km / 0.3 mi <br>Royal Festival Hall - 0.6 km / 0.4 mi <br>Big Ben - 0.6 km / 0.4 mi <br>Parliament Square - 0.6 km / 0.4 mi <br>Houses of Parliament - 0.6 km / 0.4 mi <br>Victoria Tower - 0.6 km / 0.4 mi <br>Westminster Abbey - 0.7 km / 0.4 mi <br>Cabinet War Rooms - 0.7 km / 0.4 mi <br>Royal National Theatre - 0.7 km / 0.4 mi <br>Lambeth Palace - 0.7 km / 0.5 mi <br></p><p>The preferred airport for Park Plaza Westminster Bridge London is London (LCY-London City) - 11.6 km / 7.2 mi. </p>                                        <p></p> 
+                                                                        <p>
+                                            <b>PoliciesDisclaimers : </b>You must present a photo ID when checking in. Your credit card is charged at the time you book. Bed type and smoking preferences are not guaranteed.Your reservation is prepaid and is guaranteed for late arrival. The total charge includes all room charges and taxes, as well as fees for access and booking. Any incidental charges such as parking, phone calls, and room service will be handled directly between you and the property.                                        </p> 
+                                                                        <p>
+                                            <b>EssentialInfo : </b>Extra-person charges may apply and vary depending on hotel policy. <br>Government-issued photo identification and a credit card or cash deposit are required at check-in for incidental charges. <br>Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed.  </p><ul><li>No onsite parking is available. </li></ul>                                        <p></p> 
+                                                            </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                     <div class="col-md-12" style="padding: 15px 0px;">
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Sauna</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Tea and Coffee maker</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Safe</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Handicap accessible</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">TV in room</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Indoor swimming pool</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Clothing iron</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Hair dryer</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Kitchen</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Money exchange</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Bar</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Reception Area</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">24hr. CheckIn</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">24hr. Reception</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Lift</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Conference Room</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Restaurant Air-Conditioned</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Restaurant - non-smoking area</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Steam Bath</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Fitness room / Gym</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Shower</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Satellite TV</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">MiniFridge</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Carpeted</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">IndividualAirCondition</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Lounge</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Bath</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Direct Dial Telephone</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Free Newspaper</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Wheelchair access</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Radio in room</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Wheelchair Accessible</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Bath Room</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Cafe(s)</div>
+                                                                                <div class="col-md-3" style="padding-bottom: 7px;">Heating</div>
+                                                                        </div>
+                                 </div>
+                                <div role="tabpanel" class="tab-pane" id="images">
+                                    <div class="col-md-12" style="padding: 15px 0px;">
+                                        <div class="container">    
+        
+                                            <div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+                                                google_ad_client = "ca-pub-2783044520727903";
+                                                /* jQuery_demo */
+                                                google_ad_slot = "2780937993";
+                                                google_ad_width = 728;
+                                                google_ad_height = 90;
+                                                //-->
+                                                </script>
+                                                    <script type="text/javascript"
+                                                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                                </script>
+                                            </div>
+                                            </div>
+
+                                            <ul class="row photo ">
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                   <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                   <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+                                                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                                                    <img src="http://www.roomsxml.com/RXLImages/7/LON-PARMhotel_Guest_Room_1.jpg" alt="">
+                                                </li>
+
+                                              </ul>             
+                                        </div> <!-- /container -->
+
+
+                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog">
+                                            <div class="modal-content">         
+                                              <div class="modal-body">                
+                                              </div>
+                                            </div><!-- /.modal-content -->
+                                          </div><!-- /.modal-dialog -->
+                                        </div><!-- /.modal -->
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+        <!--######################### FOOTER STARTS HERE #################################################################--->
+        <div class="full-width footer-sub">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 details">
+                <div class="image">
+                    <img src="http://www.redtagtravels.com/agent/assets/images/footer-logo.png" style="padding: 0px 20px 20px 0px ; margin: auto ;" class="img-responsive">
+                </div>
+                <div class="col-md-6 u_l" style="padding-left:0px;">
+                	<ul style="list-style:none;    padding-left: 18px;">
+                		<li><a href="#">Packages</a></li>
+                                <li><a href="http://www.redtagtravels.com/agent/index.php/home/services">Services</a></li>
+                		<li><a href="http://www.redtagtravels.com/agent/index.php/home/testimonials">Testimonials</a></li>
+                		<li><a href="http://www.redtagtravels.com/agent/index.php/home/pricing">Pricing</a></li>
+                		<li><a href="http://www.redtagtravels.com/agent/index.php/home/training">Training Schedules</a></li>
+                	</ul>
+                </div>
+                <div class="col-md-6 u_l" style="padding-left:0px;">
+                	<ul style="list-style:none;    padding-left: 18px;">
+                            <li><a href="http://www.redtagtravels.com/agent/index.php/home/events">Events</a></li>
+                            <li><a href="http://www.redtagtravels.com/agent/index.php/home/blog">Blog</a></li>
+                            <li><a href="http://www.redtagtravels.com/agent/index.php/home/aboutus">About Us</a></li>
+                            <li><a href="http://www.redtagtravels.com/agent/index.php/home/contactus">Contact Us</a></li>
+                	</ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-4 col-md-4 recent-posts" style="padding-top: 24px;">
+                <h3 class="l_i" style="margin: 0 0 42px;">Redtag Travels Policies</h3>
+                <li class="list-item">
+                    <p><a class="polic_hover" href="http://www.redtagtravels.com/agent/index.php/home/login">Terms and Conditions</a></p>
+                </li>
+                <li class="list-item">
+                    <p><a class="polic_hover" href="http://www.redtagtravels.com/agent/index.php/home/privacy">Privacy Policy</a></p>
+                </li>
+                <li class="list-item">
+                    <p><a class="polic_hover" href="http://www.redtagtravels.com/agent/index.php/home/cancellation">Cancellation Policy</a></p>
+                </li>
+                
+            </div>
+            <div class="col-sm-4 col-md-4 contact-details" style="padding-top: 24px;">
+                <h3 style="margin: 0 0 42px;">CONTACT INFO</h3>
+                <li class="list-item">
+                    <i class="fa fa-map-marker"></i>
+                    <p>732/21 Second Street, Manchester, King Street, Kingston United Kingdom</p>
+                </li>
+                <li class="list-item">
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:345-677-554">345-677-554</a>
+                </li>
+                <li class="list-item">
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="mailto:info@altairtheme.com">info@altairtheme.com</a>
+                </li>
+                <li class="list-item">
+                    <i class="fa fa-globe"></i>
+                    <a href="#" target="_blank">www.google.com</a>
+                </li>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="full-width footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="social-media navbar-left">
+                <p class="lead-text">Stay connected with us</p>
+                <a class="list-item twitter" target="_blank" href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="list-item facebook" target="_blank" href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="list-item instagram" target="_blank" href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a class="list-item google-plus" target="_blank" href="#">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </div>
+            <p class="float-right">Copyright (c) Red Tag Travels All Rights Reserved 2016</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var Site_Url = 'http://www.redtagtravels.com/agent/index.php';
+    var Base_Url = 'http://www.redtagtravels.com/agent/';
+</script>        <!--######################### FOOTER ENDS HERE #################################################################--->
+    </body>
+    <!--################### JS FILES STARTS ################################################-->
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/js/jquery-ui.js"></script>
+     <script src="http://www.redtagtravels.com/agent/assets/js/photo-gallery.js"></script>
+    <!--################### JS FILES ENDS ################################################-->
+    <script>
+        $(document).ready(function () {
+            $('#myCarousel').carousel({
+                interval: 4000
+            });
+
+            var clickEvent = false;
+            $('#myCarousel').on('click', '.nav a', function () {
+                clickEvent = true;
+                $('.nav li').removeClass('active');
+                $(this).parent().addClass('active');
+            }).on('slid.bs.carousel', function (e) {
+                if (!clickEvent) {
+                    var count = $('.nav').children().length - 1;
+                    var current = $('.nav li.active');
+                    current.removeClass('active').next().addClass('active');
+                    var id = parseInt(current.data('slide-to'));
+                    if (count == id) {
+                        $('.nav li').first().addClass('active');
+                    }
+                }
+                clickEvent = false;
+            });
+        });
+        
+        $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+        $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+        $('#myTabs a:first').tab('show') // Select first tab
+        $('#myTabs a:last').tab('show') // Select last tab
+        $('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>	

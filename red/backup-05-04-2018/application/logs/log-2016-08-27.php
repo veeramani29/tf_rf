@@ -1,0 +1,33 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-08-27 09:06:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:06:23 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:08:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:08:26 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:09:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:09:06 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:10:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:10:31 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:10:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:13:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 09:13:07 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:08:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:08:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:08:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:09:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 15:10:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-08-27 16:01:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\travel_galore\system\database\drivers\mysql\mysql_driver.php 91

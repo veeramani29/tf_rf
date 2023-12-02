@@ -1,0 +1,65 @@
+user_id:12
+property_owner_id:
+usertype:3
+domain:1
+facebook_id:
+google_id:
+twitter_id:
+email:youri.beekink@gmail.com
+password:1212fcutreg
+profile_photo:http://rf.tekhne.nl/assets/images/user-avatar.jpg
+gender:
+title:
+firstname:Youri 
+middlename:
+lastname:Beekink
+dob:0000-00-00
+address:
+ship_address:
+country_code:
+contact_no:
+city:
+country:
+postal_code:
+about:
+school:
+work:
+zone:
+languages:
+latitude:
+longitude:
+wishlist:
+newsletter_subscribe:0
+register_date:2016-02-16 16:01:48
+last_visit_date:0000-00-00 00:00:00
+status:1
+logged_in:1
+loggedin_with:rfactory
+key:EXYHP8DKM0MTB9DMNOVUFNDSU5TFW.4J16G4DNB2HV0JDW6M8J
+secret:5843e38a244fdf98d154a0dd4d28dcd7
+property_owner_request:0
+property_owner_created:0
+security_question:
+security_answer:
+security_email_address:0
+security_phone:0
+security_address:0
+security_facebook:0
+security_twitter:0
+security_google:0
+opt:
+owner_account_status:0
+billing_firstname:Youri Alexander
+billing_middlename:
+billing_lastname:Beekink
+billing_addressA:Gerrit Achterberghove 
+billing_addressB:
+billing_email:youri.beekink@gmail.com
+billing_country_code:
+billing_mobilecountrycode:NL
+billing_contact:646435307
+billing_country:NL
+billing_city:Utrecht
+billing_state:
+billing_postal:3437 ZE
+billing_home_no:13

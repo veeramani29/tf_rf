@@ -1,0 +1,112 @@
+﻿
+
+API Pre-Productions Details
+====================================
+
+Client_Id:6ZY9			
+User ID :	Universal API/uAPI8187943395-fb19ac3a 	
+password:	m{6NT4e&jX	
+Branch code:	P7028803
+Url	:       https://americas.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+
+API Productions Details
+====================================
+
+Client_Id:6ZY9			
+User ID :	Universal API/uAPI2812502192-f1e8a252 	
+password:	x_5H7K!dZ}	
+Branch code:	P2629804
+Url	:       https://americas.universal-api.travelport.com/B2BGateway/connect/uAPI/AirService
+
+Live Ticketfinder DB and FTP Deatils
+====================================
+
+
+Ftp Details below:
+=================
+
+ Domain: tf.tekhne.nl
+| Ip: 37.252.127.63 (n)
+| HasCgi: y
+| UserName: tftekhne
+| PassWord: ,N_b9vCp[3Wx
+| CpanelMod: paper_lantern
+| HomeRoot: /home
+| Quota: unlimited Meg
+| NameServer1: ns1.tekhne.nl
+| NameServer2: ns2.tekhne.nl
+| NameServer3: 
+| NameServer4: 
+| Contact Email: susse@tekhne.nl
+| Package: default
+| Feature List: default
+| Language: en
+
+Database Details:
+================
+For panel accès : 37.252.127.63/cpanel 
+or 
+tf.tekhne.nl/cpanel
+
+hostname = 'localhost';
+username = 'tftekhne_ticket';
+password = 'b6Wk+tkhL9Uy';
+database = 'tftekhne_ticketfinder';
+
+
+
+
+Admin Details
+============
+
+Url :http://tf.tekhne.nl/admin
+Username :admin@ticketfinder.com
+Password :ticketfinder
+
+
+Regarding Any Doubt In TravelporUapi Just raise  The Ticket and Get respons
+===========================================================================
+
+https://support.travelport.com/tdssupport/main.asp
+username:harshvv
+password:Tekhne2014
+
+
+
+
+Product :univeral api
+Version : latest 15.
+Request Category : Depend upon yours
+Pseudo City Code :6ZY9
+Client ID: n/a
+Host System :pre or prod
+
+
+TWS Profiler Details:
+====================
+Url:https://twsprofiler.travelport.com/
+Xml Submit:https://twsprofiler.travelport.com/Service/Default.ashx/AirService (Service)
+We are not submitted here if you want submit via Soaupui software or nurmally run via curl but live server
+System: Galileo
+HAP: 	(uAPI8187943395-fb19ac3a),Create here 
+Password:	
+ 
+About Ideal paymentGate
+======================
+
+application/third_party/ideal/pay/Connector/config.conf
+MERCHANTID: 005057896
+Here MERCHANTRETURNURL=local or live url,
+	ACQUIRERURL=test or live
+
+#     https://idealtest.secure-ing.com/ideal/iDEALv3 voor test
+#     https://ideal.secure-ing.com/ideal/iDEALv3 voor productie
+
+About TravelportuAPI Docs URL Deatils
+====================================
+Flight:
+=======
+
+https://support.travelport.com/webhelp/uapi/uAPI.htm#SampleWeb/Samples_Air-ACH.htm%3FTocPath%3DSamples%7CXML%2520Samples%7CXML%2520Samples%7CAir%7C_____3
+https://support.travelport.com/webhelp/uapi/Content/SampleWeb/Samples_Air-ACH.htm#102
+https://support.travelport.com/webhelp/uapi/Content/Schemas/LowFareSearchReq.html

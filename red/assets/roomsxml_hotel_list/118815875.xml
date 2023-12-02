@@ -1,0 +1,5 @@
+<?xml version="1.0"?><HotelElement><Id>118815875</Id><Name>Yue Hotel</Name><Region><Id>15982</Id><Name>Shanghai</Name><CityId>15982</CityId></Region><Type>Hotel</Type><Address><Address1>No.1305 Kaixuan North Road, Putuo District</Address1><Address2 /><Address3 /><City>Shanghai</City><State /><Zip>200063</Zip><Country>China</Country><Tel>+86 21 6285 8000</Tel><Fax>011862162858028</Fax><Email /><Url /></Address><Stars>4</Stars><GeneralInfo><CheckInTime>15</CheckInTime><CheckOutTime>11</CheckOutTime></GeneralInfo><Description><Language>en</Language><Type>General</Type><Text>Yue hotel located at west of Shanghai, adjacent to Hongqiao Developing Area. 
+Hotel is across from a modern business plaza with restaurants and shopping area. 
+3-minute walk to metro station for line 2, line 3 and line 13 and easy access to all tourist attractions. 
+45-minute drive from Pudong International Airport. 
+12-minute drive from Hongqiao International airport.</Text></Description><Rating><System>Stars</System><Score>40</Score><Description>Four star</Description></Rating><Rank>1</Rank></HotelElement>

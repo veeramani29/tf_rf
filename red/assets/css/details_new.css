@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+.pad8{ padding-top:8px; padding-bottom:8px;}
+.border1{ border-right:1px solid #FFF;}
+.border12{ border-right:1px solid #000;}
+.wht{ background-color:#FFF; float:left; width:100%;}
+.red{ background-color:#9c0c1e; float:left; width:100%; color:#FFF; padding:10px 10px 10px 20px; border-radius:2px 2px 0px 0px;}
+.bor_all{ border:1px solid #ccc; border-radius:0px 0px 2px 2px; padding:10px; width:100%; float:left;}
+.img_gm { width: 100%; height: 195px; border: 1px solid #CCC; border-radius: 5px;}
+.wht1{border:1px soild #ccc; float:left; width:100%;}
+.box3{padding:15px 10px 15px 10px; border-radius:3px 3px 0px 0px; background-color:#dae9cc; border:1px solid #CCC;border:2px solid #fff;float:left;width: 100%;}
+.best{
+    width: 50%;padding: 10px 6px 10px 10px;background-color: #FFF;border-radius: 20px;border: 1px solid #CCC; float:right; border-radius: 2px;}
+.room_type{
+    border-right: 1px solid #FFF;
+    padding: 10px 0px 10px 19px;
+}
+.room_type1{
+    padding: 10px 0px 10px 29px;
+}
+.room_type3{    border-right: 1px solid #FFF;
+    padding: 29px 0px 100px 15px;}
+.room_type5{    border-right: 1px solid #FFF; border-left:1px solid #FFF;
+    padding: 10px 0px 79px;}
+.room_type6{    border-right: 1px solid #FFF;
+    padding: 10px 0px 98px;}
+.room_type7{
+    padding: 10px 0px 80px;}
+.room_type8{
+    background-color: #FFF;
+    padding: 40px 0px 75px 7px;
+}	
+.box4{ border-radius:3px 3px 0px 0px;float:left;width: 100%;}
+
+.hot{ width:10%; float:left;    background-color: #CCC;
+    padding: 10px 0px 10px 22px;
+    border-radius: 5px 5px 0px 0px;
+    color: red;}
+.hot1{ width:97%; background-color:#FFF; border:1px solid #CCC; border-radius:0px 5px 5px 5px; float:left;}
+.buildingf{ width:27%; float:left; padding:10px 0px 10px 23px;}
+.buildingf12{width:70%; float:left; padding:10px 0px 10px 0px;}

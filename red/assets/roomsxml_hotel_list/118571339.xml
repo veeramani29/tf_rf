@@ -1,0 +1,45 @@
+<?xml version="1.0"?><HotelElement><Id>118571339</Id><Name>Hyatt Regency Tysons Corner</Name><Region><Id>20071</Id><Name>Washington D.C. (and vicinity)</Name><CityId>20071</CityId></Region><Type>Hotel</Type><Address><Address1>7901 Tysons One Place</Address1><Address2 /><Address3 /><City>Tysons Corner</City><State /><Zip>22102</Zip><Country>USA</Country><Tel>+1 703 893 1234</Tel><Fax>17038486348</Fax><Email /><Url /></Address><Stars>4</Stars><GeneralInfo><CheckInTime>14</CheckInTime><CheckOutTime>12</CheckOutTime></GeneralInfo><Description><Language>en</Language><Type>General</Type><Text>General Description
+4 star accommodations 
+A shoppers' paradise. 
+Designed to meet families needs 
+Great combination for business and pleasure 
+
+Location
+Conveniently located  in Shopping Center 
+
+Local Attractions
+Family friendly attractions such as Tysons Galleria Mall 
+Close to local attractions such as Downtown Washington D.C. 
+
+Recreation
+Indoor swimming pool 
+State of the art  fitness center 
+
+Restaurants &amp; Lounges
+Coffee Shop on property 
+Onsite restaurant 
+Onsite cocktail bar 
+
+Services
+Room service 
+Concierge services 
+Multilingual staff  
+Currency exchange 
+
+Meeting Facilities
+Multiple conference/meeting rooms 
+Wedding venue available 
+Banquet facilities  
+Fully equipped business center  
+
+Accommodations
+Coffee/tea maker 
+Cable/satellite channels 
+Safety deposit box 
+Air conditioning</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Conveniently located  in Shopping Center</Text></Description><Description><Language>en</Language><Type>RoomTypes</Type><Text>Coffee/tea maker
+Cable/satellite channels
+Safety deposit box
+Air conditioning</Text></Description><Description><Language>en</Language><Type>PropertyInformation</Type><Text>Room service
+Concierge services
+Multilingual staff
+Currency exchange</Text></Description><Rating><System>Stars</System><Score>40</Score><Description>Four star</Description></Rating><Rank>1</Rank></HotelElement>

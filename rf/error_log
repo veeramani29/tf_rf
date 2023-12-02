@@ -1,0 +1,134 @@
+[22-Aug-2015 14:49:42 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Aug-2015 14:51:19 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[04-Sep-2015 14:24:46 UTC] PHP Fatal error:  Call to undefined method Help_Model::get_airline_list() in /home/rftekhne/public_html/application/views/index.php on line 9
+[14-Sep-2015 10:47:31 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/rftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/rftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('rfactory', Array)
+#1 /home/rftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('rfactory', NULL)
+#2 /home/rftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('rfactory')
+#3 [internal function]: Auth->logout('rfactory', '3', 'aHR0cDovL3JmLnR...')
+#4 /home/rftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/rftekhne/public_html/index.php(212): require_once('/home/rftekhne/...')
+#6 {main}
+  thrown in /home/rftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[09-Oct-2015 14:00:40 UTC] PHP Fatal error:  Call to undefined method Hotel_Model::travelport_hotel_amenities() in /home/rftekhne/public_html/application/controllers/hotel.php on line 38
+[09-Oct-2015 14:01:04 UTC] PHP Parse error:  syntax error, unexpected '($sec' in /home/rftekhne/public_html/application/models/flight_model.php on line 257
+[13-Oct-2015 06:36:37 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 06:38:25 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 06:41:08 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 06:59:49 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 07:00:08 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 07:01:49 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 09:52:00 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 14:07:23 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 171
+[13-Oct-2015 14:11:07 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 3
+[13-Oct-2015 14:11:09 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 3
+[13-Oct-2015 14:11:09 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 3
+[13-Oct-2015 14:11:09 UTC] PHP Parse error:  syntax error, unexpected 'HotelAddress' (T_STRING), expecting ']' in /home/rftekhne/public_html/map.php on line 3
+[07-Nov-2015 11:14:24 UTC] PHP Fatal error:  Cannot redeclare Email_Model::sendmail_flightVoucher() in /home/rftekhne/public_html/application/models/email_model.php on line 434
+[09-Nov-2015 09:57:45 UTC] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/rftekhne/public_html/application/models/email_model.php on line 630
+[03-Dec-2015 04:22:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 641
+[03-Dec-2015 04:32:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1533
+[03-Dec-2015 04:32:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1533
+[03-Dec-2015 04:32:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1533
+[03-Dec-2015 04:32:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1533
+[03-Dec-2015 04:32:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1533
+[03-Dec-2015 04:32:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1533
+[03-Dec-2015 04:47:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1201
+[03-Dec-2015 04:48:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1452
+[03-Dec-2015 04:48:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1452
+[03-Dec-2015 05:01:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1524
+[03-Dec-2015 05:02:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1524
+[03-Dec-2015 05:09:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1427
+[03-Dec-2015 05:09:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1427
+[03-Dec-2015 05:09:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1427
+[03-Dec-2015 05:11:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1476
+[03-Dec-2015 05:11:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1476
+[03-Dec-2015 05:12:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1476
+[03-Dec-2015 05:19:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1476
+[03-Dec-2015 05:21:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1530
+[03-Dec-2015 05:21:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1530
+[03-Dec-2015 05:22:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1530
+[03-Dec-2015 05:22:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1530
+[03-Dec-2015 05:24:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1966
+[03-Dec-2015 05:24:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1966
+[03-Dec-2015 05:24:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1966
+[03-Dec-2015 05:24:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1966
+[03-Dec-2015 05:24:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1966
+[03-Dec-2015 06:51:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/booking.php on line 1333
+[03-Dec-2015 07:22:28 UTC] PHP Parse error:  syntax error, unexpected 'Free' (T_STRING) in /home/rftekhne/public_html/travelport_sample_xml.php on line 80
+[03-Dec-2015 07:24:37 UTC] PHP Parse error:  syntax error, unexpected 'Free' (T_STRING) in /home/rftekhne/public_html/travelport_sample_xml.php on line 79
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected '[] = array('pro' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1246
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1258
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1258
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1258
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1258
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1258
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected ''hotel_vendorlocation_key' => ' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1258
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1270
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1270
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1270
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1270
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1270
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1282
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1282
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1282
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1282
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected ' = abs($chec' in /home/rftekhne/public_html/application/controllers/hotel.php on line 1283
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1294
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1294
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1294
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1294
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1294
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 09:59:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1306
+[10-Dec-2015 10:03:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:03:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:03:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:03:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:03:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:03:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:08:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:11:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:12:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:12:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:12:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:12:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:12:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:12:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:17:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:21:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:26:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:38:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:51:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:51:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1469
+[10-Dec-2015 10:52:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/hotel.php on line 1409
+[10-Dec-2015 10:54:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1599
+[10-Dec-2015 10:54:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1599
+[10-Dec-2015 10:54:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 604
+[10-Dec-2015 11:05:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1544
+[10-Dec-2015 11:05:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1544
+[10-Dec-2015 12:01:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1666
+[10-Dec-2015 13:20:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1510
+[10-Dec-2015 13:21:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rftekhne/public_html/application/controllers/flight.php on line 1510
+[20-Mar-2016 05:07:47 UTC] PHP Parse error:  syntax error, unexpected 'REQ_SUCC_MSG' (T_STRING) in /home/rftekhne/public_html/application/controllers/home.php on line 97
+[20-Mar-2016 05:13:35 UTC] PHP Parse error:  syntax error, unexpected 'REQ_SUCC_MSG' (T_STRING) in /home/rftekhne/public_html/application/controllers/home.php on line 97
+[20-Mar-2016 05:13:52 UTC] PHP Parse error:  syntax error, unexpected 'REQ_SUCC_MSG' (T_STRING) in /home/rftekhne/public_html/application/controllers/home.php on line 97
+[20-Mar-2016 05:13:54 UTC] PHP Parse error:  syntax error, unexpected 'REQ_SUCC_MSG' (T_STRING) in /home/rftekhne/public_html/application/controllers/home.php on line 97
+[20-Mar-2016 06:28:24 UTC] PHP Fatal error:  Call to a member function get_email_acess() on a non-object in /home/rftekhne/public_html/application/controllers/home.php on line 96
+[20-Mar-2016 06:39:25 UTC] PHP Parse error:  syntax error, unexpected '$from' (T_VARIABLE), expecting ')' in /home/rftekhne/public_html/application/controllers/home.php on line 107
+[20-Mar-2016 06:39:46 UTC] PHP Fatal error:  Call to a member function get_email_template() on a non-object in /home/rftekhne/public_html/application/controllers/home.php on line 98
+[20-Mar-2016 06:48:06 UTC] PHP Parse error:  syntax error, unexpected 'flexible' (T_STRING) in /home/rftekhne/public_html/application/controllers/home.php on line 84
+[22-Mar-2016 12:07:19 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:11:47 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:13:44 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:13:57 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:15:36 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:15:58 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:15:59 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18
+[22-Mar-2016 12:24:57 UTC] PHP Fatal error:  Call to a member function asXML() on a non-object in /home/rftekhne/public_html/application/helpers/flight_helper.php on line 18

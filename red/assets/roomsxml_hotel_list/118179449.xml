@@ -1,0 +1,5 @@
+<?xml version="1.0"?><HotelElement><Id>118179449</Id><Name>The Fountains at Champions Gate</Name><Region><Id>21736</Id><Name>Others</Name><CityId>19827</CityId></Region><Type>Hotel</Type><Address><Address1>8101 Roseville Blvd</Address1><Address2 /><Address3 /><City>Davenport</City><State /><Zip>33896</Zip><Country>USA</Country><Tel>+1 407 787 4800</Tel><Fax>+1 407 787 4800</Fax><Email /><Url /></Address><Stars>4</Stars><GeneralInfo /><Description><Language>en</Language><Type>General</Type><Text>Policies
+There is a resort fee payable by the guest  
+There is a cleaning fee payable by the guests directly.</Text></Description><Description><Language>en</Language><Type>PoliciesDisclaimers</Type><Text>There is a resort fee payable by the guest
+There is a cleaning fee payable by the guests directly.</Text></Description><Description><Language>en</Language><Type>EssentialInfo</Type><Text>*There is a resort fee payable by the guest.
+*There is a cleaning fee payable by the guests directly.</Text></Description><Rating><System>Stars</System><Score>40</Score><Description>Four star</Description></Rating><Rank>1</Rank></HotelElement>

@@ -1,0 +1,180 @@
+.product-title .hotel-star {
+    display: inline-block;
+    font-size: 10px;
+    color: #194e91;
+    margin-left: 10px;
+}
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+	background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+        width: 100px;
+}
+.wid10{width:100% !important;height: 50px;}
+.more{color: #f74623; cursor:pointer;}
+.mar_top15{ margin-top:15px;}
+/*...............................hotel_review.....................*/
+
+.re_pad0{padding:0px;}
+.re_padleft0{ padding-left:0px;}
+.re_padright0{padding-right:0px;}
+.re_mar0{margin:0px;}
+.re_martop0{margin-top:0px;}
+.re_marbottom0{margin-bottom:0px;}
+.re_marleft0{ margin-left:0px;}
+.re_marright0{margin-right:0px;}
+a:hover,a:focus{    text-decoration: none !important;}
+.re_padtop20{ padding-top:20px;}
+.re_padbottom20{padding-bottom:20px;}
+.re_font12{font-size:13px; text-align:right;}
+.re_font13{font-size:14px; text-align:left; color:#f74623;}
+.re_padtop31{padding-top:31px;}
+.re_color{color:#515151;}
+
+
+/*------------------------guru--------------------------------*/
+.left_wid{ width:250px; float:left;}
+.fli_padleft0{ padding-left:0px;}
+.fli_padright0{ padding-right:0px;}
+.fli_iceland{    font-size: 12px;color:#7d7c7c;
+    padding-top: 5px;}
+.fli_pad0{padding:0px !important;}
+.fli_padtop10{ padding-top:12px;}
+.bar_flileft{
+    border-right: 1px dotted #e0e0e0;
+}
+.fil_pad20{padding: 17px 0px 17px 25px;margin-bottom:16px;}
+.fli_text_ali{ text-align:right;}
+.fli_pad_rig10{ padding-right:10px;}
+.fli_font_si22{ font-size:22px; margin-bottom:2px; color:#465b83;}
+.fli_font_si15{ font-size:15px; margin-bottom:2px; color:#465b83;}
+.fli_butt_book{
+    color: #fff;
+   padding: 7px 10px 7px 10px;
+    font-size: 14px;
+    border-radius: 1px;
+}
+.fli_time{font-size:14px;color:#465b83; margin-bottom:2px;    font-weight: 500;}
+.fli_plus1{
+    color: #dea41a;
+    padding-left: 7px;
+}
+.fli_economy{
+    color: #dea41a;
+    font-size: 13px;
+}
+.fli_fli_icon{ width:17px; float:right;}
+.fli_fli1_icon{ width:19px; float:right;}
+.fil_pad2012 {
+    padding: 9px 0px 9px 25px;
+    margin-bottom: 18px;
+        font-size: 16px;
+    background-color: #f74623;
+    color: #fff;
+        float: left;
+    width: 100%;
+}
+.side_box12 {
+    margin-top: 10px;
+    border: 1px solid #b1bac1;
+    -webkit-box-shadow:  3px 5px 5px 0px rgb(229, 231, 232);
+    -moz-box-shadow:  3px 5px 5px 0px rgb(229, 231, 232);
+    box-shadow: 3px 5px 5px 0px rgb(229, 231, 232);
+}
+.fli_mar10{    margin-top: 10px;
+    margin-bottom: 10px;}
+.fli_re{padding-top:0px; padding-left:17px; margin-bottom:0px;}
+/*---------------------------flight_details---------------------------------------*/
+.fli_det_bor{
+        border: 1px solid #f3f3f3;
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(243,243,243,1);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(243,243,243,1);
+    box-shadow: 3px 5px 5px 0px rgba(243,243,243,1);
+    margin-bottom: 12px;
+    padding: 10px 10px 10px 26px;
+}
+.fli_stop{
+    background-color: #f74623;
+    color: #fff;
+    padding: 4px 4px 4px 14px;
+    border-radius: 14px;
+}
+.fli_fli_icon12 {
+    width: 56px;
+    float: right;
+}
+.fli_pad_bot2{ padding-bottom:2px;
+        margin-bottom: 2px;
+    font-size: 13px;    color: #7d7c7c;
+}
+.fli_bor12{    border-right: 1px solid #eaeaea;}
+.fli_wai{
+    text-align: center;
+    padding-top: 10px;
+    color: #f74623;;
+}
+.fli_martop10{ margin-top:10px;}
+.fli_acc{
+    padding: 0;
+    margin-bottom: 2px;
+    font-size: 12px;color: #7d7c7c;
+}
+.fli_clr_de{ color:#465b83;}
+.fli_padtop20{    padding-top: 20px;}
+.fli_para{width:100%; padding-right:10px;}
+.fli_det_name{padding-top: 10px;
+    padding-left: 17px;color: #7d7c7c;}
+.fli_cabin{    padding: 0px;
+    margin-bottom: 6px;    color: #7d7c7c;}
+.fli_free{    text-align: right;
+    color: #dea41a;}
+.fli_freq{    padding: 8px 0px 8px 28px !important;
+    margin-top: 10px;margin-bottom:10px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;}
+.fli_solialmed{
+    width: 29px;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+}
+.fil_pad2012 p{
+    margin-bottom: 0px;
+    font-size: 16px;
+    background-color: #f74623;
+    color: #fff;
+}
+.carousel-control.right{background:none;}
+
+.carousel-control.left{background:none;}
+@media only screen and (max-width: 320px) and (min-width: 480px){
+
+.nav-tabs > li > a {
+    padding: 8px 6px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

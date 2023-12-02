@@ -1,0 +1,87 @@
+[05-May-2017 17:48:47 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[06-May-2017 16:14:21 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 17 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[07-May-2017 04:31:09 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[12-May-2017 07:15:48 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[12-May-2017 07:16:13 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[12-May-2017 09:50:14 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[13-May-2017 00:46:09 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[16-May-2017 12:07:31 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[18-May-2017 18:18:44 America/Chicago] PHP Fatal error:  Call to a member function getElementsByTagName() on a non-object in /home/asfarportal/public_html/beta/application/models/sabre_model.php on line 287
+[22-May-2017 11:10:44 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[23-May-2017 18:22:06 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[23-May-2017 21:48:39 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/asfarportal/public_html/beta/application/controllers/home.php on line 34
+[21-Jul-2017 02:54:50 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[21-Jul-2017 02:55:05 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[21-Jul-2017 02:55:30 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[21-Jul-2017 23:49:45 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[21-Jul-2017 23:49:50 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[21-Jul-2017 23:49:51 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[22-Jul-2017 00:18:57 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[22-Jul-2017 00:25:28 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[22-Jul-2017 01:54:55 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[22-Jul-2017 02:06:39 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[22-Jul-2017 02:26:16 America/Denver] PHP Fatal error:  Call to undefined method Flight::searchRoundTrip() in /home1/redtagtr/public_html/agent/application/controllers/flight.php on line 35
+[29-Jul-2017 00:59:22 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home1/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[29-Jul-2017 01:20:45 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home1/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[29-Jul-2017 02:21:50 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home1/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[31-Jul-2017 22:11:17 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home1/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 02:15:35 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 02:15:50 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 04:40:36 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 04:51:56 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 07:50:51 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/redtagtr/public_html/agent/application/views/hotel/roomsxml_result.php on line 165
+[04-Aug-2017 07:54:41 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/redtagtr/public_html/agent/application/views/hotel/roomsxml_result.php on line 167
+[04-Aug-2017 07:55:05 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/redtagtr/public_html/agent/application/views/hotel/roomsxml_result.php on line 167
+[04-Aug-2017 07:55:54 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/redtagtr/public_html/agent/application/views/hotel/roomsxml_result.php on line 167
+[04-Aug-2017 07:57:42 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/redtagtr/public_html/agent/application/views/hotel/roomsxml_result.php on line 167
+[04-Aug-2017 07:58:23 America/Denver] PHP Parse error:  syntax error, unexpected ')', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/redtagtr/public_html/agent/application/views/hotel/roomsxml_result.php on line 167
+[04-Aug-2017 07:59:46 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 07:59:47 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:01:57 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:02:03 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:02:05 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:04:43 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 190
+[04-Aug-2017 08:06:47 America/Denver] PHP Fatal error:  Call to undefined function array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:14:36 America/Denver] PHP Fatal error:  Call to a member function array_column() on a non-object in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:14:42 America/Denver] PHP Fatal error:  Call to a member function array_column() on a non-object in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[04-Aug-2017 08:23:23 America/Denver] PHP Fatal error:  Call to undefined method CI_Loader::array_column() in /home3/redtagtr/public_html/agent/application/views/hotel/details.php on line 189
+[08-Aug-2017 19:33:02 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[08-Aug-2017 19:41:49 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[08-Aug-2017 19:42:07 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[09-Aug-2017 02:24:13 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[10-Aug-2017 03:43:52 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[10-Aug-2017 05:46:51 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[10-Aug-2017 10:16:43 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 01:01:05 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:14:21 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:19:32 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:20:52 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:22:53 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:28:06 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:29:29 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:32:13 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:32:36 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:32:59 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:35:03 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:36:01 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:39:25 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:40:28 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:41:43 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:44:15 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 04:57:34 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 05:05:47 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 05:11:06 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 05:14:08 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 05:43:39 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 06:01:22 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 06:03:53 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 06:06:31 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 06:09:02 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 06:12:04 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Aug-2017 06:14:08 America/Denver] PHP Fatal error:  Cannot redeclare array_column() in /home3/redtagtr/public_html/agent/application/helpers/hotel_helper.php on line 83
+[11-Dec-2017 20:32:49 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home3/redtagtr/public_html/agent/application/views/hotel/pre_booking.php on line 598
+[14-Dec-2017 08:01:56 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home3/redtagtr/public_html/agent/application/views/hotel/pre_booking.php on line 598
+[18-Dec-2017 23:56:54 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8388608 bytes) in Unknown on line 0
+[18-Dec-2017 23:57:28 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8388608 bytes) in Unknown on line 0
+[19-Dec-2017 00:21:17 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 26793890 bytes) in Unknown on line 0
+[10-Jan-2018 18:55:33 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20069960 bytes) in Unknown on line 0

@@ -1,0 +1,212 @@
+.mobheder,
+.onlyapart .navbar-collapse.filcols,
+.simnavritrit,
+.navbar-nav.simnavrit,
+.carthed b,
+.homelinksftr,
+.gotop,
+.forgota
+{float:left;}
+
+.navbar-right.splli,
+.lang,
+.carthed strong,
+.lefttab,
+.mnuictab,
+.tripmen,
+.leftcsrch,
+.leftsrch,
+.copurit,
+.logspecify .icon,
+form label.error
+{float:right;}
+
+
+.ui-menu .ui-menu-item a,
+.customSelectInner,
+.futtrlogo,
+.scont,
+.dntacnt
+{text-align:right;}
+
+
+
+.navbar-right.splli,
+
+.simnavritrit {
+    margin-right: 10px;}
+.homelinksftr a{float:right;margin:0 5px;}
+
+
+form label.error {
+    background: url("../images/upatow.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);padding-right: 14px;padding-left: 0;}
+.dropdown-menu li a .lang {
+    margin-left: 10px;}
+.lang, .mnuictab{margin-left: 4px;margin-right: 0;}
+.lightcaret{margin-right: 2px;margin-left:0;}
+
+
+.ritcart{right:auto;left:-100%;}
+.animate .ritcart{left:0;}
+
+.perspective.modalview{perspective-origin:1200px 300px;}
+.effect-moveleft.animate .container_cart {
+    transform: translateX(500px) translateY(0px) rotateY(55deg);}
+.cartclose{right: -84px;left:auto;transform: rotate(-180deg);}
+.effect-moveleft .container_cart {
+    transform-origin: 0 400px 0;}
+.animate .maskofcart{transform: rotate(-180deg);}
+.flyinput{padding: 4px 60px 4px 4px;}
+.flightfrom, .flighttoo{left:auto;right:0;}
+.thebg .ui-autocomplete-loading {
+    background: url("../images/Preloader.gif") no-repeat scroll left center #fff;}
+.myselect .customSelect {
+    background: url("../images/sel.png") no-repeat scroll 10px center #fff;}
+.mySelectCalenda.calinput{background: url("../images/cal.png") no-repeat scroll 98% center #fff;padding: 4px 40px 4px 4px;}
+.inlabel {
+    background: url("../images/mark.png") no-repeat scroll 98% center #fff;
+    padding: 8px 30px 8px 8px;}
+.inlabel.chi {
+    background: url("../images/chi.png") no-repeat scroll 96% 7px #dfdfdf;}
+.inlabel.chilic {
+    background: url("../images/children.png") no-repeat scroll 96% 7px #dfdfdf;}
+.inlabel.psnico {
+    background: url("../images/psn.png") no-repeat scroll 96% center #dfdfdf;}
+.locmark {
+    background: url("../images/mark.png") no-repeat scroll 98% center #fff;}
+.numroom{background:none;}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    float: left;}
+	
+.owlindex.owl-theme .owl-controls .owl-buttons .owl-next{left:0;right:auto;transform: rotate(-180deg);}
+.owlindex.owl-theme .owl-controls .owl-buttons .owl-prev{left:auto;right:0;transform: rotate(-180deg);}
+.btn-default.btncustom, .btncustom{transform: rotate(-180deg);left:0;right:auto;}
+.homelinksftr{margin-right:0;margin-left:25px;}
+.rowput input {
+    padding: 6px 45px 6px 6px;}
+.rowput .icon{left:auto;right:2px;}
+
+.ui-datepicker .ui-datepicker-next {
+    left: 0;
+	right:auto;
+    transform: rotate(-180deg);}
+.ui-datepicker .ui-datepicker-prev {
+    left: auto;
+	right: 0;transform: rotate(-180deg);}
+.ritcart{transform: translateX(0px) rotateY(-20deg);}
+.leftmar{float:right;}
+.cheklist label{display:block;}
+.cheklist .left{float:right;}
+.icheckbox_flat-blue {
+    margin-right: 0px !important;
+	margin-left: 10px !important;}
+.sortul li{float:right;margin: 0 0 0 15px !important;}
+.upndwn a{background: url("../images/upnd.png") no-repeat scroll 15px center rgba(0, 0, 0, 0);padding: 10px 20px 10px 40px;}
+.upndwn.active a.ascending {
+    background: url("../images/upnd2.png") no-repeat scroll 15px center rgba(0, 0, 0, 0);}
+.upndwn.active a.descending {
+    background: url("../images/upnd1.png") no-repeat scroll 15px center rgba(0, 0, 0, 0);}
+.padwrap{border-left: 1px solid #eee;border-right: 0;}
+.pikeronwds {
+    background: url("../images/pick33.png") no-repeat scroll left center rgba(0, 0, 0, 0);}
+.pikerret {
+    background: url("../images/pick22.png") no-repeat scroll left center rgba(0, 0, 0, 0);}
+.bookingiconcart {
+    left: auto;
+    right: -3px;
+    transform: rotate(90deg);}
+.cartprc {
+    float: left;
+    margin: 15px 0 0;}
+.effect-moveleft .outer-nav a.procedcheckout{background: url("../images/pct1.png") no-repeat scroll 15px center #6acae1;padding: 10px 20px 10px 40px;text-align: right;}
+.effect-moveleft .outer-nav a.procedcheckout:hover{background: url("../images/pct1.png") no-repeat scroll 15px center #1a7a91; color:#fff;}
+.effect-moveleft .outer-nav a.procedcheckout strong{text-align:right;}
+.removecart {
+    left: -5px;
+    right: auto;}
+	
+	
+	
+	
+/*     Apartment     */
+
+.pinimg{float:right;margin-left: 8px;margin-right: 0;}	
+.inst {margin-right: 0;margin-left: 5px;}
+.left,.aptloc, .persimg, .slabl, .fulrowhaf, .mlabl{float:right;}
+.usraprtmnt, .collapsebtn2 span.collapsearrow, .collapsebtn2.collapsed span.collapsearrow{float:left;}
+.aptselect.flyinput{padding:4px;}
+.collapsebtn2{text-align:right;}
+
+
+
+
+@media (min-width: 600px) {
+.litblue{float:none !important;}
+}
+
+@media (max-width: 1200px) {
+.perspective.modalview {
+    perspective-origin: 800px 300px;}
+.effect-moveleft.animate .container_cart {
+    transform: translateX(500px) translateY(0px) rotateY(65deg);}
+.navbar-right.splli, .simnavritrit{margin-right:0;}
+}
+
+
+@media (max-width: 991px) {
+.lefttab li{float:right !important;}
+.mobheder {float: left !important;}
+.navbar-toggle{margin-left:0;}
+.mobheder{width:auto;}
+}
+@media (max-width: 850px) {
+.perspective.modalview {
+    perspective-origin: 500px 300px;}
+}
+
+@media (max-width: 768px) {
+.upndwn a {background: url("../images/upnd.png") no-repeat scroll 5px center rgba(0, 0, 0, 0);
+    padding: 5px 5px 5px 25px !important;}
+.padlisting {
+    padding: 0 !important;}
+}
+
+@media (max-width: 650px) {
+.navbar-header {
+    display: block;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+}
+}
+
+@media (max-width: 600px) {
+.pikerret {
+    background: url("../images/pick22.png") no-repeat scroll right center rgba(0, 0, 0, 0) !important;
+    margin: 0 0 10px !important;
+    text-align: right !important;}
+.pikeronwds {
+    background: url("../images/pick33.png") no-repeat scroll right center rgba(0, 0, 0, 0) !important;
+    margin: 0 0 10px !important;
+    text-align: right !important;}
+}
+
+
+
+@media (max-width: 550px) {
+.navbar-header {
+    float: right !important;}
+.navbar-toggle.mobilemore{margin-left:5px;}
+.sortul li {
+    margin: 4px !important;}
+.mobheder{float:none !important;}
+.ritspl.myspl {
+    float: right;}
+}
+
+@media (max-width: 450px) {
+.cartclose {
+    left: -4px !important;
+    right: auto;}
+

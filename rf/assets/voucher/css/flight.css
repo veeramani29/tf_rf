@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.detailsPageLeft {
+	width:65%;
+	float:left;
+	margin-bottom:10px;
+	}
+	
+.detailsPageRight {
+	width:34%;
+	float:right;
+	margin-bottom:10px;
+	}
+	
+.detailsLeftHeading {
+	background: #eeeeee;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #ffffff 50%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(50%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+	-moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -khtml-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+	padding:6px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #CCC;
+	margin-top:10px;
+	color:#666666;
+	border-bottom:0px;
+	}
+	
+	
+.detailsLeftContent {
+	-moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+	padding:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #CCC;
+	color:#666666;
+	background-color:#FFF;
+	}
+.detailsRightHeading {
+	background: #eeeeee;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #ffffff 50%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(50%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+	-moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -khtml-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+	padding:6px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #CCC;
+	margin-top:10px;
+	color:#666666;
+	border-bottom:0px;
+	}
+	
+	
+.detailsRightContent {
+	-moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+	padding:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #CCC;
+	color:#666666;
+	background-color:#FFF;
+	}
+	
+.iconPlus {
+	background-image:url(../images/plus.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:20px;
+	width:20px;
+	}
+.iconMinus {
+	background-image:url(../images/minus.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:20px;
+	width:20px;
+	}
+
+.flightDetailSeatMap {
+	float:left;
+	}
+	
+
+
+.flightDetailSeatMap table tr td {
+	padding:2px;
+	}
+
+.flightDetailSeatMap .iconPreferential {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -6px;
+	width:20px;
+	height:25px;
+	}
+	
+.flightDetailSeatMap .iconOccupied {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -39px;
+	width:20px;
+	height:25px;
+	}
+	
+.flightDetailSeatMap .iconAvailable {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -74px;
+	width:20px;
+	height:25px;
+	}
+	
+.flightDetailSeatMap .iconRestricted {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -107px;
+	width:20px;
+	height:25px;
+	}
+.flightDetailSeatMap .iconBlank {
+	width:20px;
+	height:25px;
+	}
+
+
+	
+.detailsRightContent table tr td {
+	padding:5px;
+	}
+
+
+.pre_booking_textBox_part {
+	width: 215px;
+	float:left;
+	margin-bottom:15px;
+	line-height:20px;
+	}
+
+.pre_booking_text_box {
+	width: 190px;
+	border: 1px solid #B2B3B3;
+	line-height: 20px;
+	padding: 5px;
+}
+
+.pre_booking_phone_box {
+	width: 136px;
+	border: 1px solid #B2B3B3;
+	line-height: 20px;
+	padding: 5px;
+}
+
+.pre_booking_select_box {
+	width: 50px;
+	border: 1px solid #B2B3B3;
+	line-height: 20px;
+	padding: 6px 2px;
+}
+
+.pre_booking_select_country {
+	width: 200px;
+	border: 1px solid #B2B3B3;
+	line-height: 20px;
+	padding: 6px 2px;
+}
+
+.pre_bookingTravelerDetails_heading {
+	font-size:14px;
+	font-weight:bold;
+	color:#e96a0b;
+	float:left;
+}
+
+.margin_left40 {
+	margin-left:40px;
+	}
+
+.pre_bookingSalutationPart {
+	width: 100px;
+	float:left;
+}
+
+.pre_bookingNamePart {
+	width: 185px;
+	float:left;
+}
+
+.pre_bookingSalutationPart_box {
+	width: 86px;
+	border: 1px solid #B2B3B3;
+	line-height: 20px;
+	padding: 6px 2px;
+}
+
+.pre_bookingNamePart_box {
+	width: 160px;
+	border: 1px solid #B2B3B3;
+	line-height: 20px;
+	padding: 5px;
+}
+
+.paddingTable {
+	background-color:#FFF;
+	color:#000;
+	}
+
+.paddingTable table tr td {
+	padding:5px;
+	line-height:20px;
+	}
+	
+
+	
+.paddingTableTable tr td {
+	padding:10px !important;
+	line-height:20px;
+	}
+
+
+.padding1 {
+	padding:1px !important;
+	}
+
+

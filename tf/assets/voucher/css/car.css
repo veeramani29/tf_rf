@@ -1,0 +1,275 @@
+.float_left {
+	float:left;
+	}
+	
+.float_right {
+	float:right;
+	}
+	
+.clear {
+	clear:both;
+	}
+	
+.clear_space {
+	clear:both;
+	height:10px;
+	}
+	
+.car_result_left_filter {
+	border:1px solid #CCC;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px;
+	}
+	
+.padding8 {
+	padding:8px;
+	}
+	
+.padding4 {
+	padding:4px;
+	}
+
+.main_part {
+	width:1000px;
+	margin:auto;
+	}
+
+.car_result_left {
+	width:30%;
+	float:left;
+	line-height:18px;
+	}
+	
+.car_result_left_heading {
+	background: #eeeeee;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #ffffff 50%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(50%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+
+	padding:8px;
+	-webkit-border-radius: 10px 10px 0px 0px; 
+	-moz-border-radius: 10px 10px 0px 0px; 
+	border-radius: 10px 10px 0px 0px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #039;
+	}
+	
+.car_result_right {
+	width:68%;
+	float:right;
+	line-height:18px;
+	}
+	
+	
+	.car_result_right_heading {
+	background: #e36c0a;
+	background: -moz-linear-gradient(top,  #e36c0a 0%, #ea7b1f 50%, #e36c0a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e36c0a), color-stop(50%,#ea7b1f), color-stop(100%,#e36c0a));
+	background: -webkit-linear-gradient(top,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	background: -o-linear-gradient(top,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	background: -ms-linear-gradient(top,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	background: linear-gradient(to bottom,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e36c0a', endColorstr='#e36c0a',GradientType=0 );
+
+	padding:8px;
+	-webkit-border-radius: 7px 7px 0px 0px; 
+	-moz-border-radius: 7px 7px 0px 0px; 
+	border-radius: 7px 7px 0px 0px; 
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFF;
+	}
+	
+	
+	
+.car_rental_details_bg {
+	background-color:#e36c0a;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px; 
+	}
+.car_bg_white {
+	background-color:#FFF;
+	}
+.border_radius10 {
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px;
+	}
+	
+.car_search_button {
+	background: #e36c0a;
+	background: -moz-linear-gradient(top,  #e36c0a 0%, #ea7b1f 50%, #e36c0a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e36c0a), color-stop(50%,#ea7b1f), color-stop(100%,#e36c0a));
+	background: -webkit-linear-gradient(top,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	background: -o-linear-gradient(top,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	background: -ms-linear-gradient(top,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	background: linear-gradient(to bottom,  #e36c0a 0%,#ea7b1f 50%,#e36c0a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e36c0a', endColorstr='#e36c0a',GradientType=0 );
+	color:#FFF;
+	font-size:14px;
+	border:0px;
+	-webkit-border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	border-radius: 7px;
+	padding:5px 15px;
+
+	}
+	
+.car_right_result_bg {
+	background-color:#FFFFFF;
+	-webkit-border-radius: 0px 0px 7px 7px; 
+	-moz-border-radius: 0px 0px 7px 7px; 
+	border-radius: 0px 0px 7px 7px;
+	border:1px solid #CCC;
+	}
+
+.car_result_box {
+	width:31%;
+	background-color:#FFF;
+	float:left;
+	margin-left:1.6%;
+	margin-top:1.6%;
+	-webkit-border-radius:7px; 
+	-moz-border-radius:7px; 
+	border-radius:7px;
+	border:1px solid #CCCCCC;
+	}
+	
+.font_size13 {
+	font-size:13px;
+	}
+	
+.font_size10 {
+	font-size:10px;
+	}
+	
+.ico_passanger {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:-19px -498px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_airCond {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:0 -430px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_doors {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:-19px -457px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_baggage {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:-19px -476px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_manual {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:0px -487px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_automatic {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:0px -469px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_diesel {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:-19px -437px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.ico_chauffeur {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:-2px -507px;
+	width:17px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+.icon_keys {
+	padding:5px 0px;
+	clear:both;
+	}
+	
+.rslt_inclusive_link  {
+	background: url(../images/search-sprite.png);
+	background-repeat:no-repeat;
+	background-position:-19px -395px;
+	width:18px;
+	float:left;
+	margin-right:7px;
+	margin-left:7px;
+	}
+	
+	
+.car_result_price  {
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	}
+	
+.car_result_main_heading {
+	width:468px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	}
+	
+.car_result_category_by {
+	width:210px;
+	float:right;
+	}
+	
+.car_result_category_by select {
+	width:80px;
+	}
+	
+.width30 {
+	width:30px;
+	text-align:center;
+	font-size:10px;
+	}

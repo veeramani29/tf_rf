@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://www.travelport.com/schema/common_v34_0" xmlns:gds="http://www.travelport.com/schema/gdsQueue_v34_0" xmlns:univ="http://www.travelport.com/schema/universal_v34_0">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <gds:GdsQueuePlaceReq AuthorizedBy="user" ProviderCode="1G" ProviderLocatorCode="3WGHGM" PseudoCityCode="52GY" TargetBranch="P2629804" TraceId="trace">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <com:QueueSelector Queue="52"/>
+    </gds:GdsQueuePlaceReq>
+  </soapenv:Body>
+</soapenv:Envelope>

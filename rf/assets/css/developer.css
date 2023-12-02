@@ -1,0 +1,161 @@
+input.error, select.error {border: 1px solid red !important;}
+.drop-spot {
+	display: none;
+	float: left;
+	position: absolute;
+	top: 25px;
+	width: 184px;
+	z-index: 999;
+}
+.drop-eft>.input_caretdown{
+	width: 100%;
+	padding-left: 9px;
+}
+.drop-spot li li {
+	color: #616265;
+	float: left;
+	font-size: 12px;
+	padding: 5px 10px;
+	text-align: left;
+	width: 100%;
+}
+.drop-spot li {
+	float: left;
+	width: 100%;
+	list-style-type:none;
+}
+.arrow-icon {
+	background: url("../images/top-arrow.png") no-repeat scroll 30px center rgba(0, 0, 0, 0);
+	float: left;
+	height: 13px;
+	position: relative;
+	top: 3px;
+	width: 52px;
+}
+.usrwel > img {
+	min-height: 30px;
+	width: 100%;
+}
+.usrwel {
+	float: left;
+	height: 30px;
+	margin:0 10px 0 0;
+	width: 30px;
+}
+.mt-2 {
+	position: relative;
+	top: -2px;
+}
+.lightcaret {
+	background: url("../images/carett.png") no-repeat scroll 2px 7px rgba(0, 0, 0, 0);
+	display: inline-block;
+	height: 15px;
+	margin-left: 2px;
+	vertical-align: middle;
+	width: 10px;
+}
+.drop-spot ul {
+	background: #fff;
+	box-shadow: 0 0 4px 0 #000;
+	border-radius: 4px;
+	float: left;
+	width: 100%;
+	padding: 3px 0;
+}
+#property  .drop-spot {display:block}
+.drop-spot li li a {
+	border-bottom: 1px solid #ccc;
+	color: #cccccc;
+	font-size: 13px;
+	padding: 11px 0 11px 17px;
+	text-align: left;
+}
+.drop-eft {
+	position: relative;
+}
+.drop-spot li li {
+	float: left;
+	width: 100%
+}
+.drop-spot li li span{
+	padding-top: 5px;
+	display: inline-block;
+}
+.drop-spot li a {
+	float: left;
+	width: 100%
+}
+.drop-eft:hover .drop-spot{
+	display: block; 
+	padding-left: 0;
+}
+#property1 {
+	padding: 0 0 0 12px;
+	width: 100%;
+}
+.drop-spot li select {
+	float: right;
+	-webkit-appearance: none;
+	appearance: none;
+	-moz-appearance: none;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 49px;
+}
+.divider1 {
+	border-bottom: 1px solid #ccc;
+	padding: 1px !important;
+	margin-bottom: 5px;
+}
+form label.error {
+	background: url(../images/upatow.png) no-repeat 0 0;
+	color: #FF5353;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px 0;
+	padding-left: 14px;
+	display: none !important;
+}
+label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.no_available{
+	color: #67A;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+.noresultimage {
+	display: block;
+	margin: 20px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.no_available h1 {
+	display: block;
+	font-size: 22px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+.no_available_text {line-height: 22px;}
+a.flex{cursor:pointer;}
+.aicon {
+	background: url("../images/scar.png") no-repeat scroll 0 0 #fff;
+	border: 2px solid #ebebeb;
+	border-radius: 4px;
+	color: #999;
+	display: block;
+	height: 24px;
+	overflow: hidden;
+	padding: 5px;
+	width: 24px;
+}
+.aicon.doors {background-position: 4px -101px;}
+.aicon.aircond {background-position: 5px -68px;}
+.aicon.manualtrans {background-position: 0px -135px;}
+.aicon.fuel {background-position: 3px -171px;}
+.gray{background: #616264;}
+.paydiv{margin-top: 13px;}
+.spanover{cursor: pointer;}
+.spanover:hover{text-decoration: underline;}

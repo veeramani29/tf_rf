@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:AirTicketingRsp xmlns:air="http://www.travelport.com/schema/air_v33_0" xmlns:common_v33_0="http://www.travelport.com/schema/common_v33_0" TraceId="trace" TransactionId="CA1285EE0A0759CEF2F05968CFAAC4F4" ResponseTime="548">
+      <air:TicketFailureInfo Code="12008" Message="Host error during ticket issue. INVALID ND LINKAGE" BookingTravelerRef="I327FEF+SbuPGJloIULv/A==">
+        <air:AirPricingInfoRef Key="fx3T9t/kQb25fmvgmfs54Q=="/>
+        <common_v33_0:Name First="test" Last="test"/>
+      </air:TicketFailureInfo>
+    </air:AirTicketingRsp>
+  </SOAP:Body>
+</SOAP:Envelope>

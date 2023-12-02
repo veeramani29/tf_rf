@@ -1,0 +1,10 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-02-20 03:47:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 08:48:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 08:48:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 08:48:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 22:45:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 22:52:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 22:53:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-02-20 22:53:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91

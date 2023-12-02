@@ -1,0 +1,15 @@
+<?xml version="1.0"?><HotelElement><Id>11635614</Id><Name>Albergo Del Viaggiatore</Name><Region><Id>21067</Id><Name>Assisi</Name><CityId>17170</CityId></Region><Type>Hotel</Type><Address><Address1>Via S. Antonio 14</Address1><Address2 /><Address3 /><City /><State /><Zip>06081</Zip><Country>Italy</Country><Tel /><Fax /><Email /><Url /></Address><Stars>3</Stars><GeneralInfo /><Description><Language>en</Language><Type>General</Type><Text>Position
+The Hotel is located in the historic centre of Assisi in a very quiet position next to Piazza Vescovado (S. Maria Maggiore). 
+
+
+Restaurant
+The restaurant inside the hotel offers to all its guests a warm and friendly environment. Guests can taste our traditional dishes with a selection of wines  from our territory, while listening to medieval music from Assisi. 
+
+Outside
+
+
+Lobby
+
+
+More Informations
+The hotel has a bar, a lift and a safe available at front desk.</Text></Description><Amenity><Code>InHouseBar</Code><Text>Hotel bar</Text></Amenity><Amenity><Code>PetsAllowed</Code><Text>Pets allowed</Text></Amenity><Amenity><Code>RoomService</Code><Text>Room service</Text></Amenity><Amenity><Code>Bar</Code><Text>Bar</Text></Amenity><Amenity><Code>Restaurant</Code><Text>Restaurant</Text></Amenity><Amenity><Code>Lift</Code><Text>Lift</Text></Amenity><Amenity><Code>WiFi</Code><Text>Wi-Fi</Text></Amenity><Amenity><Code>MultilingualStaff</Code><Text>Multilingual Staff</Text></Amenity><Amenity><Code>FreeOnSiteCarparking</Code><Text>Free On - Site Car parking</Text></Amenity><Rating><System>Stars</System><Score>30</Score><Description>Three star</Description></Rating><Rank>1</Rank></HotelElement>

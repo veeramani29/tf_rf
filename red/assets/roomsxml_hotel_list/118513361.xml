@@ -1,0 +1,5 @@
+<?xml version="1.0"?><HotelElement><Id>118513361</Id><Name>Hyatt House Pittsburgh South Side</Name><Region><Id>58491</Id><Name>Pittsburgh</Name><CityId>58490</CityId></Region><Type>Hotel</Type><Address><Address1>2795 South Water Street</Address1><Address2 /><Address3 /><City>Pittsburgh</City><State /><Zip>15203</Zip><Country>USA</Country><Tel>14123902477</Tel><Fax>14123902478</Fax><Email /><Url /></Address><Stars>3</Stars><GeneralInfo><CheckInTime>15</CheckInTime><CheckOutTime>11</CheckOutTime></GeneralInfo><Description><Language>en</Language><Type>General</Type><Text>General information
+Location
+Area
+Recreation
+Rooms</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Area</Text></Description><Rating><System>Stars</System><Score>30</Score><Description>Three star</Description></Rating><Rank>1</Rank></HotelElement>

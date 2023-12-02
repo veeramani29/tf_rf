@@ -1,0 +1,13 @@
+[31-Oct-2015 08:51:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ajtrafyx/public_html/dev/endeavor/admin/admin/models/b2c_model.php on line 1278
+[31-Oct-2015 08:51:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ajtrafyx/public_html/dev/endeavor/admin/admin/models/b2c_model.php on line 1278
+[31-Oct-2015 08:51:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ajtrafyx/public_html/dev/endeavor/admin/admin/models/b2c_model.php on line 1278
+[31-Oct-2015 08:51:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ajtrafyx/public_html/dev/endeavor/admin/admin/models/b2c_model.php on line 1278
+[31-Oct-2015 08:52:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/ajtrafyx/public_html/dev/endeavor/admin/admin/models/b2c_model.php on line 1278
+[02-Dec-2015 17:29:49 Etc/GMT] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/ajtrafyx/public_html/dev/redtag_travels/admin/admin/models/home_model.php on line 1
+[02-Dec-2015 17:30:45 Etc/GMT] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/ajtrafyx/public_html/dev/redtag_travels/admin/admin/controllers/login.php on line 1
+[02-Dec-2015 17:32:06 Etc/GMT] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/ajtrafyx/public_html/dev/redtag_travels/admin/admin/models/home_model.php on line 1
+[02-Dec-2015 17:33:08 Etc/GMT] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/ajtrafyx/public_html/dev/redtag_travels/admin/admin/models/home_model.php on line 1
+[22-Nov-2016 15:56:19 America/Denver] PHP Fatal error:  Call to undefined method Affiliate::is_logged_in() in /home1/redtagtr/public_html/beta/admin/admin/controllers/affiliate.php on line 9
+[22-Nov-2016 15:56:29 America/Denver] PHP Fatal error:  Call to undefined method Affiliate::is_logged_in() in /home1/redtagtr/public_html/beta/admin/admin/controllers/affiliate.php on line 9
+[22-Nov-2016 15:58:51 America/Denver] PHP Fatal error:  Call to undefined method Affiliate::is_logged_in() in /home1/redtagtr/public_html/beta/admin/admin/controllers/affiliate.php on line 10
+[15-Nov-2017 06:39:24 America/Denver] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home3/redtagtr/public_html/agent/admin/admin/controllers/home.php on line 1

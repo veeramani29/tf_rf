@@ -1,0 +1,5 @@
+<?xml version="1.0"?><HotelElement><Id>118516486</Id><Name>Courtyard San Jose North</Name><Region><Id>21837</Id><Name>San Jose</Name><CityId>19921</CityId></Region><Type>Hotel</Type><Address><Address1>111 Holger Way</Address1><Address2 /><Address3 /><City>San Jose</City><State /><Zip>95134</Zip><Country>USA</Country><Tel>14083833700</Tel><Fax>14083839469</Fax><Email /><Url /></Address><Stars>3</Stars><GeneralInfo><CheckInTime>15</CheckInTime><CheckOutTime>11</CheckOutTime></GeneralInfo><Description><Language>en</Language><Type>General</Type><Text>General information
+Location
+Area
+Recreation
+Rooms</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Area</Text></Description><Rating><System>Stars</System><Score>30</Score><Description>Three star</Description></Rating><Rank>1</Rank></HotelElement>

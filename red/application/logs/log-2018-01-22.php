@@ -1,0 +1,19 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-01-22 00:00:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:00:24 --> Query error: Table 'redtagtr_agent_portal.tacenter_tour_city_list' doesn't exist
+ERROR - 2018-01-22 00:00:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:00:25 --> Query error: Table 'redtagtr_agent_portal.tacenter_tour_city_list' doesn't exist
+ERROR - 2018-01-22 00:00:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:00:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:00:32 --> 404 Page Not Found --> home/index
+ERROR - 2018-01-22 00:00:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:02:21 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:02:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:02:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:03:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 00:03:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 06:00:51 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 18:45:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 18:59:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-01-22 23:00:11 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home3/redtagtr/public_html/agent/system/database/drivers/mysql/mysql_driver.php 91

@@ -1,0 +1,400 @@
+[05-Jun-2015 13:11:47 UTC] PHP Fatal error:  Class 'CI_Controller' not found in /home/tftekhne/public_html/system/core/CodeIgniter.php on line 233
+[05-Jun-2015 13:11:48 UTC] PHP Fatal error:  Class 'CI_Controller' not found in /home/tftekhne/public_html/system/core/CodeIgniter.php on line 233
+[05-Jun-2015 13:12:05 UTC] PHP Fatal error:  Class 'CI_Controller' not found in /home/tftekhne/public_html/system/core/CodeIgniter.php on line 233
+[05-Jun-2015 13:12:06 UTC] PHP Fatal error:  Class 'CI_Controller' not found in /home/tftekhne/public_html/system/core/CodeIgniter.php on line 233
+[05-Jun-2015 13:45:15 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8136826 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[05-Jun-2015 13:45:41 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 8162602 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[06-Jun-2015 12:35:15 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11239611 bytes) in /home/tftekhne/public_html/system/core/Loader.php on line 862
+[06-Jun-2015 12:37:19 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11069676 bytes) in /home/tftekhne/public_html/system/core/Loader.php on line 862
+[06-Jun-2015 14:16:28 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:32 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:33 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:33 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:34 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:34 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:34 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:34 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:34 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:35 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:35 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:37 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:39 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:43 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:44 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:44 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:44 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:44 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:45 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:45 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:45 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:45 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:45 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:47 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:47 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:47 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:48 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:48 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:48 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:50 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:52 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:52 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:53 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:53 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:56 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:56 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:56 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:56 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:56 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:57 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:57 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:57 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:57 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:57 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:16:58 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:02 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:03 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:05 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:05 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:08 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:09 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:10 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:10 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:10 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:10 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:10 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:10 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:11 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:11 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:11 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:11 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:11 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:14 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:14 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:14 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:14 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:15 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:16 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:16 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:17:17 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:19:22 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:19:26 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:19:31 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:19:33 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:19:39 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:20:42 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[06-Jun-2015 14:20:43 UTC] PHP Notice:  Constant CURR_ICON already defined in /home/tftekhne/public_html/application/config/constants.php on line 39
+[07-Jun-2015 16:34:09 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 7058438 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:24:08 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6428854 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:26:07 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6469621 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:29 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6509714 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:32 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6429886 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:33 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6390974 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:33 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6430141 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:34 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6468413 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:35 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6468945 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:37 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6714463 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:37 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6430933 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[07-Jun-2015 17:27:37 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 6468803 bytes) in /home/tftekhne/public_html/system/core/Output.php on line 366
+[08-Jun-2015 04:28:08 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 9934582 bytes) in /home/tftekhne/public_html/system/core/Loader.php on line 862
+[08-Jun-2015 08:54:00 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 9961472 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 135
+[08-Jun-2015 08:55:21 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11010048 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 329
+[08-Jun-2015 08:55:26 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 9961472 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 133
+[08-Jun-2015 09:06:02 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11010048 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 329
+[08-Jun-2015 09:09:26 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11010048 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 329
+[08-Jun-2015 09:14:08 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11010048 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 329
+[08-Jun-2015 09:17:38 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11010048 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 329
+[08-Jun-2015 09:20:24 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 11010048 bytes) in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 329
+[08-Jun-2015 10:04:25 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 772
+[08-Jun-2015 13:58:29 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 9607434 bytes) in /home/tftekhne/public_html/system/core/Loader.php on line 862
+[08-Jun-2015 14:09:16 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 9606450 bytes) in /home/tftekhne/public_html/system/core/Loader.php on line 862
+[08-Jun-2015 14:53:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Authentication failed! Twitter returned an error. 401 Unauthorized.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Model_OAuth1.php:125
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Endpoint.php(165): Hybrid_Provider_Model_OAuth1->loginFinish()
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Endpoint.php(46): Hybrid_Endpoint::processAuthDone()
+#2 /home/tftekhne/public_html/application/third_party/hybridauth/index.php(9): Hybrid_Endpoint::process()
+#3 /home/tftekhne/public_html/application/controllers/auth.php(265): require_once('/home/tftekhne/...')
+#4 [internal function]: Auth->endpoint()
+#5 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#6 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#7 {main}
+
+Next exception 'Exception' with message 'Authentication failed! Twitter returned an error. 40 in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php on line 134
+[12-Jun-2015 05:17:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('4', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('4', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('4')
+#3 [internal function]: Auth->logout('4', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[12-Jun-2015 05:21:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('4', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('4', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('4')
+#3 [internal function]: Auth->logout('4', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[12-Jun-2015 05:21:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('4', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('4', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('4')
+#3 [internal function]: Auth->logout('4', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[12-Jun-2015 05:25:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('4', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('4', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('4')
+#3 [internal function]: Auth->logout('4', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 09:23:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:17:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:17:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:17:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:23:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:25:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:25:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:25:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[15-Jun-2015 10:26:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[16-Jun-2015 07:21:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[16-Jun-2015 07:22:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[16-Jun-2015 07:29:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('2', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('2', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('2')
+#3 [internal function]: Auth->logout('2', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[16-Jun-2015 11:44:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('4', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('4', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('4')
+#3 [internal function]: Auth->logout('4', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[16-Jun-2015 11:45:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('4', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('4', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('4')
+#3 [internal function]: Auth->logout('4', 'aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[16-Jun-2015 11:45:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory(NULL, Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup(NULL, NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate(NULL)
+#3 [internal function]: Auth->logout()
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[22-Jun-2015 12:50:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory(NULL, Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup(NULL, NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate(NULL)
+#3 [internal function]: Auth->logout()
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[22-Jun-2015 12:51:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory(NULL, Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup(NULL, NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate(NULL)
+#3 [internal function]: Auth->logout()
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(211): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[27-Jun-2015 10:48:48 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[27-Jun-2015 10:49:31 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[27-Jun-2015 10:55:48 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[27-Jun-2015 11:03:38 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[02-Jul-2015 10:03:39 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[02-Jul-2015 10:08:30 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[03-Jul-2015 13:55:51 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[06-Jul-2015 10:56:13 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[06-Jul-2015 10:57:44 UTC] PHP Fatal error:  [] operator not supported for strings in /home/tftekhne/public_html/application/controllers/flight.php on line 821
+[07-Jul-2015 12:27:06 UTC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/tftekhne/public_html/application/controllers/flight.php on line 351
+[07-Jul-2015 12:29:08 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/tftekhne/public_html/application/controllers/flight.php on line 360
+[07-Jul-2015 12:29:23 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/tftekhne/public_html/application/controllers/flight.php on line 360
+[08-Jul-2015 11:42:30 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tftekhne/public_html/application/controllers/flight.php on line 390
+[08-Jul-2015 11:42:59 UTC] PHP Parse error:  syntax error, unexpected '$AirItinerary' (T_VARIABLE) in /home/tftekhne/public_html/application/controllers/flight.php on line 392
+[08-Jul-2015 11:43:01 UTC] PHP Parse error:  syntax error, unexpected '$AirItinerary' (T_VARIABLE) in /home/tftekhne/public_html/application/controllers/flight.php on line 392
+[08-Jul-2015 13:40:28 UTC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/tftekhne/public_html/application/models/email_model.php on line 377
+[08-Jul-2015 13:42:24 UTC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/tftekhne/public_html/application/models/email_model.php on line 377
+[08-Jul-2015 13:42:29 UTC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/tftekhne/public_html/application/models/email_model.php on line 377
+[09-Jul-2015 04:40:51 UTC] PHP Fatal error:  Call to undefined function sendMail() in /home/tftekhne/public_html/application/models/email_model.php on line 408
+[09-Jul-2015 05:34:19 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/tftekhne/public_html/application/models/email_model.php on line 410
+[09-Jul-2015 05:35:09 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/tftekhne/public_html/application/models/email_model.php on line 410
+[13-Jul-2015 14:31:38 UTC] PHP Fatal error:  Call to a member function getElementsByTagName() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 446
+[15-Jul-2015 13:14:59 UTC] PHP Fatal error:  Call to undefined method Flight_Model::get_airport_citycode() in /home/tftekhne/public_html/application/views/flight/ajax_results_round.php on line 289
+[07-Aug-2015 13:23:14 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/tftekhne/public_html/application/views/common/header.php on line 263
+[11-Aug-2015 05:34:44 UTC] PHP Fatal error:  Call to undefined function geoip_time_zone_by_country_and_region() in /home/tftekhne/public_html/application/views/index.php on line 12
+[17-Aug-2015 14:49:36 UTC] PHP Fatal error:  Call to a member function insertBefore() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 798
+[24-Aug-2015 07:54:57 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/tftekhne/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[24-Aug-2015 07:59:40 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/tftekhne/public_html/application/views/flight/ajax_results_multi.php on line 70
+[24-Aug-2015 07:59:40 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/tftekhne/public_html/application/views/flight/ajax_results_multi.php on line 70
+[24-Aug-2015 08:09:57 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/tftekhne/public_html/application/views/flight/ajax_results_multi.php on line 70
+[24-Aug-2015 08:13:05 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/tftekhne/public_html/application/views/flight/ajax_results_multi.php on line 70
+[24-Aug-2015 08:13:46 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/tftekhne/public_html/application/views/flight/ajax_results_multi.php on line 57
+[31-Aug-2015 05:34:00 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'No provider ID specified.' in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php:40
+Stack trace:
+#0 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(256): Hybrid_Provider_Adapter->factory('aHR0cDovL3RmLnR...', Array)
+#1 /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Auth.php(202): Hybrid_Auth::setup('aHR0cDovL3RmLnR...', NULL)
+#2 /home/tftekhne/public_html/application/controllers/auth.php(276): Hybrid_Auth::authenticate('aHR0cDovL3RmLnR...')
+#3 [internal function]: Auth->logout('aHR0cDovL3RmLnR...')
+#4 /home/tftekhne/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#5 /home/tftekhne/public_html/index.php(212): require_once('/home/tftekhne/...')
+#6 {main}
+  thrown in /home/tftekhne/public_html/application/third_party/hybridauth/Hybrid/Provider_Adapter.php on line 40
+[01-Sep-2015 10:58:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tftekhne/public_html/application/views/index.php on line 438
+[16-Sep-2015 09:56:26 UTC] PHP Fatal error:  Call to undefined function lang() in /home/tftekhne/public_html/application/views/common/header.php on line 15
+[16-Sep-2015 09:56:26 UTC] PHP Fatal error:  Call to undefined function lang() in /home/tftekhne/public_html/application/views/common/header.php on line 15
+[16-Sep-2015 09:56:27 UTC] PHP Fatal error:  Call to undefined function lang() in /home/tftekhne/public_html/application/views/common/header.php on line 15
+[05-Oct-2015 14:05:01 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:09:59 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:10:18 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:10:27 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:10:28 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:11:14 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:11:16 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:11:51 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:20:24 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:20:31 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[05-Oct-2015 14:41:20 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[06-Oct-2015 05:04:53 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/tftekhne/public_html/application/libraries/Xml_to_array.php on line 70
+[06-Oct-2015 10:25:50 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/tftekhne/public_html/application/libraries/Xml_to_array.php on line 70
+[06-Oct-2015 10:26:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 539
+[06-Oct-2015 10:35:22 UTC] PHP Fatal error:  Call to undefined function LowFareSearchReq() in /home/tftekhne/public_html/application/controllers/flight.php on line 226
+[08-Oct-2015 09:32:48 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 613
+[20-Oct-2015 13:40:29 UTC] PHP Fatal error:  Call to a member function insertBefore() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 778
+[21-Oct-2015 04:03:10 UTC] PHP Fatal error:  Call to a member function insertBefore() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 778
+[21-Oct-2015 05:54:03 UTC] PHP Fatal error:  Call to a member function insertBefore() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 778
+[21-Oct-2015 06:07:53 UTC] PHP Fatal error:  Call to a member function insertBefore() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 778
+[21-Oct-2015 09:06:08 UTC] PHP Fatal error:  Call to a member function insertBefore() on a non-object in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 778
+[18-Dec-2015 08:04:40 UTC] PHP Parse error:  syntax error, unexpected '.1' (T_DNUMBER) in /home/tftekhne/public_html/application/controllers/flight.php on line 167
+[21-Jan-2016 14:07:23 UTC] PHP Fatal error:  Cannot redeclare AirTicketingReq() (previously declared in /home/tftekhne/public_html/application/helpers/flight_helper.php:783) in /home/tftekhne/public_html/application/helpers/flight_helper.php on line 1121

@@ -1,0 +1,126 @@
+﻿
+API Pre-Productions Details
+====================================
+
+Client_Id:6ZY9			
+User ID :	Universal API/uAPI9148913608-5226b928 	
+password:	5Li_Y{8z&6	
+Branch code:	P7003720
+Url	:       https://emea.copy-webservices.travelport.com/B2BGateway/connect/uAPI/AirService
+
+API Productions Details
+====================================
+
+Client_Id:6i90			
+User ID :	Universal API/uAPI7420772130-64fd4c43 	
+password:	X+n64dS_N?	
+Branch code:	P1496502
+Url	:       https://emea.copy-webservices.travelport.com/B2BGateway/connect/uAPI/AirService
+
+
+https://emea.universal-api.travelport.com/B2BGateway/connect/uAPI/HotelService 
+
+
+
+
+
+Live Reservationfactory DB and FTP Deatils
+====================================
+
+
+Ftp Details below:
+=================
+
+ Domain: rf.tekhne.nl
+
+| HasCgi: y
+| UserName: rftekhne
+| PassWord: T35t2015, asd456#@!
+
+
+Database Details:
+================
+
+rf.tekhne.nl/cpanel
+
+hostname = 'localhost';
+username = 'rftekhne_rf';
+password = 'ProvabPassword';
+database = 'rftekhne_reservation_factory';
+Please note no need to use fare indicator for U2. If you see the response U2 may not support Private fares.  
+
+ <common_v33_0:ResponseMessage Code="14" Type="Warning" ProviderCode="ACH">U2 carrier may not support private fares modifiers</common_v33_0:
+ResponseMessage>
+
+You have received the below warning in AirPrice and AirCreateReservation Response "U2 does not support Passenger Type Code 
+CNN; request submitted as CHD"
+
+
+Admin Details
+============
+Url :http://rf.tekhne.nl/admin
+Username :admin@rfactory.com
+Password :rfactory
+
+TWS Profiler Details:
+====================
+Url:https://twsprofiler.travelport.com/
+We are not submitted here if you want submit via Soaupui software or nurmally run via curl but live server
+
+Xml Submit:https://twsprofiler.travelport.com/Service/Default.ashx/AirService (Service)
+
+System: Galileo
+HAP: 	uAPI9148913608-5226b928
+Password:veeramahi29	
+
+Regarding Any Doubt In TravelporUapi Just raise  The Ticket and Get respons
+===========================================================================
+
+https://support.travelport.com/tdssupport/main.asp
+username:harshtekhne
+password:harsh37
+
+Product :univeral api
+Version : latest 15.
+Request Category : Depend upon yours
+Pseudo City Code :6i90
+Client ID: n/a
+Host System :pre or prod
+
+Payment Gateway:
+===============
+Ogone Test
+============	
+https://ogone.test.v-psp.com/Ncol/Test/BackOffice/login/index?branding=OGONE&CSRFSP=%2fncol%2ftest%2fbackoffice%2fhome%2findex&CSRFKEY=7855FA24C1B372BFC7C444E03FC7CA869829D720&CSRFTS=20150530142703											
+	Username (PSID): ReservationFactory											
+	Password: ReservationF11!
+	Saha_pass:ReservationFactory123@											
+												
+Ogone Production
+===============	
+https://secure.ogone.com/Ncol/Prod/BackOffice/login/index?branding=OGONE&CSRFSP=%2fncol%2fprod%2fbackoffice%2fhome%2findex&CSRFKEY=BFE41B9121F0947DDD7FA876BFDC2B4F9812BAE3&CSRFTS=20151027201721											
+
+
+About TravelportuAPI Docs URL Deatils
+====================================
+Flight:
+=======
+https://support.travelport.com/webhelp/uapi/uAPI.htm#SampleWeb/Samples_Air-ACH.htm%3FTocPath%3DSamples%7CXML%2520Samples%7CXML%2520Samples%7CAir%7C_____3
+https://support.travelport.com/webhelp/uapi/Content/SampleWeb/Samples_Air-ACH.htm#102
+https://support.travelport.com/webhelp/uapi/Content/Schemas/LowFareSearchReq.html
+Hotel
+=====
+https://support.travelport.com/webhelp/uapi/uAPI.htm#SampleWeb/Samples_Air-ACH.htm%3FTocPath%3DSamples%7CXML%2520Samples%7CXML%2520Samples%7CAir%7C_____3
+https://support.travelport.com/webhelp/uapi/Content/SampleWeb/Samples_Air-ACH.htm#102
+https://support.travelport.com/webhelp/uapi/Content/Schemas/LowFareSearchReq.html
+https://support.travelport.com/webhelp/uapi/Content/Getting_Started/Endpoints_Services.htm
+Car
+===
+https://support.travelport.com/webhelp/uapi/uAPI.htm#Vehicle/Vehicle_Schema_Overview.htm%3FTocPath%3DVehicle%7CVehicle%2520Schemas%7C_____0
+https://support.travelport.com/webhelp/uapi/Content/SampleWeb/Individual_Sample_Pages/009-1G_Vehicle_SearchToCancel.htm
+https://support.travelport.com/webhelp/uapi/Content/SampleWeb/Individual_Sample_Pages/019_1G_VehicleMatrix_SearchToCancel.htm
+
+
+
+
+

@@ -1,0 +1,14 @@
+[08-Jun-2015 10:06:59 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 509626 bytes) in /home/tftekhne/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[08-Jun-2015 19:28:12 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 509626 bytes) in /home/tftekhne/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[17-Jul-2015 15:25:42 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 509626 bytes) in /home/tftekhne/public_html/system/database/drivers/mysql/mysql_result.php on line 167
+[25-Aug-2015 09:28:22 UTC] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/tftekhne/public_html/admin/application/controllers/home_settings.php on line 114
+[25-Aug-2015 09:37:40 UTC] PHP Parse error:  syntax error, unexpected 'ini_set' (T_STRING), expecting function (T_FUNCTION) in /home/tftekhne/public_html/admin/application/controllers/home_settings.php on line 6
+[25-Aug-2015 09:47:49 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/tftekhne/public_html/admin/application/controllers/home_settings.php on line 116
+[25-Aug-2015 09:48:00 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/tftekhne/public_html/admin/application/controllers/home_settings.php on line 116
+[25-Aug-2015 09:48:27 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/tftekhne/public_html/admin/application/controllers/home_settings.php on line 116
+[31-Aug-2015 11:32:26 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/tftekhne/public_html/admin/application/controllers/promo.php on line 211
+[31-Aug-2015 11:33:03 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/tftekhne/public_html/admin/application/controllers/promo.php on line 211
+[31-Aug-2015 11:33:19 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/tftekhne/public_html/admin/application/controllers/promo.php on line 211
+[01-Sep-2015 05:38:16 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/tftekhne/public_html/admin/application/models/email_model.php on line 545
+[01-Sep-2015 07:18:39 UTC] PHP Fatal error:  Call to undefined function prin_r() in /home/tftekhne/public_html/admin/application/models/email_model.php on line 984
+[03-Sep-2015 14:13:59 UTC] PHP Fatal error:  Call to undefined method Markup::get_all_airlines() in /home/tftekhne/public_html/admin/application/controllers/markup_b2c.php on line 277

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<HotelFindResponse time="1.2078819274902" ipaddress="199.79.62.63" count="0">
+  <ArrivalDate>09/06/2018</ArrivalDate>
+  <DepartureDate>11/06/2018</DepartureDate>
+  <Currency>INR</Currency>
+  <GuestNationality>IN</GuestNationality>
+  <SearchSessionId>e1mi1vnonhsg5nlesp0omupa63</SearchSessionId>
+  <Hotels>
+    <Error>No Record Found</Error>
+  </Hotels>
+</HotelFindResponse>

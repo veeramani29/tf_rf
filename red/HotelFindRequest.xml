@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<HotelFindRequest>
+  <Authentication>
+    <AgentCode>X31570</AgentCode>
+    <UserName>Tripmidas</UserName>
+    <Password>Tr!pm!id@s@123</Password>
+  </Authentication>
+  <Booking>
+    <ArrivalDate>09/06/2018</ArrivalDate>
+    <DepartureDate>11/06/2018</DepartureDate>
+    <CountryCode>AE</CountryCode>
+    <City>968</City>
+    <GuestNationality>IN</GuestNationality>
+    <HotelRatings>
+      <HotelRating>1</HotelRating>
+      <HotelRating>2</HotelRating>
+      <HotelRating>3</HotelRating>
+      <HotelRating>4</HotelRating>
+      <HotelRating>5</HotelRating>
+    </HotelRatings>
+    <Rooms>
+      <Room>
+        <Type>Room-1</Type>
+        <NoOfAdults>1</NoOfAdults>
+        <NoOfChilds>1</NoOfChilds>
+        <ChildrenAges>
+          <ChildAge>5</ChildAge>
+        </ChildrenAges>
+      </Room>
+    </Rooms>
+  </Booking>
+</HotelFindRequest>

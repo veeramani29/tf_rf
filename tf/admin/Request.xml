@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><?xml version="1.0" encoding="utf-8"?>
+    <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+        <s:Header>
+            <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:8080/kestrel/AirService</Action>
+        </s:Header>
+        <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <LowFareSearchReq TargetBranch="P7028803" xmlns="http://www.travelport.com/schema/air_v28_0">
+                <BillingPointOfSaleInfo OriginApplication="UAPI" xmlns="http://www.travelport.com/schema/common_v28_0" ></BillingPointOfSaleInfo>
+                    <SearchAirLeg>
+                        <SearchOrigin>
+                            <CityOrAirport Code="BLG" xmlns="http://www.travelport.com/schema/common_v28_0" ></CityOrAirport>
+                        </SearchOrigin>
+                        <SearchDestination>
+                            <CityOrAirport Code="IST" xmlns="http://www.travelport.com/schema/common_v28_0" ></CityOrAirport>
+                        </SearchDestination>
+                       <SearchDepTime PreferredTime="2015-07-31T00:00:00" ></SearchDepTime>
+                        <AirLegModifiers>
+                            <PreferredCabins>
+                                <CabinClass Type="Economy" xmlns="http://www.travelport.com/schema/common_v28_0" ></CabinClass>
+                            </PreferredCabins>
+                        </AirLegModifiers>
+                    </SearchAirLeg>
+                    
+                    
+					<AirSearchModifiers>
+                    <PreferredProviders>
+                        <Provider Code="1G" xmlns="http://www.travelport.com/schema/common_v28_0" ></Provider>
+                    </PreferredProviders>
+                    </AirSearchModifiers>
+                    <SearchPassenger Code="ADT" xmlns="http://www.travelport.com/schema/common_v28_0" ></SearchPassenger>
+                    
+                    
+            </LowFareSearchReq>
+        </s:Body>
+    </s:Envelope>

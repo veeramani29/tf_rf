@@ -1,0 +1,1096 @@
+@media (max-width: 1199px){
+	/*deals modal css start*/
+	#DealsModal .modal-dialog, #DealsModalH .modal-dialog{padding: 0 19px 0 0;}
+	#DealsModal .modal-lg, #DealsModalH .modal-lg{width: 81.3%;}
+	/*default modal css start*/
+	.modal-lg{width: 81.3%;}
+	.modal.in .modal-dialog{padding-top: 160px;top: 0;}
+}
+@media (max-width: 1170px){
+	/*deals modal css start*/
+	#DealsModal, #DealsModalH{margin-top: 0;}
+	#DealsModal .modal-lg, #DealsModalH .modal-lg{width: 83%;}
+	/*default modal css start*/
+	.modal-lg{width: 85%;}
+}
+@media (max-width: 1070px){
+	/*deals modal css start*/
+	#DealsModal .modal-dialog, #DealsModalH .modal-dialog{padding: 0 19px 0 0;}
+	/*default modal css start*/
+	.modal-lg{width: 91%;}
+}
+@media (max-width: 1000px){
+	/*deals modal css start*/
+	#DealsModal .modal-dialog, #DealsModalH .modal-dialog{padding: 0 15px 0 0;}
+	/*default modal css start*/
+	.modal-lg{width: 97%;}
+}
+@media (max-width: 991px){
+	body{overflow-x: hidden; overflow-y: visible;}
+	/*deals modal css start*/
+	#DealsModal .modal-dialog, #DealsModalH .modal-dialog{padding: 80px 0 0 0;}
+	#DealsModal .dealsbook_button, #DealsModalH .dealsbook_button{float: none;text-align: center;}
+	#DealsModal .modal-lg, #DealsModalH .modal-lg{width: 721px;}
+	/*default modal css start*/
+	.modal-lg{width: 750px;}
+	.modal.in .modal-dialog{padding-top: 80px;top: 0;}
+	body.modal-open, .modal{padding-right: 0 !important;}
+	/*index page css start*/
+	/*factory tab contents css start*/
+	.container_indexpage .fullwidthbg_image{position: relative; }
+	.container_indexpage .factory_imageindex2{width: 100%; left: 0;margin-bottom: 40px; }
+	.container_indexpage .tab_contents{top: 13%;}
+	/*right side slider css start*/
+	.row.tabcarousel_container{margin: 0;}
+	.container_indexpage .carousel_rightindex{padding: 0;}
+	.container_indexpage .nav-tabs{margin-left: 0;margin-bottom: 10px;}
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 29%;}
+	.container_indexpage .carousel-inner.carouselleft_images .thumbnail img{width: 100%; margin-left: 0;}
+	/*flight search result css start*/
+	form.search_filter ul.fs_filterform{text-align: center;}
+	form.search_filter ul.fs_filterform li.fs-button{text-align: center;margin: 13px auto 20px;width: 100%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book{width: 100%; float: none; text-align: center; margin: auto;}
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 37%;display: inline-block;text-align: left;}
+	li.fs_airlinecontainer.fs_book .fsaf_container>div{width: 50%;float: left;}
+	.container_flightsearch .fs_bgimage{width: 100%;}
+	.container_flightsearch ul.fs_flightlist{height: 467px;}
+	/*multiflight css start*/
+	.container_flightsearch ul.fs_flightlist li.fsmultiflight_flightcontainer{width: 82%;}
+	ul.fs_multiflights>li.fs_airlinecontainer:first-child{width: 16%;}
+	ul.fs_multiflights li.fs_book{width: 16%;}
+	/*flight details modal css start*/
+	.flightdetbook_btn{text-align: center;}
+	.rmf_flight{padding: 0;}
+	ul.rfm_singleflightdetails li.rfms_departure{min-width: 25%;max-width: 25%;}
+	ul.rfm_singleflightdetails li.rfms_flightimg{min-width: 41px;max-width: 41px;}
+	ul.rfm_singleflightdetails li.rfms_arival{min-width: 21%;max-width: 21%;}
+	ul.rfm_singleflightdetails li.rfms_emirates{min-width: 30%;max-width: 30%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.container_flightdetails .fd_bgimage{display: none;}
+	.container_flightdetails .fullwidthbg_image{display: inline-block; background: #999898; border: 21px solid #626365; border-radius: 21px;margin-bottom: 20px;width: 100%;}
+	.container_flightdetails .fullwidthbg_image .fullwidthbg_image{background: transparent;border:0;}
+	.container_flightdetails .fd_content{position: relative;width: 100%;top: 0;padding: 0;left: 0;}
+	.flightdetails_form .fd_namecontainer{text-align: center;}
+	.flightdetails_form .fd_namecontainer>div{text-align: left;}
+	.flightdetails_form .fd_namecontainer>div:first-child{display: inline-block;float: none;width: 100%;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(2){width: 50%;}
+	.flightdetails_form .fd_housezip{width: 40%;}
+	.flightdetails_form .fd_city{width: 34%;}
+	.container_flightdetails .fd_registerspacer{height: 13px;}
+	.fd_moreoption .fd_name>div:last-child{padding-right: 0;}
+	.fd_moreoption .fd_namecontainer>div:nth-child(2){padding-left: 0;}
+	/*overview and pay*/
+	.overview_pay .ft_paymentradio>div{padding-left: 0;}
+	.overview_pay li.total>div{padding-left: 0;}
+	.overview_pay li.total>div:nth-child(2){text-align: right;}
+	/*tarifs*/
+	.rftarifs_container li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book{width: 100%;}
+	/*conformation tab*/
+	#confirmation .con_flightdetails>div{padding-right: 0;padding-left: 5px;}
+	#confirmation .con_flightdetails>div:nth-child(3){text-align: center;}
+	/*multicity*/
+	#confirmation .con_flightdetails.conmulti_flightdetails>div{text-align: center}
+	/*hotel result page css start*/
+	.fullwidthbg_image.hotelsearch_page{background: #616365;display: inline-block;width: 100%;border-radius: 20px;margin-bottom: 20px;}
+	.hotelsearch_page .fs_bgimage{display: none;}
+	.hotelsearch_page .fs_content{position: relative;padding-right: 0;width: 100%;top: 0;padding: 10px 0;display: inline-block;}
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 61%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.hotel_singlehbook{width: 100%;text-align: center;margin-top: 20px;}
+	ul.fs_flightlist li.hotel_singlehbook .fs_airline{width: 23%;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 24%;}
+	ul.hotel_singlehdetails li.hotel_singlehname span.fsa_airlinename{width: 165px;text-overflow:ellipsis;white-space: nowrap;}
+	/*hotel details modal css start*/
+	.hmd_modalright .hdm_container{width: 45%;margin: auto;margin-bottom: 12px;}
+	.hotelmodal_hroomtable .hdm_title{font-size: 14px;}
+	.hotelmodal_hroomtable tr td:nth-child(3) button{white-space: normal;}
+	/*hotel booking tabs css start*/
+	/*tarifs*/
+	#tarifs{padding-right: 0;}
+	#tarifs .hsrtarrifs_hotellist{padding-right: 10px;}
+	#tarifs li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 60%;}
+	#tarifs ul.hotel_singlehdetails li.hotel_singlehname span.fsa_airlinename{width: 100%;}
+	.container_flightdetails .fd_tabcontent .tab-pane.active{min-height: 435px;height: auto;}
+	.hsrtarrifs_hotellist ul.fs_flightlist li.hotel_singlehname .fs_values, 
+	.hsrtarrifs_hotellist ul.fs_flightlist li.hotel_singlehname .fs_airline{width: 100%}
+	.fullwidthbg_image.hotelsearch_page{margin-bottom: 0;}
+	/*car search result css start*/
+	.hotel_searchdetails li.csr_incluprice{width: 61%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook{margin-top: 0;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.hotel_singlehdetails li.hs_image.car_image{width: 22%;text-align: center;}
+  #tarifs .hotel_searchdetails li.csr_incluprice{width: 63%;}
+  #tarifs ul.fs_filterform.car_accdsform li{width: 19%;}
+  #tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 50%;text-align: right;margin-top: 14px;}
+  #tarifs ul.fs_filterform.car_accdsform li.fs-button{width: 50%;text-align: left;}
+  #tarifs ul.fs_filterform.car_accdsform li.sort_price label{vertical-align: text-top;}
+  /*error msg css start*/
+  .rfboxed-background{text-align: center;}
+  .rfboxed-background .ercolumn_center{margin: auto;float: none;}
+  .rfboxed-background .rfboxed_img{padding-bottom: 20px;}
+  .accessdenied_con .rfboxed-background,
+	.container_404 .rfboxed-background,
+	.apierror_container .rfboxed-background,
+	.expiry_container .rfboxed-background,
+	.payfalure_container .rfboxed-background{height: 100%;}
+	/*no result page css start*/
+	.hotel_noresult.srywrap{height: 466px;}
+}
+@media (max-width: 767px) {
+	/*deals modal css start*/
+	#DealsModal .modal-dialog, #DealsModalH .modal-dialog{padding: 80px 15px 0;width: 100%;}
+	/*default modal css start*/
+	.modal-lg{width: 100%;padding: 0 15px;}
+	/*navigation styles start*/
+		ul.nav.navbar-nav.navbar-right{background-color: rgba(0,0,0,0.5);margin-top: 0;}
+		.navbar-default .navbar-nav>li>a{text-align: center;height: auto;line-height: 20px;padding: 6px !important;}
+		.navbar-default .navbar-nav>li>a.active{background-image: none;background-color: #ffffff;}
+		.navbar-default .navbar-nav>li>a.flight_menuitem{margin-right: 0;}
+		.navbar-toggle{margin-top: 4.4%;margin-right: 0}
+		.navbar-brand.logo img{margin-top: 7px;}
+		.navbar-default .navbar-toggle{background: rgba(255,255,255,0.7);}
+		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: #ffffff;}
+		.navbar-default .navbar-toggle .icon-bar{background-color: #626365;box-shadow: 1px 1px 2px #ffffff;}
+		.dropdown:hover .dropdown-menu{display: none;}
+		.dropdown.open .dropdown-menu{display: block;}
+		.dropdown.open .dropdown-menu .arrow-up{display: none;}
+		.navbar-default .navbar-nav .open .dropdown-menu>li>a{text-align: center;color: #ffffff;}
+		.navbar-default .navbar-nav>.open>a, 
+		.navbar-default .navbar-nav>.open>a:focus, 
+		.navbar-default .navbar-nav>.open>a:hover{color: #ffffff;}
+		.container>.navbar-header{margin: 0;}
+		.navbar-default .navbar-nav>li>a:hover{background-color: rgba(255,255,255,0.7);text-decoration: none;}
+		.navbar{border-width: 0;}
+	/*index page css start*/
+	/*factory tab contents css start*/
+		.container_indexpage .fullwidthbg_image{height: 596px; overflow: hidden; margin-bottom: 20px;}
+		.container_indexpage .tab_contents{top: 11%;width: 100%;}
+		.container_indexpage .tab_contents .flight_form .button_search{right: 15px;bottom: 13px;}
+		.container_indexpage .form-group .form-control{margin-bottom: 0;}
+		.visible-xs.invisible{display: block !important;}
+		.container_indexpage .well_bgwhite .well{z-index: 1;position: relative;}
+		.ff_facilitydp ul.ffdp_dp.dropdown-menu{height: 151px;}
+		/*multicity flight css start*/
+		.multicity .multicity_flexible .spacer10{display: none;}
+		.multicity .multicity_flexible{margin-bottom: 0;}
+	/*hotel index css start*/
+	.hotelcontainer_indexpage{}
+	/*flight result page css start*/
+		.container.container_flightsearch{padding-left: 15px;padding-right: 15px;margin-top: 0;}
+		.container_flightsearch .fs_content{background: #626365;border-radius: 16px; display: inline-block; width: 100%;padding-top: 20px;position: relative;padding: 20px 0;top: 0;margin-bottom: 20px;}
+		.container_flightsearch ul.fs_flightlist{height: 431px;}
+		form.search_filter ul.fs_filterform{text-align: left;}
+		form.search_filter ul.fs_filterform li{min-width: 24%;width: 24%;}
+		form.search_filter ul.fs_filterform li select{width: 100%;}
+		form.search_filter ul.fs_filterform li.fs-button{width: 20%;float: none;margin: auto;}
+		form.search_filter ul.fs_filterform li ul#price{left: auto;right: 0;}
+		ul.fs_filterform li.sort_price label{vertical-align: initial;display: inline-block;}
+		form.search_filter ul.fs_filterform li.sort_price select{width: 63%;display: inline-block;}
+		form.search_filter ul.fs_filterform li #AirlineFilter{width: 100%;}
+		li.fs_airlinecontainer.fs_book .fsaf_container{width: 40%;}
+		.fs_flightlist li.fs_singleflight li img.fs_fname{width: 103px;}
+		ul.fs_flightlist li.fs_airlinecontainer:nth-child(2), 
+		ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 26%;}
+		/*multiflight css start*/
+		ul.fs_flightlist li.fsmultiflight_flightcontainer.fs_airlinecontainer:nth-child(2){width: 100%;padding: 0;}
+		ul.fs_multiflights>li.fs_airlinecontainer:first-child{width: 100%;text-align: center;margin-bottom: 10px;}
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(1), 
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(3){width: 35%;margin-left: 0;}
+		ul.fsmultiflight_flightdata li.fs_inout{width: 13%;text-align: center;}
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(4){width: 15%;}
+	/*flight book tab css start*/
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 27%;margin-left: 0;}
+	.rftarifs_container .fs_flightlist li.fs_singleflight li img.fs_fname{width: 103px}
+	/*hotel result page css start*/
+	.container_flightsearch .hotelsearch_page .fs_content{padding-bottom: 0;}
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 54%;}
+	.hotel_shddetails .cursor-point{padding: 0;margin-bottom: 5px;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 29%;}
+	ul.hotel_singlehdetails li.hotel_singlehname span.fsa_airlinename{width: 180px;}
+	/*hotel details modal css start*/
+	.hmd_modalleft>div h4.hdm_title{font-size: 15px;}
+	.hmd_modalleft>div p{font-size: 12px;}
+	/*hotel booking tabs css start*/
+	/*tarifs*/
+	#tarifs li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 56%;}
+	/*car search result css start*/
+	.hotel_searchdetails li.csr_incluprice{width: 66%;}
+	ul.hotel_singlehdetails li.hs_image.car_image{width: 19%;}
+	li.fs_singleflight li.car_singlehbook .spacer20{display: none;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 24%;margin-top: 0;}
+	/*login modal css start*/
+	#fadeandscalereg_wrapper{padding: 0 15px;}
+	.mensionsoc{font-size: 13px;}
+	/*no result page css start*/
+	.hotel_noresult.srywrap{height: 430px;padding: 0 10px;}
+	/*utility classes*/
+	.smpaddr0{padding-right: 0;}
+	.smpaddl0{padding-left: 0;}
+}
+@media (max-width: 743px){
+	/*flight result page css start*/
+	form.search_filter ul.fs_filterform li.sort_price{width: 32%;}
+	form.search_filter ul.fs_filterform li.sort_price select{width: 71%;}
+	form.search_filter ul.fs_filterform li.fs-button{text-align: left;}
+	/*flight book tab css start*/
+	/*your information*/
+	.container_flightdetails .fd_tabtitle li{width: 50%;margin-bottom: 0;}
+	.container_flightdetails .fd_tabtitle li a{border:2px solid #626365;border-radius: 0;}
+	.container_flightdetails .fd_tabtitle li.active a,
+	.container_flightdetails .fd_tabtitle li.active a:hover{border-top: 2px solid #2980CD;}
+	.container_flightdetails .fd_tabtitle li a:hover{border-top: 2px solid #2980CD;border-bottom: 2px solid #626365;}
+	/*car booking css start*/
+	/*tarifs*/
+	form.search_filter ul.fs_filterform li.sort_price select{width: 63%;}
+	#tarifs{overflow-y:auto;}
+	#tarifs .hotel_searchdetails li.csr_incluprice{width: 62%;}
+}
+@media (max-width: 730px){
+	/*index background css start*/
+		.container_indexpage .factory_imageindex2{display: none !important;}
+		.container_indexpage .fullwidthbg_image{height: auto;display: inline-block;background-image: url(../images/FACTORY_SM.svg);background-size: cover;padding-top: 9.3%;overflow: visible;width: 100%;}
+		.container_indexpage .tab_contents{position: relative;}
+		.container_indexpage .tab_contents .flight_form{height: auto;display: inline-block;width: 100%;}
+		.container_indexpage .tab_contents .flight_form .button_search{position: relative; text-align: right; display: inline-block; width: 100%; right: 0; bottom: 0; float: left;margin-bottom: 15px;}
+		.ff_facilitydp ul.ffdp_dp.dropdown-menu{height: 104px;}
+		.flight_form .ff_dropdown .well>div{width: 20%;}
+		.flight_form .ff_dropdown .well_bgwhite .well>div{width: 100% !important;}
+		/*multiflight css start*/
+		.multicity .miltif_listcon{width: 100%;}
+		.miltif_listcon>li:nth-child(1){width: 34%;}
+		/*right side carousel css start*/
+		.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 25%;}
+	/*car indexpage css start*/
+	.car_indexpage .flight_form .ff_dropdown .well>div{margin-right: 0;padding-right: 15px;}
+	.car_indexpage .flight_form .ff_dropdown .well_bgwhite .well>div{padding-right: 0;margin: auto;}
+	.car_indexpage .flight_form .ff_dropdown .well>div select{width: 100%;}
+	/*flight search result page css start*/
+	form.search_filter ul.fs_filterform li.sort_price{width: 35%;}
+	form.search_filter ul.fs_filterform li.sort_price select{width: 67%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 30%;margin-left: 0;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(5){width: 29%;text-align: right;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book{width: 70%;margin-top: 15px;}
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 70%;}
+	/*multiflight css start*/
+		ul.fs_flightlist li.fsmultiflight_flightcontainer.fs_airlinecontainer:nth-child(2){width: 100%;}
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(4){width: 100% !important;text-align: center;margin-bottom: 10px;}
+		li.fs_singleflight ul.list-inline.fs_multiflights li.fs_airlinecontainer.fs_book{width: 100%;}
+		.fs_multiflights li.fs_airlinecontainer.fs_book .fsaf_container{width: 53%}
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(1),
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(3){width: 42%;text-align: center;vertical-align: super;}
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(1)>div,
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(3)>div{text-align: left;}
+	/*flight details modal css start*/
+	ul.list-inline.rfm_flightdetails li{text-transform: none;width: 32.5%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_namecontainer>div:nth-child(2){width: 55%;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(3){width: 20%;}
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 32%;}
+	.rftarifs_container li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book{width: 70%;}
+	.rftarifs_container ul.fs_flightlist>li:nth-child(5){width: 29%;text-align: center;}
+	/*conformation tab*/
+	#confirmation .con_flightdetails>div:first-child{width: 100%;}
+	#confirmation .con_flightdetails .flitsecimg {width: 25%;text-align: center;margin: auto;}
+	.con_flightdetails .flitsecimg .spacer30{height: 0;}
+	#confirmation .con_flightdetails>div:nth-child(2),
+	#confirmation .con_flightdetails>div:nth-child(4){width: 33%;}
+	.conformationt_design .flitsecimg img{width: auto;}
+	/*hotel result page css start*/
+	ul.hotel_singlehdetails li.hotel_singlehname span.fsa_airlinename{width: auto;white-space: normal;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 78% !important;text-align: left !important;}
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 70%;margin-top: 10px;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.hotel_singlehbook{width: 29%;margin-top: 0;}
+	ul.fs_flightlist li.hotel_singlehbook .fs_airline{width: 100%;}
+	li.hotel_singlehdeparture li.hotel_shddetails img.hsd_gallerypopicon{width: 21px;}
+	li.hotel_singlehdeparture li.hotel_shddetails a.more_pic{padding-top: 2px;}
+	/*hotel booking tabs css start*/
+	/*conformation tab*/
+	.hotelconformation_con>div:nth-child(2){width: 40%;}
+	.hotelconformation_con>div:nth-child(3){width: 60%;}
+	.hotelconformation_con>div .topfis>div{width: 50%;margin-bottom: 10px;padding-left: 0;}
+	.hotelconformation_con>div .topfis>div:last-child{width: 100%;margin-bottom: 10px;}
+	.hotelconformation_btndetails>div{width: 100%;text-align: center;margin-bottom: 10px;}
+	/*car search result css start*/
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook{width: 100%;}
+	ul.fs_flightlist li.car_singlehbook .fs_airline{width: 25%;}
+	.hotel_searchdetails li.csr_incluprice{width: 64%;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.fs_filterform.car_accdsform li,
+	#tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 33%;}
+	#tarifs ul.fs_filterform.car_accdsform li.fs-button{margin-top: 13px;width: 100%;text-align: center;}
+	#tarifs ul.fs_filterform.car_accdsform li,
+	#tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 32%;}
+	#tarifs .hotel_searchdetails li.csr_incluprice{width: 60%;}
+	/*login modal css start*/
+	.logspecify{width: 31%;margin-right: 2%;}
+	/*utility classes*/
+	.sm1padr0{padding-right: 0;}
+	.sm1padl0{padding-left: 0;}
+}
+@media (max-width: 667px){
+	/*deals modal css start*/
+	.dealsmodal_header>div{width: 100%;}
+	.dealsmodal_header>div:nth-child(2)>div{text-align: left;padding: 0;}
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{left: -45%;}
+	/*car indexpage css start*/
+	.car_indexpage .flight_form .ff_dropdown .well>div{width: 25%;}
+	.ff_dropdown .well .cid_vehicleclass{display: inline-block;}
+	/*flight search result page css start*/
+	.container_flightsearch ul.fs_flightlist{height: 530px;	}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(1){width: 100%;text-align: center;margin-bottom: 20px;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 41%;text-align: center;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.container_flightsearch ul.fs_flightlist li.fs_inout,
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){margin-bottom: 10px;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2) div,
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4) div{text-align: left;}
+	/*multiflight css start*/
+		ul.fs_flightlist li.fsmultiflight_flightcontainer.fs_airlinecontainer:nth-child(2){width: 100%;}
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(1),
+		ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(3){width: 42% !important;text-align: center;}
+		ul.fsmultiflight_flightdata li.fs_inout>div{text-align: center !important;}`
+	/*flight details modal css start*/
+	ul.list-inline.rfm_flightdetails li:first-child{width: 17%;}
+	ul.list-inline.rfm_flightdetails li{width: 40%;}
+	ul.rfm_singleflightdetails li.rfms_departure,
+	ul.rfm_singleflightdetails li.rfms_arival{text-align: center;min-width: 45%;width: 45%;}
+	ul.rfm_singleflightdetails li.rfms_emirates{min-width: 45%;max-width: 80%;}
+	/*flight book tab css start*/
+	.rftarifs_container .fs_content{position: relative;padding-right: 0;}
+	.rftarifs_container .fs_content>div:nth-child(2),
+	.rftarifs_container .fs_content>div:nth-child(3){padding-right: 0;}
+	.container_flightdetails .fd_tabcontent .tab-pane.active{height: auto;min-height: 500px;}
+	/*your information*/
+	.flightdetails_form .fd_namecontainer>div{padding-right: 0;}
+	.flightdetails_form .fd_housezip{padding: 0;}
+	.flightdetails_form .fd_country,
+	.flightdetails_form .fd_email{padding-right: 0;}
+	/*overview and pay*/
+	ul.overview_pay>li.flightbook_price{width: 17%}
+	ul.overview_pay>li.flightbook_tax{width: 33%}
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(1){width: 100%;text-align: center;}
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 41%;}
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(2) div,
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(4) div{text-align: left;}
+	/*hotel result page css start*/
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 66%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.hotel_singlehbook{width: 31%;}
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture,
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.car_performance:nth-child(2){margin-top: 0;}
+	/*hotel booking tabs css start*/
+	/*overview and pay*/
+	.cartitembuk>div.celcart{padding-left: 0;}
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.hotel_singlehname{margin-bottom: 10px;}
+	/*car search result css start*/
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook{width: 100%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2) .carpreferences div,
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook:nth-child(4) div{text-align: center;}
+	.hotel_searchdetails li.csr_incluprice{width: 63.5%;}
+	/*car booking css start*/
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer.car_performance:nth-child(2) div,
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook:nth-child(4) div{text-align: center;}
+	.rftarifs_container .fs_content .float_lwidth>div{width: 100%;text-align: center;}
+	#tarifs li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 67%;}
+	/*login modal css start*/
+	.logspecify{width: 48%}
+	.logspecify.gpluses{width: 98%;}
+	.logspecify.mymail{margin: auto;}
+	/*no result page css start*/
+	.hotel_noresult.srywrap{height: 530px;}
+	/*utility classes*/
+	.modal-content{overflow-x: hidden;}
+}
+@media (max-width: 640px){
+	/*deals modal css start*/
+	.choosefh_content>div{width: 100%;}
+	.choosefh_content>div:nth-child(2){padding-right: 15px;padding-left: 0;}
+	.choosefh_content>div:nth-child(2) div:nth-child(3){padding: 0 0 0 15px;}
+	/*navigation styles start*/
+	.navbar-toggle{margin-top: 4.5%;}
+	.navbar{min-height: 91px !important;margin-bottom: 5px;}
+	.navbar-brand.logo img{height: 65px;}
+	.navbar-nav > li > a, .navbar-brand{height: 89px;}
+	/*index page css start*/
+	/*factory tab contents css start*/
+	.container_indexpage .well_bgwhite{width: 100%;}
+	.container_indexpage .fullwidthbg_image h2.tc_title{font-size: 25px;}
+	/*multicity flight css start*/
+	.multicity .ff_dropdown .form-group{margin-bottom: 5px;}
+	.multicity .ff_dropdown select.form-control{margin-bottom: 0;}
+	.multicity .flexible_checkbox label{height: 40px;}
+	/*right side carousel css start*/
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 23%;}
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{left: -100%;}
+	/*hotel details modal css start*/
+	form#cntctHst>div.form-group{width: 40%}
+	form#cntctHst>div.hmd_traveller{width: 20%}
+	form#cntctHst>div.form-group:last-child{width: 100%;text-align: center;}
+	form#cntctHst>div.form-group:last-child label,
+	form#cntctHst>div.form-group:last-child br{display: none;}
+	.hoteldet_iconslist .hideshown_svg{width: 25px;height: auto;}
+	.hmd_modalright .hdm_container{width: 50%;}
+	/*car indexpage css start*/
+	.car_indexpage .flight_form .ff_dropdown .well>div{width: 33.3%;}
+	/*flight search page css start*/
+	form.search_filter ul.fs_filterform li.sort_price{width: 36%;}
+	/*flight details modal css start*/
+	ul.rfm_singleflightdetails li.rfms_departure,
+	ul.rfm_singleflightdetails li.rfms_arival{text-align: center;min-width: 44%;max-width: 44%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_street{width: 35%}
+	.flightdetails_form .fd_housezip{width: 65%;padding-right: 10px;}
+	.flightdetails_form .fd_city{width: 50%;padding-right: 0;}
+	.flightdetails_form .fd_country{width: 50%;padding-right: 15px;}
+	.flightdetails_form .fd_email,
+	.flightdetails_form .fd_remail{width: 50%;}
+	.flightdetails_form .fd_phnumber{padding-right: 0;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(2){width: 63%;}
+	/*overview and pay*/
+	ul.overview_pay>li.flightbook_departure,
+	ul.overview_pay>li.flightbook_departure	{width: 46%;}
+	ul.overview_pay>li.flightbook_stops,
+	ul.overview_pay>li.flightbook_jurneytime,
+	ul.overview_pay>li.flightbook_stops,
+	ul.overview_pay>li.flightbook_jurneytime{width: 27%}
+	.overview_pay .ft_paymentradio>div{width: 50%;}
+	.overview_pay .ft_paymentradio .ft_paymentradio{width: 100%;}
+	.paydiv{display: inline-block;width: 100%;}
+	/*car search result css start*/
+	ul.hotel_singlehdetails li.hs_image.car_image{width: 22%;text-align: center;float: left;}
+	.hotel_searchdetails li.csr_incluprice{width: 78%;}
+	li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 78%;margin-bottom: 0;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.fs_filterform.car_accdsform li.fs-button{width: 49%;}
+	#tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 50%;margin-top: 14px;}
+	#tarifs .hotel_searchdetails li.csr_incluprice{width: 59%;}
+	/*utility classes*/
+	.sm2paddl0{padding-left: 0;}
+}
+@media (max-width: 600px){
+	/*flight book tab css start*/
+	/*conformation tab*/
+	.con_flightdetails>div:nth-child(2) ul>li:first-child,
+	.con_flightdetails>div:nth-child(4) ul>li:first-child{width: 100%;}
+	.con_flightdetails>div:nth-child(2) .flightimgs,
+	.con_flightdetails>div:nth-child(4) .flightimgs{padding-top: 0 !important;padding-bottom: 7px;}
+	.con_flightdetails>div:nth-child(2),
+	.con_flightdetails>div:nth-child(4){text-align: center;}
+	.con_flightdetails>div:nth-child(3)>div{padding-top: 25%;}
+	.con_flightdetails>div:nth-child(5)>div:first-child{padding-top: 23%;}
+	.con_flightdetails>div:nth-child(5)>div:nth-child(5){padding-top: 23%;}
+	/*multicity*/
+	.con_flightdetails.conmulti_flightdetails>div:nth-child(5)>div:first-child{padding-top: 0;}
+	/*car search result css start*/
+	.hotel_searchdetails li.csr_incluprice{width: 61.3%;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 77%;text-align: center;}
+	#tarifs .hotel_searchdetails li.csr_incluprice{width: 100%;}
+	#tarifs .hotel_searchdetails li.csr_incluprice h5{margin-top: 10px;}
+	#tarifs ul.hotel_singlehdetails li.hs_image.car_image{float: none;}
+	/*hotel details modal css start*/
+	.hotelmodal_hroomtable tr{display: inline-block;width: 100%;}
+	.hotelmodal_hroomtable th:nth-child(1),
+	.hotelmodal_hroomtable th:nth-child(3),
+	.hotelmodal_hroomtable td:nth-child(1),
+	.hotelmodal_hroomtable td:nth-child(3){display: inline-block;width: 70%;}
+	.hotelmodal_hroomtable th:nth-child(2),
+	.hotelmodal_hroomtable th:nth-child(4),
+	.hotelmodal_hroomtable td:nth-child(2),
+	.hotelmodal_hroomtable td:nth-child(4){display: inline-block;width: 29%;}
+	.hoteldet_iconslist .hideshown_svg{width: 24px;}
+	/*hotel booking tabs css start*/
+	/*your information*/
+	.hbook_imgtype>div:first-child{padding-right: 0;}
+	/*overview and pay*/
+	.hoteltitembuk .celcart{width: 60%;}
+	.hoteltitembuk .celcart{width: 40%;}
+}
+@media (max-width: 570px){
+	/*navigation styles start*/
+	.navbar-toggle{margin-top: 5.3%;}
+	/*indexpage css start*/
+	.container_indexpage .flight_form .button_search button{font-size: 15px;padding: 6px 25px;}
+	/*calender css start*/
+	.ui-datepicker.ui-widget.ui-widget-content.ui-datepicker-multi{left: 1.5% !important;width: 97% !important;}
+	/*auto complete css start*/
+	ul.ui-autocomplete li.ui-menu-item .lbl1{text-overflow: ellipsis;white-space: nowrap;display: block;width: 163px;overflow: hidden;}
+	/*right side carousel css start*/
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 20%;}
+	/*hotel index page css start*/
+	.hotelcontainer_indexpage .hotelplace_input{width: 100%;}
+	/*flight search page css start*/
+	form.search_filter ul.fs_filterform li.sort_price{width: 39%;}
+	.fs_content .float_lwidth>div{width: 100%;text-align: center;}
+	.fs_content .float_lwidth>div h5{margin: 3px auto;}
+	.fs_content .float_lwidth div ul.text-right{text-align: center;}
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 77%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_namecontainer>div:nth-child(2){width: 65%;}
+	/*hotel result page css start*/
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 100%;text-align: center;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehbook:nth-child(4)>div{width: 36%;text-align: center;}
+	li.hotel_shddetails div:nth-child(2) img.hsd_gallerypopicon {display: inline-block;float: none;width: 20px;vertical-align: bottom;}
+	li.hotel_shddetails .animated-thumbnials.moreimg{display: inline-block;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.hotel_singlehbook{width: 100%;margin-top: 11px;}
+	ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehbook .fs_airline{width: 35%;text-align: center;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 77% !important;}
+	ul.fs_flightlist li.hotel_singlehbook.fs_airlinecontainer:nth-child(4) .fs_values div{text-align: center;}
+	/*hotel details modal css start*/
+	.hoteldet_iconslist .hideshown_svg{width: 23px;}
+	.hmd_modalright .hdm_container{width: 60%;}
+	/*hotel booking tabs css start*/
+	/*your information*/
+	#tarifs li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 100%;}
+	/*car search result css start*/
+	ul.fs_flightlist li.fs_airlinecontainer.car_performance{margin-top: 20px;}
+	.hotel_searchdetails li.csr_incluprice{width: 100%;padding: 0}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook{width: 100%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook .fs_airline{width: 30%;}
+	li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 73%;margin-top: 20px;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook:nth-child(4)>div{width: 100%;}
+	ul.hotel_singlehdetails li.hs_image.car_image{float: none;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs .hotel_searchdetails li.csr_incluprice{width: 100%;}
+	#tarifs  ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook{width: 100%;}
+	#tarifs  ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook .fs_airline{width: 35%;}
+	#tarifs .hotel_searchdetails li.csr_incluprice h5{margin-top: 10px;}
+	/*page loader css start*/
+	.lodrefrentrev{background-size: 250px;}
+}
+@media (max-width: 550px){
+	.container_indexpage .col-xs-3{width: 50%;}
+	/*indexpage css start*/
+	.container_indexpage .fullwidthbg_image{background-image: url(../images/FACTORY_SM2.svg);}
+	.container_indexpage .fullwidthbg_image h2.tc_title{font-size: 21px;}
+	.container_indexpage .tab_contents .flight_form{margin-top: 0;}
+	.container_indexpage .ff_radio{margin-bottom: 5px;}
+	.drop-spot{width: 100%;}
+	/*multicity css start*/
+	.multicity .multicity_flexible{margin-bottom: 2px;}
+	.multicity .multicity_flexible .spacer10{display: block;}
+	.multicity .multicity_flexible .checkbox{margin-top: 0;}
+	/*right side carousel css start*/
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 15%;}
+	/*hotel index page css start*/
+	.hotelcontainer_indexpage .hotelroom_container{width: 100%;}
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{left: auto;right: -150%;}
+	/*car indexpage css start*/
+	.car_indexpage .cip_picdrpcon>div:first-child{width: 40%}
+	.car_indexpage .cip_picdrpcon>div{width: 30%;}
+	/*car booking css start*/
+	.flightbook_details.caralter_price{display: none;} 
+	ul.overview_pay>li.flightbook_price.caralter_price,
+	ul.overview_pay>li.flightbook_subtotal.caralter_price{width: 27%;}
+	ul.overview_pay>li.flightbook_tax.caralter_price{width: 46%;}
+	.car_cardexpdate>div,
+	.car_securitycode{padding-left: 0;}
+	.cartitembuk .celcart{width: 100%;text-align: center;margin-bottom: 10px;padding: 0;}
+	.celcart .smalbukcrt{width: 20%;display: inline-block;}
+	.cartitembuk .splcrtpad.celcart{padding-left: 0;width: 75%;}
+	.cartitembuk .cartfprice.celcart{padding-right: 0;width: 25%;}
+	.car_cardname label{white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+	/*flight search page css start*/
+	form.search_filter ul.fs_filterform li.sort_price{width: 43%;}
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 100%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2) div, 
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4) div{text-align: center;}
+	li.fs_airlinecontainer:nth-child(2) .fs_image,
+	li.fs_airlinecontainer:nth-child(4) .fs_image{width: 100%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(5){text-align: left;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2), 
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 40%;}
+	/*multiflight css start*/
+	ul.fs_flightlist li.fsmultiflight_flightcontainer.fs_airlinecontainer:nth-child(2){width: 100%;}
+	.fs_multiflights li.fs_airlinecontainer.fs_book .fsaf_container{width: 81%;}
+	/*flight details modal css start*/
+	ul.rfm_singleflightdetails li.rfms_departure,
+	ul.rfm_singleflightdetails li.rfms_arival{text-align: center;min-width: 43%;max-width: 43%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_namecontainer>div:nth-child(2){width: 75%;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(3){width: 23%;}
+	.fd_namecontainer>div:first-child>div:nth-child(2) label{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;margin-bottom: 0;}
+	.flightdetails_form .fd_btns{width: 50%;}
+	.flightdetails_form .fd_registered{width: 50%;padding-right: 0;}
+	/*overview and pay*/
+	ul.overview_pay>li.flightbook_details,
+	ul.overview_pay>li.flightbook_price,
+	ul.overview_pay>li.flightbook_tax,
+	ul.overview_pay>li.flightbook_subtotal{width: 50%;text-align: center;}
+	ul.overview_pay>li.flightbook_details>p:first-child,
+	ul.overview_pay>li.flightbook_price>p:first-child,
+	ul.overview_pay>li.flightbook_tax>p:first-child,
+	ul.overview_pay>li.flightbook_subtotal>p:first-child{font-family: 'ArialB', Helvetica, sans-serif;}
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(2),
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 69%;text-align: center;}
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(2) div,
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(4) div{text-align: center;}
+	.rftarifs_container ul.fs_flightlist li.fs_inout,
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer:nth-child(5){width: 30%;text-align: center;}
+	.rftarifs_container li.fs_airlinecontainer.fs_book .fsaf_container{text-align: center;}
+	.rftarifs_container li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book{width: 100%;}
+	.rftarifs_container li.fs_airlinecontainer.fs_book .fsaf_container{width: 70%;}
+	#tarifs ul.fs_flightlist{height: 450px;}
+	/*conformation tab*/
+	#confirmation .thk-conformation{font-size: 13px;}
+	/*hotel result page css start*/
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehname:nth-child(2) div{text-align: left;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 74.3% !important;}
+	/*hotel details modal css start*/
+	ul.hoteldet_iconslist{text-align: center;}
+	.hoteldet_iconslist .hideshown_svg{width: 37px;}
+	/*hotel booking tabs css start*/
+	/*your information*/
+	.hbook_imgtype>div p{text-transform: lowercase;font-size: 13px;font-weight: normal;}
+	/*overview and pay*/
+	.hoteltitembuk .celcart .smalbukcrt{width: 30%;}
+	/*utility classes*/
+	.sm3paddr0{padding-right: 0;}
+}
+@media (max-width: 500px){
+	/*indexpage css start*/
+	.container_indexpage .flight_form .button_search button{font-size: 13px;padding: 5px 23px;}
+	/*flight index css start*/
+	.flight_form .ff_dropdown .well>div{width: 33.3%;}
+	.ff_dropdown .well .ff_facilitydp{padding-right: 15px;}
+	.ff_facilitydp ul.ffdp_dp{right: auto;left: -81%;}
+	.ff_dropdown .ffd_duration ul.dropdown-menu{left: auto;right: 15px;}
+	/*auto complete css start*/
+	ul.ui-autocomplete li.ui-menu-item .lbl1{width: auto;}
+	ul.ui-autocomplete li.ui-menu-item span.flex-item{font-size: 15.4px;font-family: 'Arial', Helvetica, sans-serif;;}
+	/*right side carousel css start*/
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 13%;}
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{left: auto;right: 15px;min-width: 370px;}
+	/*flight search result css start*/
+	form.search_filter ul.fs_filterform li{min-width: 32%;width: 32%;}
+	form.search_filter ul.fs_filterform li.sort_price{width: 47%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2), 
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){width: 67%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book{width: 100%;}
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 69%;}
+	ul#duration{right: 0;left: auto;}
+	form.search_filter ul.fs_filterform li ul#price{left: 0;right: auto;}
+	/*multiflight css start*/
+	ul.fs_flightlist li.fsmultiflight_flightcontainer.fs_airlinecontainer:nth-child(2){width: 100% !important;}
+	ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(1), 
+	ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(3){width: 69% !important;}
+	ul.fsmultiflight_flightdata li.fs_inout{width: 29%;}
+	ul.fsmultiflight_flightdata li.fs_airlinecontainer:nth-child(4){width: 29% !important;}
+	.fs_multiflights li.fs_airlinecontainer.fs_book .fsaf_container{width: 81%;}
+	/*flight details modal css start*/
+	ul.list-inline.rfm_flightdetails li:first-child,
+	ul.list-inline.rfm_flightdetails li{width: 100%;text-align: center;}
+	ul.rfm_singleflightdetails li.rfms_departure,
+	ul.rfm_singleflightdetails li.rfms_arival,
+	ul.rfm_singleflightdetails li.rfms_flightimg,
+	ul.rfm_singleflightdetails li,
+	ul.rfm_singleflightdetails li.rfms_emirates{min-width: 100%;max-width: 100%;text-align: center;margin: 3px auto;}
+	ul.rfm_singleflightdetails li.rfms_nonstop br{display: none;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_namecontainer>div:nth-child(2){width: 100%;padding-right: 15px;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(3){width: 35%;}
+	.fd_moreoption .fd_namecontainer>div:nth-child(3){padding-left: 0;}
+	.fd_namecontainer ul.fd_dateob li select{width: 100% !important;}
+	.fd_namecontainer ul.fd_dateob li.date{width: 25%;}
+	.fd_namecontainer ul.fd_dateob li.month{width: 45%;}
+	.fd_namecontainer ul.fd_dateob li.year{width: 28%;}
+	.flightdetails_form .fd_phnumber{width: 100%;padding-right: 15px;}
+	.flightdetails_form .fd_company{width: 100%;}
+	/*conformation tab*/
+	#confirmation .con_flightdetails>div:nth-child(2),
+	#confirmation .con_flightdetails>div:nth-child(4){width: 65%;}
+	#confirmation .con_flightdetails>div{width: 35%;}
+	#confirmation .con_flightdetails>div{text-align: center;}
+	/*multicity*/
+	#confirmation .con_flightdetails.conmulti_flightdetails>div{width: 29%;}
+	#confirmation .con_flightdetails.conmulti_flightdetails>div:nth-child(3){width: 11%;}
+	#confirmation .con_flightdetails.conmulti_flightdetails>div:first-child{width: 100%;}
+	/*car indexpage css start*/
+	.car_indexpage .well ul#price{right: 15px;left: auto;}
+	/*car booking css start*/
+	.paydiv .paydivrow>div{width: 100%;}
+	.car_cardexpdate>div,
+	.car_securitycode{padding-left: 15px;}
+	/*hotel result page css start*/
+	form.search_filter ul.fs_filterform.hotel_accdsform li.fs-button{width: 100%;text-align: center;margin-top: 10px;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 70.3% !important;}
+	ul.hotel_singlehdetails li.hotel_singlehname span.fsa_airlinename{width: 229px;white-space: nowrap;}
+	/*car search result css start*/
+	ul.fs_filterform.car_accdsform li{margin-bottom: 13px;}
+	ul.fs_filterform.car_accdsform li .form-group{margin-bottom: 0;}
+	form.search_filter ul.fs_filterform.car_accdsform li.fs-button{width: 20%;margin-top: 0;}
+	form.search_filter ul.car_accdsform li ul#price{left: auto;right: 0;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook{width: 100%;}
+	li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fs_book.car_singlehbook .fs_airline{width: 35%;}
+	.hotel_searchdetails li.csr_incluprice{width: 100%;}
+	/*hotel details modal css start*/
+	.hmd_modalright .hdm_container{width: 68%;}
+	/*hotel booking tabs css start*/
+	/*your information*/
+	.hbook_imgtype>div:first-child{width: 40%;}
+	.hbook_imgtype>div:last-child{width: 80%;}
+	/*conformation tab*/
+	.hotelconformation_con>div:nth-child(2){width: 100%;text-align: center;}
+	.hotelconformation_con>div:nth-child(2) a{width: 65%;display: inline-block;}
+	.hotelconformation_con>div:nth-child(3){width: 100%;}
+	.hotelconformation_con>div .topfis{padding: 0 10px;}
+	/*page loader css start*/
+	.lodrefrentrev{background-size: 230px;}
+	/*error msg css start*/
+  .rfboxed-background .rfboxed_img{width: 100%;padding-bottom: 20px;}
+  .payfalure_container .rfboxed_img{padding:0 15px 20px;}
+  /*login modal css start*/
+	.logspecify,
+	.logspecify.gpluses{width: 100%}
+	/*utility classes*/
+	.btn-primary{font-size: 14px;padding: 5px 25px;}
+	.modal-header .rf_modaltitle{font-size: 13px;}
+	.close{top: 5px}
+}
+@media (max-width: 455px){
+	/*deals modal css start*/
+	.modal .dealsmodal_header>div{width: 100%;}
+	.modal .dealsmodal_header>div:nth-child(2){padding-left: 0;}
+	.modal .dealsmodal_header>div:nth-child(2)>div{width: 100%;text-align: left;}
+	.modal .dealsmodal_header>div:first-child{padding-right:35px;padding-bottom: 3px;}
+	/*nav menu css start*/
+	.navbar-toggle{margin-top: 6.3%;}
+	/*indexpage css start*/
+	.container_indexpage .col-xs-6{width: 100%;}
+	.container_indexpage .fullwidthbg_image{background-image: none;background-color: rgba(98,99,101,0.6); border-radius: 10px;padding: 10px 0;}
+	.ff_facilitydp ul.ffdp_dp.dropdown-menu .col-xs-6{width: 50%;}
+	.container_indexpage .tab_contents .flight_form .button_search{padding-right: 15px;}
+	.socialicons_stickey{    bottom: 0px; margin-bottom: 0px; top: auto; width: 100%; text-align: center; border-radius: 0px; padding: 1px 0px !important; position: fixed; background: rgba(29, 29, 27, 0.9);}
+	.normal-list.socialicons_stickey li{display: inline-block;padding: 0 10px;}
+	/*multicity css start*/
+	.miltif_listcon li:nth-child(4) label,
+	.miltif_listcon li:nth-child(5) label,
+	.miltif_listcon li:nth-child(6) label{display: block;}
+	.miltif_listcon li:nth-child(1),
+	.miltif_listcon li:nth-child(2),
+	.miltif_listcon li:nth-child(3){display: none;}
+	.miltif_listcon li {width: 100%;margin-top: 11px;}
+	.ff_facilitydp ul.ffdp_dp{right: auto;left: -100%;min-width: 345px;}
+	/*right side carousel css start*/
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 29%;}
+	/*car indexpage css start*/
+	.car_indexpage .cip_picdrpcon>div:first-child{width: 46%}
+	.car_indexpage .cip_picdrpcon>div{width: 27%;}
+	.car_indexpage .flight_form .ff_dropdown .well>div {width: 50%;}
+	.car_indexpage .well ul#price{right: auto;left: 0;}
+	/*flight search result css start*/
+	form.search_filter ul.fs_filterform li{min-width: 49.3%;width: 49.3%;}
+	form.search_filter ul.fs_filterform li.sort_price,
+	form.search_filter ul.fs_filterform li.fs-button{width: 100%;text-align: center;}
+	/*multiflight css start*/
+	.fs_multiflights li.fs_airlinecontainer.fs_book .fsaf_container{width: 100%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_namecontainer>div.fd_name{padding-right: 15px;}
+	.fd_namecontainer .fd_name>div:nth-child(1){width: 23%;}
+	.fd_namecontainer .fd_name>div:nth-child(2){width: 77%;}
+	.fd_namecontainer .fd_name>div:nth-child(3){width: 100%;padding-right: 0;}
+	.fd_moreoption .fd_namecontainer .fd_name>div:nth-child(3){padding-left: 0;}
+	.fd_namecontainer ul.fd_dateob li.month{width: 44%;}
+	.flightdetails_form .fd_moreoption .fd_namecontainer>div.fd_name,
+	.flightdetails_form .fd_moreoption .fd_namecontainer>div:nth-child(2),
+	.flightdetails_form .fd_moreoption .fd_namecontainer>div:nth-child(3){padding-right: 0;}
+	.fd_moreoption .fd_namecontainer .fd_name>div:nth-child(1),  
+	.fd_moreoption .fd_namecontainer .fd_name>div:nth-child(3){padding-left: 0;}
+	/*overview and pay*/
+	.overview_pay .ft_paymentradio>div:last-child{width: 100%;}
+	ul.overview_pay>li.flightbook_departure{width: 100%;text-align: center;}
+	ul.overview_pay>li.flightbook_stops,
+	ul.overview_pay>li.flightbook_jurneytime{width: 50%;text-align: center;}
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer,
+	.rftarifs_container ul.fs_flightlist li.fs_inout{width: 100% !important;}
+	.rftarifs_container li.fs_airlinecontainer.fs_book .fsaf_container{width: 100%;}
+	/*conformation tab*/
+	#confirmation .con_ticketdetails table,
+	#confirmation .con_ticketdetails table tr,
+	#confirmation .con_ticketdetails table td{display: inline-block;width: 100%;text-align: center;}
+	/*multicity*/
+	#confirmation .con_flightdetails.conmulti_flightdetails>div{width: 43.5%;}
+	#confirmation .con_flightdetails.conmulti_flightdetails>div:nth-child(3){width: 13%;}
+	#confirmation .con_flightdetails.conmulti_flightdetails>div:last-child{width: 100%;}
+	/*hotel result page css start*/
+	ul.fs_filterform.hotel_accdsform li{margin-bottom: 13px;}
+	ul.fs_filterform.hotel_accdsform li .form-group{margin-bottom: 0;}
+	ul.hotel_singlehdetails li.hs_image{width: 100%;text-align: center;margin-bottom: 7px;}
+	ul.hotel_singlehdetails li.hs_image img{width: 90px;}
+	ul.hotel_singlehdetails li.hotel_singlehname{width: 100% !important;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehname:nth-child(2) div{text-align: center;width: 100%;}
+	li.fs_singleflight li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{padding: 0;}
+	.container_flightsearch ul.fs_flightlist li.fs_singleflight>ul.list-inline.hotel_singlehdetails{padding: 5px 8px;}
+	/*hotel details modal css start*/
+	.hotelmodal_design .hmd_modalleft>div{width: 100%}
+	.hotelmodal_design .hmd_modalleft>div:nth-child(2){text-align: center;}
+	form#cntctHst>div.form-group{width: 50%;}
+	form#cntctHst>div.form-group:last-child{width: 80%;}
+	form#cntctHst>div.hmd_traveller{width: 20%;}
+	.hotelmodal_hroomtable th,
+	.hotelmodal_hroomtable td{width: 100% !important;text-align: center;}
+	.hmd_modalright .hdm_container{width: 75%;}
+	form#cntctHst>div.form-group:last-child label,
+	form#cntctHst>div.form-group:last-child br{display: inline-block;}
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehbook .fs_airline{width: 49%;}
+	/*hotel booking tabs css start*/
+	/*your information*/
+	.hbook_imgtype{text-align: center;}
+	.hbook_imgtype>div:first-child,
+	.hbook_imgtype>div:last-child{width: 100%;}
+	.hbook_imgtype>div:first-child{padding-right: 15px;margin-bottom: 10px;}
+	.hbook_imgtype>div:first-child img{width: 70%;}
+	.hbook_imgtype>div p{font-weight: bold;}
+	/*overview and pay*/
+	.hoteltitembuk .celcart .smalbukcrt{width: 37%;}
+	/*car search result css start*/
+	form.search_filter ul.fs_filterform.car_accdsform li.fs-button{width: 100%;}
+	ul.hotel_singlehdetails li.hs_image.car_image{width: 31%;}
+	li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 67%;}
+	form.search_filter ul.car_accdsform li ul#price{left: 0;right: auto;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook .fs_airline{width: 47%;}
+	#tarifs li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 68.5% !important;}
+	#tarifs ul.hotel_singlehdetails li.hs_image.car_image img{width: 100%;}
+	#tarifs ul.hotel_singlehdetails li.hs_image.car_image{width: 30%;}
+	#tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 49%;margin-top: 0;}
+	#tarifs ul.fs_filterform.car_accdsform li.fs-button{width: 100%;margin-top: 0;}
+	/*no result page css start*/
+	.hotel_noresult.srywrap{height: auto;padding: 0 10px 50px;margin-top: 25px;}
+	/*page loader css start*/
+	.lodrefrentrev{background-size: 210px;}
+	/*utility classes*/
+	.sm4paddr0{padding-right: 0;}
+	.sm4nopadd{padding: 0;}
+}
+/*iPhone 6 Plus*/
+@media (max-width: 414px){
+	/*nav menu css start*/
+	.navbar-toggle{margin-top: 7.3%;}
+	/*index flight css start*/
+	.ff_radio .checkbox-inline+.checkbox-inline, 
+	.ff_radio .radio-inline+.radio-inline{margin-left: 0;}
+	.drop-spot{width: 184px;}
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{min-width: 323px;}
+	/*flight search result css start*/
+	ul#duration{right: auto;left: 0;}
+	ul#time{left: auto;right: 0;}
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 85%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2), 
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){text-align: left;}
+	/*flight book tab css start*/
+	/*your information*/
+	.fd_namecontainer .fd_name>div:nth-child(1){width: 25%;}
+	.fd_namecontainer .fd_name>div:nth-child(2){width: 75%;}
+	.fd_namecontainer ul.fd_dateob li.date{width: 27%;padding-left: 0;}
+	.fd_namecontainer ul.fd_dateob li.month{width: 42%;}
+	.fd_namecontainer ul.fd_dateob li.year{padding-right: 0;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(3){width: 40%;}
+	.flightdetails_form .fd_registered,
+	.flightdetails_form .fd_btns{width: 100%;}
+	/*hotel result page css start*/
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehbook:nth-child(4)>div{width: 45%;}
+	/*hotel details modal css start*/
+	.hmd_modalright .hdm_container{width: 100%;}
+	.hotelmodal_design .hmd_modalleft>div{text-align: center;}
+	form#cntctHst>div.form-group{width: 100%;text-align: left;}
+	form#cntctHst>div.hmd_traveller{width: 20%;}
+	/*car search result css start*/	
+	ul.hotel_singlehdetails li.hs_image.car_image{width: 35%;}
+	li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 63%;}
+	li.csr_incluprice h5{font-size: 12px;margin-top: 7px;margin-bottom: 2px;}
+	li.csr_incluprice ul.list-inline li{font-size: 11px;}
+	li.csr_incluprice ul.list-inline li i{font-size: 13px;margin-right: 1px;}
+	.vehicles .hotelpreferences.allamn li{width: 34px;}
+	/*hotel booking tabs css start*/
+	/*overview and pay*/
+	.hoteltitembuk .celcart .smalbukcrt{width: 100%;}
+	/*car booking css start*/
+	ul.overview_pay>li.flightbook_tax.caralter_price,
+	ul.overview_pay>li.flightbook_price.caralter_price,
+	ul.overview_pay>li.flightbook_subtotal.caralter_price{width: 100%;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.hotel_singlehdetails li.hs_image.car_image{width: 100%;}
+	#tarifs li.car_image .carimage_container{width: 30%;margin: auto;}
+	#tarifs li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 100% !important;}
+	#tarifs ul.fs_filterform.car_accdsform li.sort_price{width: 100%;text-align: left;}
+	/*conformation tab*/
+	.hotelconformation_con>div:nth-child(2) a{width: 100%;margin-bottom: 10px;}
+	.hotelconformation_con>div .topfis>div{width: 100%;text-align: center;}
+	.hotelconformation_con .topfis .fiscal>div{display: inline-block;}
+	.topfis .fiscal .answrfuxdes{margin-left: 13px;}
+	.hotelconformation_btndetails .botufis a{display: block;margin-bottom: 10px;}
+	.hotelconformation_con .topfis .rowfux>div{width: 100%;margin-bottom: 10px;}
+	/*page loader css start*/
+	.lodrefrentrev{background-size: 210px;}
+}
+/*Google Nexus 4*/
+@media (max-width: 384px){
+	/*deals modal css start*/
+	.choosefh_content>div>div{width: 100%;padding: 0;}
+	.choosefh_content>div:nth-child(2) div:nth-child(3){padding: 0;}
+	/*nav menu css start*/
+	.navbar-toggle{margin-top: 8.5%;}
+	/*index flight css start*/
+	.ff_radio .radio-inline{text-align: center;width: 49%;}
+	.ff_radio .radio-inline:nth-child(3){width: 100%;}
+	.flight_form .ff_dropdown .well>div{width: 50%;}
+	.ff_dropdown .ffd_duration ul.dropdown-menu{left: 0;right: auto;}
+	.ff_facilitydp ul.ffdp_dp{left: 0;min-width: 295px;}
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{left: 0;right: auto;min-width: 300px;}
+	/*car indexpage css start*/
+	.car_indexpage .cip_picdrpcon>div:first-child{width: 54%}
+	.car_indexpage .cip_picdrpcon>div{width: 23%;}
+	/*flight search result css start*/
+	li.fs_airlinecontainer.fs_book .fsaf_container{width: 100%;}
+	/*flight book tab css start*/
+	/*your information*/
+	.flightdetails_form .fd_street{width: 100%;}
+	.flightdetails_form .fd_housezip{width: 100%;padding-left: 15px;}
+	.flightdetails_form .fd_city,
+	.flightdetails_form .fd_country,
+	.flightdetails_form .fd_email,
+	.flightdetails_form .fd_remail{width: 100%;padding-right: 15px;}
+	.flightdetails_form .fd_registered{margin-bottom: 10px;}
+	.container_flightdetails .fd_tabtitle li{width: 100%;}
+	.fd_namecontainer .fd_name>div:nth-child(2){padding-left: 7px;}
+	.overview_pay .ft_paymentradio .ft_paymentradio .car_american{width: 50%;}
+	/*conformation tab*/
+	#confirmation .con_flightdetails.conmulti_flightdetails>div{width: 60%;margin: 5px auto;}
+	#confirmation .con_flightdetails.conmulti_flightdetails>div:nth-child(3),
+	#confirmation .con_flightdetails.conmulti_flightdetails>div:last-child{width: 40%}	
+	/*car search result css start*/
+	.vehicles .hotelpreferences.allamn li{width: 35px;}
+	ul.hotel_singlehdetails li.hs_image.car_image{width: 39%;}
+	li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 59%;margin: 0 auto;}
+	.vehicles .hotelpreferences.allamn li .carp_count{font-size: 10px;}
+	/*car booking css start*/
+	.cartitembuk .splcrtpad.celcart,
+	.cartitembuk .cartfprice.celcart{width: 100%;}
+	.overview_pay .ft_paymentradio .car_american{width: 100%;}
+	.celcart .smalbukcrt{width: 31%;}
+	/*car booking css start*/
+	/*tarifs*/
+	#tarifs ul.fs_flightlist li.fs_airlinecontainer.car_singlehbook .fs_airline{width: 59%;}
+	/*hotel booking tabs css start*/
+	/*tarifs*/
+	.rftarifs_container ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehbook .fs_airline{width: 61%;}
+	.rftarifs_container ul.fs_flightlist li.fs_singleflight{width: 100%;}
+}
+/*iPhone 6*/
+@media (max-width: 375px){
+	/*index flight css start*/
+	.container_indexpage .flight_form .button_search button{font-size: 13px;padding: 4px 19px;}
+	.flight_form .ff_dropdown .well>div.open:nth-child(2) .dropdown-menu,
+	.flight_form .ff_dropdown .well>div.open:nth-child(4) .dropdown-menu{right: 15px;left: auto;}
+	/*flight search result css start*/
+	li.fs_singleflight .fs_airline .fsa_airlinename,
+	ul.fs_flightlist li.fs_inout .fso_outbond,
+	.container_flightsearch button.btn.btn_transparent.color_black,
+	.container_flightsearch .farecondition_button,
+	li.fs_singleflight .fs_airline .fsa_departure{font-size: 11px;}
+	li.fs_airlinecontainer.fs_book .fs_airline span.fsa_airlinename{font-size: 14px;}
+	ul.fs_flightlist li.fs_airlinecontainer .fs_airline .btn_inputs{font-size: 10px;}
+	.fs_flightlist li.fs_singleflight li img.fs_fname{width: 100px;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(1){margin-bottom: 8px;}
+	.fs_content .float_lwidth>div h5{font-size: 12px;}
+}
+/*Galaxy Note 3, Galaxy S5, Galaxy S5 Mini*/
+@media (max-width: 360px){
+	.ff_facilitydp ul.ffdp_dp{min-width: 255px;}
+	/*auto complete css start*/
+	ul.ui-autocomplete li.ui-menu-item .lbl1{width: 170px;}
+	/*right side carousel css start*/
+	.container_indexpage .carousel_rightindex .thumbnail .carousel_text{top: 25%;}
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{min-width: 270px;}
+	/*hotel details modal css start*/
+	form#cntctHst>div.hmd_traveller,
+	form#cntctHst>div.hmd_traveller select{width: 100%;}
+	form#cntctHst>div.form-group:last-child{width: 100%;}
+	/*hotel booking tabs css start*/
+	/*your information*/
+	.hbook_imgtype>div:first-child img{width: 100%;}
+	/*car indexpage css start*/
+	.car_indexpage .cip_picdrpcon>div:first-child{width: 100%;padding-right: 0;}
+	.car_indexpage .cip_picdrpcon>div{width: 50%;}
+	/*car booking css start*/
+	.car_cardexpdate>div{width: 100%;}
+	/*flight search result css start*/
+	li.fs_airlinecontainer.fs_book .fsaf_container>div{width: 100%;text-align: center;float: none;}
+	li.fs_airlinecontainer.fs_book .fsaf_container>div:first-child button{width: 100%;}
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(2), 
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer:nth-child(4){text-align: center;}
+	/*flight book tab css start*/
+	/*overview and pay*/
+	.overview_pay .ft_paymentradio>div{width: 100%;}
+	/*page loader css start*/
+	.lodrefrentrev{background-size: 190px;}
+}
+@media (max-width: 335px){
+	/*flight search result css start*/
+	form.search_filter ul.fs_filterform li{width: 100%}
+	/*flight book tab css start*/
+	/*your information*/
+	.fd_namecontainer .fd_name>div:nth-child(1),
+	.fd_namecontainer .fd_name>div:nth-child(2),
+	.fd_namecontainer .fd_name>div:nth-child(3){width: 100%;padding-left: 15px;}
+	.well .fd_namecontainer .fd_name>div:nth-child(2){padding-left: 0;width: 100%}
+	.fd_namecontainer ul.fd_dateob li.date,
+	.fd_namecontainer ul.fd_dateob li.month,
+	.fd_namecontainer ul.fd_dateob li.year{width: 100%;padding: 0;}
+	.flightdetails_form .fd_namecontainer>div:nth-child(3){width: 100%;padding-right: 15px;}
+	/*overview and pay*/
+	ul.overview_pay>li.flightbook_details,
+	ul.overview_pay>li.flightbook_price,
+	ul.overview_pay>li.flightbook_tax,
+	ul.overview_pay>li.flightbook_subtotal{width: 100%;}
+	/*hotel result page css start*/
+	.container_flightsearch ul.fs_flightlist li.fs_airlinecontainer.hotel_singlehbook:nth-child(4)>div{width: 45%;}
+	/*page loader css start*/
+	.lodrefrentrev{background-size: 170px;}
+	/*car search result css start*/
+	form.search_filter ul.car_accdsform li ul#price{width: 100%;}
+	ul.hotel_singlehdetails li.hs_image.car_image{width: 100%;}
+	ul.hotel_singlehdetails li.hs_image img{display: block;margin: auto;}
+	li.fs_singleflight ul.hotel_searchdetails li.fs_airlinecontainer.fsa_departure.car_performance{width: 100%;}
+	li.csr_incluprice ul.list-inline li{font-size: 10px;}
+	/*utility classes*/
+	.modal-header .rf_modaltitle{text-transform: capitalize;}
+}
+/*iPhone 5S*/
+@media (max-width: 320px){
+	/*hotel index page css start*/
+	.ff_facilitydp.facilitydp_right ul.ffdp_dp{min-width: 250px;}
+}

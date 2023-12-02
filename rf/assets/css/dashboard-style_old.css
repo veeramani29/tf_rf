@@ -1,0 +1,114 @@
+/*img.bg{display: none;}*/
+/*nav.navbar.navbar-default{
+background-color: #626365;
+padding-bottom: 20px;
+margin-bottom: 0;
+}*/
+.dashnav_container {
+    background: none repeat scroll 0 0 #727272;
+    position: relative;
+}
+.nav>li>a{
+    color: #ffffff;
+}
+.dashnav_container .nav-pills>li.active>a{
+    background-color: transparent;
+    color: #FFD627;
+    border-bottom: 3px solid #FFD627;
+    border-radius: 0;
+}
+.dashnav_container .nav-pills>li>a:hover{
+    background-color: transparent;
+    color: #FFD627;
+    border-radius: 0;
+}
+.dash_container{
+    background: #f5f5f5;
+    padding: 15px;
+}
+.dash_container .profile_photo{width: 100%;}
+.dashrow{
+    border: 1px solid #ddd;
+}
+.userprowrp {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 3px 0 0 #d8d8d8;
+    display: block;
+    overflow: hidden;
+    padding: 0 0 20px;
+}
+.profileusrs {
+    transition: all 0.4s ease-in-out 0s;
+    display: block;
+    text-align: center;
+}
+.proname {
+    display: block;
+    font-size: 16px;
+    margin: 15px 0 0;
+    text-align: center;
+}
+.dashed {
+    background: none repeat scroll 0 0 #8cc152;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+.indashrow {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 3px 0 0 #d8d8d8;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+.onlysent {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
+.dshcol {
+    float: left;
+    width: 25%;
+}
+.indash {
+    padding: 10px;
+}
+.dashico {
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    display: table;
+    height: 100px;
+    margin: 0 auto;
+    padding: 22px 0 0;
+    text-align: center;
+    width: 100px;
+}
+.dashinhed {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
+}
+.indash p {
+    color: #666;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.tab-content5> .tab-pane, .pill-content > .pill-pane {
+    display: none;
+}
+.tab-content5 > .active, .pill-content > .active {
+    display: block;
+}
+
+/*utility classes*/
+.marbtm20 {
+    margin-bottom: 20px;
+}

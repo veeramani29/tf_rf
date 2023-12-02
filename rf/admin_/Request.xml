@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><?xml version="1.0" encoding="UTF-8"?>
+                                <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://www.travelport.com/schema/common_v31_0" xmlns:veh="http://www.travelport.com/schema/vehicle_v31_0">
+                                   <soapenv:Header />
+                                   <soapenv:Body>
+                                      <veh:VehicleSearchAvailabilityReq  AuthorizedBy="user"  ReturnAllRates="false"  TargetBranch="P7003720" TraceId="trace">
+                                         <com:BillingPointOfSaleInfo OriginApplication="UAPI" />
+                                         <veh:VehicleDateLocation PickupDateTime="2015-10-30T14:00:00" PickupLocation="MAA" ReturnDateTime="2015-11-03T14:00:00" ReturnLocation="BOM"/>
+                                     <veh:VehicleSearchModifiers   PreferredCurrency="EUR">
+                                       <!-- <veh:SearchDistance Direction="NE" MaxDistance="15" MinDistance="1" Units="KM"/>-->
+                                    <veh:VehicleModifier      AirConditioning="true" />
+
+                                     </veh:VehicleSearchModifiers>
+                                      </veh:VehicleSearchAvailabilityReq>
+                                   </soapenv:Body>
+                                </soapenv:Envelope>

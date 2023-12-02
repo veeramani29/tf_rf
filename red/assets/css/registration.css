@@ -1,0 +1,225 @@
+.travel .btn:hover, .travel .btn:focus { color:#fff }
+
+.travel header { background: rgba(0, 0, 0, 0.2); border:none; min-height:50px; }
+
+.travel header nav ul { margin: 0 }
+
+.travel header nav li { float:left }
+
+.travel header nav li a { display:block; padding:18% 31%; height: 50px; width: 70px; color:#fff }
+
+.travel header nav li a i { font-size:28px;font-style: normal;}
+
+.homeIcon,li.home:hover i { width:26px; height:25px; display:inline-block; background:url("../img/homeIcon.png?v=nd-v0102") no-repeat scroll left -1px }
+
+.homeIconNew { width:40px; height:33px; display:inline-block; background: url("../img/homeIcon.png?v=nd-v0102") no-repeat scroll left top; background-size: 70% auto }
+
+li.home:hover i { background-position:left -29px }
+
+.travel header nav li a:hover i { color:#022d55 }
+
+.travel header nav .home { background:#0082bb }
+
+.travel header nav .flight, .travel header nav .packages { background:#2ba4d9 }
+
+.travel header nav .hotel { background:#3db8ee }
+
+.travel header nav .hotel i { font-size:30px; font-style:normal; line-height: 20px }
+
+.travel header .language { padding-top:14px; text-align:right }
+
+.travel header .language a { color:#dfdfdf; line-height: 20px; }
+
+.travel header .language a:hover { color: #ffffff; cursor: pointer; }
+
+.travel header .language a.small-icon-arabic { font-family: "droid arabic kufi",roboto; }
+
+.small-icon-arabic, .small-icon-english { display: inline-block; line-height: 22px; padding-left: 25px; padding-right: 0; position: relative; }
+
+.small-icon-arabic:before, .small-icon-english:before { top:6px; }
+
+/******** travel content start here ************/
+
+.travelContent {}
+
+.travelContent h2 { color: #505050; font-size: 26px; margin:0 0 10px;}
+
+.travelLogoSec { padding-top: 50px }
+
+.travelLogoSec:after { clear: both; content: ""; display: table }
+
+.travelLogoSec img { float:left }
+
+.travelLogoSec h1 { color: #fff; font-size: 35px; padding:35px 0 0 15px; margin:0; display: inline-block }
+
+/*.travelContent p { color: #fff; font-size: 24px; line-height: 35px; padding:35px 0 47px 0; text-align: justify; text-shadow: 1px 1px 0 #333, 1px 1px 1px #333 }*/
+
+.travelWelDec ul { margin-top:33px }
+
+.travelWelDec ul li { color: #fff; font-size: 24px; line-height: 26px; text-align: justify; text-shadow: 1px 1px 0 #333, 1px 1px 1px #333; position: relative; padding:0 0 10px 20px }
+
+.travelWelDec ul li:before { background:#fff; border-radius: 50%; content: " "; height: 10px; left: 0; position: absolute; top: 8px; width: 10px }
+
+.travelContent aside { background:#fff; padding:25px }
+
+.getAccessTo h2{color: #08cbff}
+
+.getAccessTo ul.getAccessTo{ border-top:solid 1px #717171; border-bottom:solid 1px #717171; padding:30px 0}
+
+.getAccessTo ul.getAccessTo:after{content:" "; clear:both; visable:hidden; height:0; display:block}
+
+.getAccessTo ul.getAccessTo li{float:left; width:33.333%;font-size: 28px; color:#fff;font-weight:bold}
+
+.getAccessTo ul.getAccessTo li span{font-size: 16px;font-weight: bold; display:block; line-height:20px;}
+
+.getAccessTo ul.getAccessTo li i {border: 3px solid #fff;border-radius: 50%;color: #fff;float: left;font-size: 20px;height: 50px;line-height:46px;margin-right: 10px;text-align: center;vertical-align: middle;width: 50px;padding-right: 5px;}
+
+.getAccessTo ul.getAccessTo li.lcc i {background:#3db8ee}
+
+.getAccessTo ul.getAccessTo li.ic i {background:#ffb117}
+
+.getAccessTo ul.getAccessTo li.hw i {background:#fd4a44;font-size: 21px;font-style: normal; padding-right:0;}
+
+.travelRegister .leftSec { width:47% }
+
+.travelRegister .rightSec { width: 39%;float: right; }
+
+.travelContent aside h2 { border-bottom:solid 1px #ececec; padding:0 0 15px; margin-bottom:20px;text-align: center; }
+
+.travelContent aside ul.loginForm { padding-bottom: 5px;margin-left:0px; }
+
+.travelContent aside ul.loginForm li { display:block; margin-top:20px }
+
+.travelContent aside ul.loginForm li:first-child { margin-top:0 }
+
+.travelContent aside ul.loginForm li label { color: #505050; display: block; font-size: 15px; padding:0 0 5px; font-weight:normal }
+
+.travelContent aside ul.loginForm li input { padding: 7px 10px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius:2px; width: 100%; height: 40px; background:#fff }
+
+.travelContent aside ul.loginForm li select { padding: 10px; width: 100%; height:40px; color:#444; border: 1px solid #ccc; line-height: 20px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px }
+
+.travelContent .custom-select-v3:before { border:none; display:block; color:#c7c7c7; font-size:7px; font-weight:700; height:42px; line-height:42px; padding-left:3px; pointer-events:none; position:absolute; right:0; top:0; margin-right:0; width:24px; font-weight:normal }
+
+.travelContent aside .forgotPass { float:right; font-size: 13px; color:#fff; text-decoration:underline; cursor: pointer}
+
+.travelContent aside .forgotPass:hover { text-decoration:none }
+
+.buttonContainer { clear:both; padding-top:15px }
+
+.mandatField { color: #f00; font-size: 12px; font-weight: bold }
+
+.travelContent aside .startToday { background:#f5f5f5; clear: both; margin: 20px -25px -25px; padding: 15px 0 15px 0;text-align:center; float:left;}
+
+.travelContent aside .startToday h2 { border:none; margin-bottom:0 }
+
+.check_bo_log{ width: 30px !important;
+    float: left;
+    margin-top: 2px !important;
+    height: 15px !important; }
+
+/******** travel footer start here ************/
+
+.travel footer { background: #002548; padding: 15px 0; color: #8395a6; text-align:center; border:0;}
+
+.travel footer .footerLinks { padding-bottom:25px }
+
+.travel footer .footerLinks a { color: #8395a6; font-size: 13px; line-height: 18px; text-decoration: none; display:inline-block; margin:0 5px }
+
+.travel footer .footerBottom a { color: #fff; font-size: 12px; font-weight: bold; line-height: 18px; text-decoration: none; text-transform: uppercase }
+
+.travel footer .footerBottom { font-size: 11px; line-height: 18px }
+
+
+
+.custom-select-v3.lg.frnc { background: #fff none repeat scroll 0 0;border-radius: 2px;height: 42px;}
+
+.frnc .ddChild ul li{margin: 0 !important;padding: 5px 13px;}
+
+
+
+.travelContent aside ul.loginForm li input, .travelContent aside ul.loginForm li select {
+
+    margin-bottom: 0;
+
+}
+
+.travelContent aside ul.loginForm li textarea {
+
+    resize: vertical;
+
+    width: 100%;
+
+	padding:10px;
+
+	font-size:14px;
+
+}
+
+
+
+.btn {
+
+    background-color: #63A50D;
+
+    color: #fff;
+
+}
+
+ul.loginForm {
+
+    padding-left: 0px;
+
+}
+
+.btn:hover {
+
+    background: rgba(99, 165, 13, 0.73);
+
+}
+
+.pad0{padding:0px;}
+.bor_das{    border-bottom: 1px dashed #ccc;
+    padding-bottom: 24px;}
+.reg_but12{background: #fff !important;border-color:#f74623;color:#f74623 !important; margin:auto;}
+.reg_but12:hover{background: #f74623 !important;border-color:#f74623;color:#fff !important; margin:auto;}
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #cccccc;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.bac_ban{padding: 0;
+    background-color: #fbfbfb;}
+    
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.travelContent{
+    top: 233px;
+    right: 28px;}
+
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+.travelContent{
+    top: 233px;
+    right: 28px;}
+
+}
+.startToday {
+    background: #f5f5f5;
+    clear: both;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    float: left;
+    width: 100%;
+}

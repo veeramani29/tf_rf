@@ -1,0 +1,687 @@
+/**
+ *
+ * Author : Anand A,
+ *
+ * Date : 10.50PM / 31-03-2016,
+ *
+ * Company : Anand.
+ *
+ */
+/*   ========================================================================
+					 Variable DECLARATION STARTS
+	 ========================================================================   */
+/*   ========================================================================
+					 FONT FACE DECLARATION STARTS
+	 ========================================================================   */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../plugins/font-awesome-4.3.0/fonts/fontawesome-webfont.eot?v=4.2.0");
+  src: url("../plugins/font-awesome-4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format('embedded-opentype'), url("../plugins/font-awesome-4.3.0/fonts/fontawesome-webfont.woff?v=4.2.0") format('woff'), url("../plugins/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf?v=4.2.0") format('truetype'), url("../plugins/font-awesome-4.3.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*   ========================================================================
+					 Mixins Starts
+	 ========================================================================   */
+/*   ========================================================================
+					 General Styles Starts
+	 ========================================================================   */
+.pad-null {
+  padding: 0;
+}
+.brr-nul {
+  border-radius: 0 !important;
+}
+.pad-rgt-5 {
+  padding: 0 0.5rem 0 0;
+}
+.pad-lft-5 {
+  padding: 0 0 0 0.5rem;
+}
+.z99 {
+  z-index: 99 !important;
+}
+.txt-right {
+  text-align: right;
+}
+.pos-abs {
+  position: absolute;
+}
+.txt-ctr {
+  text-align: center;
+}
+.mrg-top-10 {
+  margin-top: 3rem;
+}
+.btn.btn-read {
+  border: 0.2rem solid #000;
+  padding: 1rem 2rem;
+  border-radius: 0;
+  margin-top: 0.5rem;
+  color: #000;
+}
+.btn.btn-read:hover {
+  border: 0.2rem solid $menu-txt;
+  background: $menu-txt;
+}
+.btn.btn-black {
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  border: none;
+}
+.btn {
+  border-radius: 0;
+}
+.btn.close {
+  background: #444;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  opacity: 1;
+  color: #fff;
+  position: relative;
+}
+.btn.close:hover {
+  background: #555;
+}
+.input-readonly {
+  border: none;
+  background: transparent;
+}
+.pos-rel {
+  position: relative;
+}
+.form-group .form-control {
+  border-radius: 0;
+  padding: 1rem 1rem 1rem 3rem;
+}
+.ml10 {
+  margin: 0 0 0 1rem;
+}
+.ml15 {
+  margin: 0 0 0 1.5rem;
+}
+.pad-5 {
+  padding: 0 0.5rem;
+}
+.pad-5left {
+  padding: 0 0.5rem 0 1.5rem;
+}
+.pad-5right {
+  padding: 0 1.5rem 0 0.5rem;
+}
+.form-group.ico-l10:after {
+  left: 2.2rem;
+}
+.form-group.ico-l10 .form-control {
+  padding: 1rem 1rem 1rem 3rem;
+}
+a {
+  color: $link-clr;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #0a0a3c;
+  text-decoration: none;
+}
+.color-white {
+  color: #fff !important;
+}
+.box {
+  background: #e4e4fa;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.17);
+}
+.thumbnail {
+  border-radius: 0;
+  border: none;
+}
+.list-unstyled {
+  margin-bottom: 0;
+}
+.btn-primary {
+  padding: 0.3rem 2.5rem;
+  border: 2px solid #646464;
+}
+.btn-default {
+  border-radius: 8px;
+  padding: 0.3rem 2.5rem;
+  border: 2px solid #646464;
+}
+.btn-download {
+  background-color: #08bee0;
+  padding: 6px 12px;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.navbar-toggle {
+  border-radius: 0;
+  border: 0;
+  margin-top: 30px;
+}
+.navbar-toggle span {
+  background-color: #fff !important;
+}
+Body Scroll,
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #808080;
+}
+.btn-primary {
+  background-color: #646464;
+  border-radius: 4px;
+}
+.checkBox input[type=radio] {
+  display: none;
+}
+.checkBox label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+.checkBox label:before {
+  border-radius: 3px;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  top: 10px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  border: 2px solid #646464;
+  background-color: #fff;
+/*box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);*/
+}
+.checkBox input[type=radio]:checked + label:before {
+  content: "\2713";
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  font-size: 18px;
+  color: #646464;
+  text-align: center;
+  line-height: 8px;
+  padding-left: 1px;
+}
+/*   ========================================================================
+					 Anand Styles Starts
+	 ========================================================================   */
+body {
+  font-family: 'Roboto';
+}
+body header {
+  min-height: 68px;
+}
+body header nav.navbar {
+  background-color: #0a0a3c;
+  border-bottom: none;
+  border-radius: 0;
+  border: 0;
+}
+@media (max-width: 768px) {
+  body header nav.navbar {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+body header nav.navbar .container-fluid {
+  padding: 0 5rem;
+}
+@media (max-width: 468px) {
+  body header nav.navbar .container-fluid .navbar-header .navbar-toggle {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    margin: 0;
+  }
+}
+body header nav.navbar .container-fluid .navbar-header .navbar-brand {
+  height: auto;
+  color: #e4e4fa;
+  padding: 9px;
+}
+body header nav.navbar .container-fluid .navbar-header .navbar-brand img {
+  display: inline-block;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  body header nav.navbar .container-fluid #mainNav .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  body header nav.navbar .container-fluid #mainNav .navbar-nav li {
+    float: left;
+  }
+}
+body header nav.navbar .container-fluid #mainNav .navbar-nav li a {
+  margin: 17px 15px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0;
+}
+@media (max-width: 992px) {
+  body header nav.navbar .container-fluid #mainNav .navbar-nav li a {
+    margin: 8px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
+body header nav.navbar .container-fluid #mainNav .navbar-nav li a.btn.btn-primary {
+  background-color: #646464;
+  color: #e4e4fa;
+}
+body header nav.navbar .container-fluid #mainNav .navbar-nav li a.btn.btn-primary i {
+  font-size: 11px;
+  font-weight: 100;
+  border: 2px solid #e4e4fa;
+  height: 25px;
+  width: 25px;
+  line-height: 22px;
+  border-radius: 50%;
+}
+body header nav.navbar .container-fluid #mainNav .navbar-nav li.active a {
+  background-color: transparent;
+  border-bottom: 1px solid #8a6208;
+}
+body section {
+  position: relative;
+  background-color: #1e1e1e;
+}
+body section aside {
+  height: 100%;
+}
+body section aside ul {
+  margin: 30px 0;
+  background-color: #6b6b6b;
+  list-style: none;
+}
+body section aside ul li a {
+  padding: 10px;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+body section aside ul li a:before {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #f5aa00;
+  position: absolute;
+  left: -8px;
+  top: 16px;
+  content: "";
+}
+body section section {
+  height: 100%;
+  max-height: 100%;
+  float: left;
+  background-color: #e6e6e6;
+  overflow: auto;
+}
+body section section .clearfix h2 {
+  color: #515151;
+  font-weight: 300;
+}
+body section section .clearfix .clearfix .col-sm-4 {
+  padding: 30px;
+}
+body section section .clearfix .clearfix .col-sm-4 p {
+  background-color: #fff;
+  padding: 15px;
+}
+body section section .clearfix .clearfix .col-sm-4 label {
+  background-color: #f5aa00;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  color: #fff;
+}
+body section section .clearfix .subTitleForHead {
+  padding: 2rem 1.5rem;
+}
+body section section .clearfix .subTitleForHead h2 {
+  margin: 0;
+}
+body section section .clearfix .subTitleForHead .form-control {
+  border-radius: 0;
+}
+body section section .clearfix .addDetails {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 1.5rem 1.5rem 20%;
+}
+@media (max-width: 540px) {
+  body section section .clearfix .addDetails table tr td,
+  body section section .clearfix .addDetails table tr th {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  body section section .clearfix .addDetails table tr td:last-child {
+    width: 100% !important;
+  }
+}
+body section section .clearfix .addDetails.contact label,
+body section section .clearfix .addDetails.contact span {
+  float: left;
+  font-weight: 500;
+}
+body section section .clearfix .addDetails.contact label {
+  width: 20%;
+  text-align: left;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .addDetails.contact label {
+    width: 100%;
+  }
+}
+body section section .clearfix .addDetails.contact span {
+  width: 80%;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .addDetails.contact span {
+    width: 100%;
+  }
+}
+body section section .clearfix .addDetails.contact span select.form-control,
+body section section .clearfix .addDetails.contact span small {
+  width: auto;
+  float: left;
+  line-height: 3rem;
+}
+body section section .clearfix .addDetails.contact span small {
+  margin-left: 3rem;
+}
+body section section .clearfix .addDetails.contact span .form-control {
+  height: auto;
+}
+body section section .clearfix .addDetails .form-control {
+  border-radius: 0;
+  background-color: #e6e6e6;
+  padding: 6px 12px;
+}
+body section section .clearfix .addDetails.adminList .table tr td:last-child {
+  width: 20%;
+}
+body section section .clearfix .addDetails.subscribe {
+  margin-bottom: 15px;
+}
+body section section .clearfix .discount {
+  background-color: #fff;
+  padding: 3rem;
+  margin: 1.5rem 1.5rem;
+}
+body section section .clearfix .discount .proLogo {
+  width: 250px;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .discount .proLogo {
+    width: 100%;
+  }
+}
+@media (max-width: 468px) {
+  body section section .clearfix .discount .list-inline li {
+    margin-bottom: 10px;
+  }
+}
+body section section .clearfix .discount.productAdd .form-control {
+  background-color: #e6e6e6;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .discount.productAdd .list-inline li {
+    margin-bottom: 10px;
+  }
+}
+body section section .clearfix .discount.productAdd .list-inline li a {
+  line-height: 3rem;
+  text-decoration: underline;
+}
+body section section .clearfix .discount.productAdd .inlineForm label {
+  width: 20%;
+  float: left;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .discount.productAdd .inlineForm label {
+    width: 100%;
+  }
+}
+body section section .clearfix .discount.productAdd .inlineForm .form-control {
+  width: 80%;
+  float: left;
+}
+body section section .clearfix .discount.productAdd .col-sm-2 {
+  text-align: center;
+}
+body section section .clearfix .discount.productAdd .col-sm-2 img {
+  width: 100%;
+}
+body section section .clearfix .discount.productAdd .col-sm-2 a {
+  text-decoration: underline;
+  margin-top: 10px;
+  display: block;
+}
+body section section .clearfix .discount.productAdd .col-sm-10 {
+  padding-top: 2rem;
+}
+body section section .clearfix .discount.productAdd .col-sm-10 .form-group label {
+  width: 20%;
+  float: left;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .discount.productAdd .col-sm-10 .form-group label {
+    width: 100%;
+  }
+}
+body section section .clearfix .discount.productAdd .col-sm-10 .form-group .form-control {
+  width: 80%;
+  float: left;
+}
+@media (max-width: 468px) {
+  body section section .clearfix .discount.productAdd .col-sm-10 .form-group .form-control {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  body section section .clearfix .discount.addDetails .table tr td,
+  body section section .clearfix .discount.addDetails .table tr th {
+    display: block;
+    text-align: center !important;
+  }
+  body section section .clearfix .discount.addDetails .table tr th:first-child {
+    width: 100% !important;
+  }
+}
+body section section .clearfix .discount.addDetails .table tbody tr td:first-child {
+  width: 16%;
+}
+@media (max-width: 540px) {
+  body section section .clearfix .discount.download .table tr td,
+  body section section .clearfix .discount.download .table tr th {
+    display: block;
+    text-align: center !important;
+  }
+}
+body section section .clearfix .discount.download .table tbody tr td:first-child {
+  width: auto;
+}
+body section section .clearfix .discount.download .table tbody tr td {
+  text-align: center;
+}
+body section section .clearfix .discount.download .table tbody tr td .fa-windows {
+  color: #08bee0;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .col-sm-4 {
+  padding: 0 15px;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .col-sm-4 label {
+  padding: 0;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .form-group label {
+  display: block;
+  background-color: transparent;
+  color: #515151;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .form-group .form-control {
+  background-color: #e6e6e6;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .form-group span {
+  display: block;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .form-group span .form-control,
+body section section .clearfix .discount.downloadEdit.clearfix .form-group span i {
+  display: inline-block;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .form-group span .form-control {
+  width: 90%;
+}
+body section section .clearfix .discount.downloadEdit.clearfix .form-group span i {
+  color: #08bee0;
+}
+body section section .clearfix .discount .table {
+  margin: 0;
+}
+@media (max-width: 540px) {
+  body section section .clearfix .discount .table tr td,
+  body section section .clearfix .discount .table tr th {
+    display: block;
+    text-align: center !important;
+  }
+  body section section .clearfix .discount .table tr th:last-child {
+    width: 100% !important;
+  }
+}
+body section section .clearfix .discount .table thead tr th {
+  text-align: left;
+  line-height: 2.5rem;
+}
+body section section .clearfix .discount .table thead tr th:last-child {
+  border: none;
+  width: 13%;
+  text-align: center;
+}
+body section section .clearfix .discount .table tbody tr td {
+  border: none;
+  text-align: left;
+}
+body section section .clearfix .discount .table tbody tr td label {
+  font-weight: 300;
+}
+body section section .clearfix .discount .table tbody tr td .fa-close {
+  color: #f5aa00;
+}
+body section section .clearfix .discount .table tbody tr:first-child td {
+  padding-top: 2rem;
+}
+body .info {
+  position: relative;
+  color: #646464;
+  background-color: #e6e6e6;
+  padding: 10rem 0;
+}
+body .infoSect {
+  padding: 2.5rem 1.5rem 0;
+  border: 1px solid #979797;
+  position: relative;
+  margin: 4rem 0;
+  background-color: #fff;
+}
+body .infoSect .title {
+  position: absolute;
+  background-color: #646464;
+  padding: 5px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+  top: -23px;
+}
+body .infoSect .form-control {
+  background-color: #e6e6e6;
+}
+@media (max-width: 540px) {
+  body .infoSect table tr td,
+  body .infoSect table tr th {
+    display: block;
+    text-align: center !important;
+  }
+  body .infoSect table tr th:first-child {
+    width: 100% !important;
+  }
+}
+body .upgrade .infoSect .form-group {
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+body .upgrade .infoSect .form-group label {
+  float: left;
+  width: 35%;
+}
+@media (max-width: 468px) {
+  body .upgrade .infoSect .form-group label {
+    width: 100%;
+  }
+}
+body .upgrade .infoSect .form-group .form-control {
+  width: 65%;
+  float: left;
+}
+@media (max-width: 468px) {
+  body .upgrade .infoSect .form-group .form-control {
+    width: 100%;
+  }
+}
+body .upgrade .infoSect .col-sm-5 label {
+  width: 30%;
+}
+@media (max-width: 468px) {
+  body .upgrade .infoSect .col-sm-5 label {
+    width: 100%;
+  }
+}
+body .upgrade .infoSect .col-sm-5 .form-control {
+  width: 59%;
+  margin-right: 1%;
+}
+@media (max-width: 468px) {
+  body .upgrade .infoSect .col-sm-5 .form-control {
+    width: 100%;
+  }
+}
+body .upgrade .infoSect .col-sm-5 .fa-calendar {
+  width: 10%;
+}
+@media (max-width: 540px) {
+  body .upgrade .infoSect table tr td,
+  body .upgrade .infoSect table tr th {
+    display: block;
+    text-align: center !important;
+  }
+  body .upgrade .infoSect table tr th:first-child {
+    width: 100% !important;
+  }
+}
+body footer {
+  background-color: #0a0a3c;
+  padding: 15px;
+  color: #e4e4fa;
+  text-align: center;
+  width: 100%;
+}
+body footer p {
+  padding: 0;
+  margin: 0;
+}

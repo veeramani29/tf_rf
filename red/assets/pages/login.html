@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Asfar</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="../dist/css/bundal.css" rel="stylesheet">
+    <link href="../dist/css/style.css" rel="stylesheet">
+    <link href="../dist/css/travel-setting.css" rel="stylesheet">
+    <link href="../dist/css/landing-style.css" rel="stylesheet">
+    <link href="../dist/css/flaticon.css" rel="stylesheet">
+    <link href="../dist/css/font-awesome.css" rel="stylesheet">
+    <link href="../dist/css/font-linearicons.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .navLinks li a{color: #fff;}
+        .topMenu>li>a:hover, .topMenu>li>a:focus {
+                        color: #fec524;
+                        background-color: none;
+                    }
+        .topMenu>li>a{ color: #fff;}
+        .nav-outer .supportCont a{ color: #fff;}
+        .nav-outer .supportCont a:hover, .nav-outer .supportCont a:focus {
+                        color: #fec524;
+                        background-color: none;
+                    }
+     header {
+                z-index: 100;
+                min-height: 60px;
+            }
+        .headLeft{height: 60px;}
+        .login{ background-color: #ccc;    padding: 56px 0 55px 0; background-image: url(../dist/img/bg4.jpg); background-repeat: no-repeat; background-size: 100% 100%;}
+        .login1{     background-color: #000000;
+    padding: 24px;
+    opacity: 0.65;
+    color: #fff;}
+        .tex_cen{ text-align: center; color: #fff;}
+        .pad10{    margin-top: 0px;
+    padding-left: 33px;}
+        .mar5{ margin-top: 5px !important;}
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        
+        <header class="header-bg-color">
+            <div class="container">
+                <div class="headLeft">
+                    <div class="clearfix">
+
+                        <div class="logo">
+                            <a class="home" href="index.html" data-tracker="HEADER_LOGO">
+                            </a>
+                        </div>
+
+                        <!-- top nav starts here -->
+                        <ul class="topMenu">
+
+                            <li class="myTrip"> <a href="<?php echo site_url(); ?>/home/login"><span class="flaticon-male80"></span> Sign-in</a> </li>
+                            <!--################ CHANGE ###################-->
+                            <li class="dp-opt myAc" style="margin-left: 0px;margin-right: 0px;">
+                                <a><span>|</span></a>
+                            </li>
+                            <li class="myTrip register" style='margin-left: 0px;'> <a href="<?php echo site_url(); ?>/home/register" >Register</a> </li>
+
+                            <li class="myTrip"> <a href="#"><span class="flaticon-list50"></span> My Account</a> </li>
+
+                            <li class="dp-opt country" style="display:">
+                                <a href="javascript:void(0)"><i class="flaticon-earth38"></i> <span>Global
+								</span></a>
+                            </li>
+                            <li class="currency dp-opt" style="display:">
+                                <a href="javascript:void(0)"> <span class="currency-icon"></span> <span class="curChange">SAR - Saudi Riyal</span> </a>
+                            </li>
+                            <li class="nav-outer">
+                                <div class="supportCont"><a href="tel:8903158391" class="selText">8903158391</a></div>
+                            </li>
+                        </ul>
+
+                        <!-- top nav ends here -->
+                    </div>
+
+                    <!-- main nav starts here -->
+                    <div class="nav-outer clearfix">
+                        <ul class="navLinks">
+                            <li class="tnlHome"> <a href="index.html" data-tracker="HOME">Home </a></li>
+                            <li class="tnlFlight"><a href="#" data-tracker="FLIGHTS_HOME">Flights </a></li>
+                            <li class="tnlHotel"><a href="#" data-tracker="HOTELS_HOME">Hotels</a></li>
+                            <li class="tnlFPH"><a href="#" data-tracker="PACKAGES_HOME">Packages</a></li>
+                            <!--<li class="tnlCars"><a href="/en/cars" data-tracker="CARS_HOME">Cars</a></li> -->
+                        </ul>
+
+                    </div>
+                    <!-- main nav ends here -->
+                </div>
+
+            </div>
+        </header>
+   
+        <div class="container-fluid login">
+            <div class="container">
+
+                <div class="col-md-6" style="padding-left:0px;">
+                    <div style="font-size: 30px;color: #ffffff;margin-top: 5px;margin-left: 59px;">
+                        Asfar Travels - Agents
+                    </div>
+                    <div class="agent-text" style="color: #ffffff;font-size: 20px;font-weight: bold;margin-top: 22px;">
+                        
+                        <ul>
+                            <li style="margin-bottom: 15px;">Register Now, it only takes minutes</li>
+                            <li style="margin-bottom: 15px;">24/7 contacted by Afsar support team</li>
+                            <li style="margin-bottom: 15px;">Create your own sub agents.</li>
+                            <li style="margin-bottom: 15px;">Your account will be verified, and you are on you way to earn money.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 login1">
+                    <h3 class="tex_cen">Agent Sign Up</h3>
+                    <hr>
+                    <form>
+                      <div class="form-group col-md-6">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="exampleInputPassword1">Email</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                      </div>
+                        <div class="form-group col-md-6">
+                        <label for="exampleInputEmail1">Travel Agency Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Travel Agency Name">
+                      </div>
+                        <div class="col-md-6">
+                            <label>Location</label>
+                            <select class="form-control">
+                              <option>Saudi</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </div>
+                        <div style="clear:both;"></div>
+                      <div class="form-group col-md-6">
+                        <label for="exampleInputPassword1">City</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="City">
+                          
+                      </div>
+                        <div class="col-md-6">
+                            <div class="col-md-12"><label for="exampleInputPassword1">Mobile Number</label></div>
+                            
+                            <div class="form-group col-md-4">
+
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="+91">
+                          </div>
+                             <div class="form-group col-md-8">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mobile number">
+                          </div>
+                        </div>    
+                            
+                      <div class=" col-md-2">
+                            <button type="submit" class="btn btn-default" style="background: #266aa5;border-color: #266aa5;color: #ffffff;">Submit</button>
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div style="margin-top:30px;font-size:18px;color:#ffffff; padding-left:50px;">
+                                Don't Have Asfar Travels - Agent Account? <a href="/index.php/home/register" style="color: rgb(0, 118, 243);font-size: 20px;">Click here.</a>
+                            </div>
+                    </form>
+</div>
+            </div>
+        </div>
+        
+    <!-- /#page-wrapper -->
+        <div class="wrapper-footer wrapper-footer-newsletter">
+            <div class="main-top-footer">
+                <div class="container">
+                    <div class="row">
+
+                        <aside class="col-sm-3 widget_text">
+                            <h3 class="widget-title">ABOUT COMPANY</h3>
+                            <div class="textwidget">
+                                <ul class="menu list-arrow">
+                                    <li><a href="#">Press Centre</a></li>
+                                    <li><a href="#">Travel News</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                        <aside class="col-sm-3 widget_text">
+                            <h3 class="widget-title">INFORMATION</h3>
+                            <div class="textwidget">
+                                <ul class="menu list-arrow">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                        <aside class="col-sm-3 widget_text">
+                            <h3 class="widget-title">Our Menu</h3>
+                            <div class="textwidget">
+                                <ul class="menu list-arrow">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </aside>
+                        <aside class="col-sm-3 widget_text">
+                            <h3 class="widget-title">CONTACT</h3>
+                            <div class="textwidget">
+                                <div class="footer-info">
+                                    <p>Lorem ipsum dolor sit amet, cons ectetueradipiscing elit, sed diam nonu my nibh euis motincidunt ut laoreetd
+                                    </p>
+                                    <ul class="contact-info">
+                                        <li><i class="fa fa-map-marker fa-fw"></i> 1945 Washington, San Francisco</li>
+                                        <li><i class="fa fa-phone fa-fw"></i> +918903158391</li>
+                                        <li>
+                                            <i class="fa fa-envelope fa-fw"></i><a href="mailto:hello@siteinfo.com"> hello@siteinfo.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                        <!-- <aside class="col-sm-3 custom-instagram widget_text">
+						<h3 class="widget-title">Instagram</h3>
+						<div class="textwidget">
+							<ul>
+								<li><img src="assets/images/instagram/1.jpg" alt="instagram"></li>
+								<li><img src="assets/images/instagram/2.jpg" alt="instagram"></li>
+								<li><img src="assets/images/instagram/3.jpg" alt="instagram"></li>
+								<li><img src="assets/images/instagram/4.jpg" alt="instagram"></li>
+								<li><img src="assets/images/instagram/5.jpg" alt="instagram"></li>
+								<li><img src="assets/images/instagram/6.jpg" alt="instagram"></li>
+							</ul>
+						</div>
+					</aside> -->
+                    </div>
+                </div>
+            </div>
+            <div class="container wrapper-copyright">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div>
+                            <p>Copyright © 2017 Salman. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <aside id="text-5" class="widget_text">
+                            <div class="textwidget">
+                                <ul class="footer_menu">
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li>|</li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li>|</li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

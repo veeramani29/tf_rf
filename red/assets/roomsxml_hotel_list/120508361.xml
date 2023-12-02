@@ -1,0 +1,5 @@
+<?xml version="1.0"?><HotelElement><Id>120508361</Id><Name>J Towers Hotel Boutique</Name><Region><Id>21095</Id><Name>Near Center</Name><CityId>17493</CityId></Region><Type>Hotel</Type><Address><Address1>Texas 17, Col. Napoles</Address1><Address2 /><Address3 /><City>Mexico City</City><State /><Zip>03810</Zip><Country>Mexico</Country><Tel>+52 55 7045 0200</Tel><Fax /><Email /><Url /></Address><Stars>4</Stars><GeneralInfo><CheckInTime>15</CheckInTime><CheckOutTime>13</CheckOutTime></GeneralInfo><Description><Language>en</Language><Type>General</Type><Text>General information
+Location
+Area
+Recreation
+Rooms</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Area</Text></Description><Rating><System>Stars</System><Score>40</Score><Description>Four star</Description></Rating><Rank>1</Rank></HotelElement>

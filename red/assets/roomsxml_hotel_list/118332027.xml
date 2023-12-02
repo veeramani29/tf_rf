@@ -1,0 +1,5 @@
+<?xml version="1.0"?><HotelElement><Id>118332027</Id><Name>Residence Inn Gulfport-Biloxi Airport</Name><Region><Id>21429</Id><Name>Gulfport</Name><CityId>19384</CityId></Region><Type>Hotel</Type><Address><Address1>14100 Airport Road</Address1><Address2 /><Address3 /><City>Gulfport</City><State /><Zip>39503</Zip><Country>USA</Country><Tel>12888671722</Tel><Fax>12288671723</Fax><Email /><Url /></Address><Stars>3</Stars><GeneralInfo /><Description><Language>en</Language><Type>General</Type><Text>General information
+Location
+Area
+Recreation
+Rooms</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Area</Text></Description><Rating><System>Stars</System><Score>30</Score><Description>Three star</Description></Rating><Rank>1</Rank></HotelElement>

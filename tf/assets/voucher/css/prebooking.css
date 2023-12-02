@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.detailsPageLeft {
+	width:65%;
+	float:left;
+	margin-bottom:10px;
+	}
+	
+.detailsPageRight {
+	width:34%;
+	float:right;
+	margin-bottom:10px;
+	}
+	
+.detailsLeftHeading {
+	background: #eeeeee;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #ffffff 50%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(50%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+	-moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -khtml-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+	padding:6px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #CCC;
+	margin-top:10px;
+	color:#666666;
+	border-bottom:0px;
+	}
+	
+	
+.detailsLeftContent {
+	-moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+	padding:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #CCC;
+	color:#666666;
+	background-color:#FFF;
+	}
+.detailsRightHeading {
+	background: #eeeeee;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #ffffff 50%, #eeeeee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(50%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	background: linear-gradient(to bottom,  #eeeeee 0%,#ffffff 50%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 );
+	-moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -khtml-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+	padding:6px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #CCC;
+	margin-top:10px;
+	color:#666666;
+	border-bottom:0px;
+	}
+	
+	
+.detailsRightContent {
+	-moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+	padding:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #CCC;
+	color:#666666;
+	background-color:#FFF;
+	}
+	
+.iconPlus {
+	background-image:url(../images/plus.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:20px;
+	width:20px;
+	}
+.iconMinus {
+	background-image:url(../images/minus.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	height:20px;
+	width:20px;
+	}
+
+.flightDetailSeatMap {
+	float:left;
+	}
+	
+
+
+.flightDetailSeatMap table tr td {
+	padding:2px;
+	}
+
+.flightDetailSeatMap .iconPreferential {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -6px;
+	width:20px;
+	height:25px;
+	}
+	
+.flightDetailSeatMap .iconOccupied {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -39px;
+	width:20px;
+	height:25px;
+	}
+	
+.flightDetailSeatMap .iconAvailable {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -74px;
+	width:20px;
+	height:25px;
+	}
+	
+.flightDetailSeatMap .iconRestricted {
+	background-image:url(../images/seatIcon.png);
+	background-repeat:no-repeat;
+	background-position:-4px -107px;
+	width:20px;
+	height:25px;
+	}
+.flightDetailSeatMap .iconBlank {
+	width:20px;
+	height:25px;
+	}
+
+
+	
+.detailsRightContent table tr td {
+	padding:5px;
+	}
+
+
+
+
+
+
+
+

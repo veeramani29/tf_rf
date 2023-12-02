@@ -1,0 +1,702 @@
+/* [[ hero banner starts here ]] */
+
+.herobanner {
+    width: 100%;
+    position: relative
+}
+.home .herobanner .container:after {
+    /*  background: rgba(0, 0, 0, 0) url("../img/eid-mubarak.png?v=nd-v1403") no-repeat scroll 0 0 / 90% auto; */
+    
+    content: "";
+    height: 134px;
+    position: absolute;
+    right: -10px;
+    top: 20px;
+    width: 327px;
+    display: none;
+}
+.homePage {
+    background: url("../img/bg4.jpg") center top fixed no-repeat;
+    background-size: 100% auto;
+}
+.homePage::before {
+/*    background-color: rgba(0, 0, 0, 0.3);*/
+    content: "";
+    height: 404px;
+    position: absolute;
+    width: 100%;
+}
+.homePage.markPage,
+.homePage.alHilalHome.alhilalTheme {
+    background: none
+}
+.homePage.markPage:before,
+.homePage.alHilalHome.alhilalTheme:before {
+    display: none;
+}
+
+.herobanner h1.title {
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+.herobanner.fpb h1.title,
+.home .herobanner h1.title {
+    margin-top: 0;
+    text-align: center;
+}
+.herobanner h1.title span {
+    font-size: 40px;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 10px;
+}
+.home .herobanner .container {
+    position: relative;
+    z-index: 1;
+}
+
+/*New Design*/
+
+.homePage .navLinks li a,
+.homePage .topMenu > li > a,
+.homePage .topMenu > li .supportCont> a {
+    color: #fff;
+}
+.homePage.markPage .navLinks li a,
+.homePage.alHilalHome.alhilalTheme .navLinks li a {
+    color: #000;
+}
+.homePage .topMenu > li .supportCont> a:hover,
+.homePage.markPage .navLinks li a:hover,
+.homePage.alHilalHome.alhilalTheme .navLinks li a:hover {
+    color: #fec524
+}
+.homePage.markPage .topMenu > li > a,
+.homePage.alHilalHome.alhilalTheme .topMenu > li > a {
+    color: #666
+}
+.homePage.markPage .topMenu > li > a:hover,
+.homePage.alHilalHome.alhilalTheme .topMenu > li > a:hover {
+    color: #000
+}
+.homePage.markPage .topMenu > li .supportCont> a,
+.homePage.alHilalHome.alhilalTheme .topMenu > li .supportCont> a {
+    color: #1d4f90
+}
+.homePage .navLinks li.active a,
+.homePage .navLinks li:hover a,
+.homePage .topMenu li a:hover {
+    color: #fec524
+}
+.herobanner h1.title {
+    padding: 136px 0;
+    margin: 0;
+    text-align: center;
+}
+.seachContainer1 {
+    
+    position: relative;
+    z-index: 12;  background-color: #fff !important;
+    border: 1px solid #d6d3d3;
+    float: left;
+    padding: 20px;
+}
+
+.seachContainer {
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 12;
+}
+
+.seachContainer .sTabs {
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 2;
+}
+.homePage .seachContainer .sCont {
+    border-bottom: none;
+    color: #fff;
+    background: none;
+}
+.seachContainer .customCheckbox[type="checkbox"] + label {
+    color: #fff
+}
+.whiteBg {
+    background: #fff;
+}
+.lgrayBg {
+    background: #f1f1f1
+}
+.trendDest {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: normal;
+    padding: 50px 0;
+    text-align: center;
+}
+.trendDest span {
+    color: #75706b;
+    display: block;
+    font-size: 18px;
+    line-height: 34px;
+}
+.homeSection {
+    margin-bottom: 50px;
+}
+.homeSection .gridItems .imgLodBg {
+    min-height: 361px;
+    background-color: #f2f2f2
+}
+.hotelsCPB .sCont {
+    padding: 30px 20px 25px
+}
+/* [[ Save More Start here ]] */
+
+.saveMoreSec {
+    background: #f4f5f9;
+    padding: 75px 0
+}
+.saveMoreSec .container {
+    padding: 0
+}
+.saveMoreSec .smsImg {
+    float: left;
+    width: 63%
+}
+.saveMoreSec .container > div {
+    min-height: 289px;
+}
+.saveCont {
+    text-align: center;
+    font-size: 22px;
+    line-height: normal;
+    color: #455a64;
+    background: #fff;
+    float: left;
+    width: 37%;
+    padding-top: 50px;
+}
+.saveCont h2 {
+    font-size: 44px;
+    font-weight: bold;
+}
+.saveCont > p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 26px;
+}
+.saveCont .btn,
+.hpsCont .btn {
+    margin-top: 20px;
+    background: #fec524;
+    color: #000;
+    min-width: 130px;
+    font-size: 14px;
+    font-weight: 600
+}
+.saveCont .btn:hover,
+.hpsCont .btn:hover {
+    background: #ce9500;
+}
+/* [[ Save More End here ]] */
+/* [[ Hotel promotion Start here ]] */
+
+.hotelPromoSec {
+    margin: 0px auto;
+    padding: 75px 0;
+}
+.hotelPromoSec.hotelPad {
+    padding: 75px 0 200px;
+}
+.hpsImg.imgLodBg {
+    float: right;
+    width: 48%
+}
+.hpsImg.imgLodBg img {
+    max-width: 100%
+}
+.hpsCont {
+    float: left;
+    width: 48%;
+    color: #484848;
+}
+.hpsCont > h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hpsCont .loc {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.hpsCont p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-align: justify;
+}
+.hpsCont > h5 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+.hpsCont > ul {
+    margin: 25px 0;
+}
+.hpsCont > ul li {
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    width: 50%;
+}
+.hpsCont > ul li::before {
+    background: #fec524 none repeat scroll 0 0;
+    border-radius: 5px;
+    content: "";
+    display: block;
+    height: 7px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 7px;
+}
+/* body.homePage .logo a{ background:url(../img/logo.png) 0 0 no-repeat; background-size:100% auto;} */
+
+body.homePage .logo a {
+    font-size: 27px;
+    line-height: 31px;
+    color: #fff;
+    font-weight: 700;
+}
+body.homePage.markPage .logo a,
+body.homePage.alHilalHome.alhilalTheme .logo a {
+    background: url(../img/logo.png) 0 0 no-repeat;
+    background-size: 100% auto;
+}
+body.homePage .nav-outer .supportCont a:before {
+    background-position: -427px -157px
+}
+body.homePage .nav-outer .supportCont a:hover:before {
+    background-position: -462px -157px
+}
+body.homePage.markPage .nav-outer .supportCont a:before,
+body.homePage.alHilalHome.alhilalTheme .nav-outer .supportCont a:before {
+    background-position: -427px -120px
+}
+.homePage .seachContainer .form-control {
+    border: 1px solid #DEDCDC;
+    background: #FFF;
+}
+.homePage .seachContainer .form-control:focus {
+    border: 3px solid #fec524;
+    box-shadow: none;
+}
+.homePage .seachContainer .flight-trips label {
+   /*  letter-spacing: -0.5px; */
+}
+.homePage .sCont .btn {
+    background: #fec524;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.homePage .sCont .btn:hover {
+    background: #ffd14d;
+}
+/* [[ Hotel promotion End here ]] */
+
+.homePage header {
+    border-bottom-style: none;
+}
+.markPage header {
+    border-bottom-style: solid
+}
+.airTabContainer nav.flight-trips li.active {
+    width: inherit
+}
+.airLineInfo {
+    padding: 20px 0 15px;
+}
+.airLineInfo .airName {
+    float: left;
+    width: 68%
+}
+.airLineInfo .airInfLogo {
+    width: 30%;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+.airInfLogo img {
+    max-width: 100%;
+}
+.airTabContainer label,
+.airTabContainer .tabs label {
+    color: #333
+}
+.seachContainer.airTabContainer .customCheckbox[type="checkbox"] + label {
+    color: #727272
+}
+.seachContainer .hotelHomeS + .optWidget {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5)
+}
+.seachContainer.airTabContainer nav a:after {
+    display: none
+}
+.seachContainer.airTabContainer nav a {
+    margin-right: 0px;
+    height: inherit;
+    line-height: 100%;
+    padding-top: 20px;
+}
+.airLPage .customRadio[type="radio"]:not(:checked) + label,
+.airLPage .customRadio[type="radio"]:checked + label {
+    margin-right: 0
+}
+body:not(.alHilalHome) .seachContainer.airTabContainer {
+    background: none;
+}
+.alHilalBannerbg .seachContainer {
+    margin-top: 50px;
+}
+.nxtMatchBlock {
+    background-color: #eee;
+    margin-top: 0 !important;
+    padding: 10px 0 40px;
+}
+.homeSection .gridItems .imgLodBg {
+    border-radius: 5px;
+}
+.alHilalHome .airBanner .seachContainer {
+    background: none;
+}
+.alHilalBanner {
+    background-size: 100%;
+    background-color: #494b23 !important
+}
+.alHilalBannerbg:before {
+    background-color: #494b23 !important
+}
+.nxtMatchBlock .hTitle {
+    margin-top: 20px;
+    color: #000 !important
+}
+.mInfoBlock {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+/*city marketing pages search block modify*/
+
+.cityMarkPage {
+    padding: 120px 0 80px;
+}
+.cityMarkPage .seachContainer {
+    max-width: 80%;
+    margin: 0 auto
+}
+.cityMarkPage .sCont {
+    background: none;
+    border-bottom: none
+}
+.cityMarkPage .ftdField.hotel {
+    display: none
+}
+.cityMarkPage .hotelHomeS {
+    text-align: center
+}
+.cityMarkPage .fFields > div {
+    float: none;
+    display: inline-block;
+    vertical-align: top
+}
+.hotelsCPB .cityMarkPage h1 {
+    padding: 30px 10px 0 10px;
+    margin: 0;
+    text-align: center
+}
+.hotelsCPB .cityMarkPage h1 span {
+    color: #fed536
+}
+.cityMarkPage .fFields > div > label {
+    color: #fff;
+    text-align: left
+}
+.cityMarkPage .optWidget {
+    margin: 20px auto 0;
+    max-width: 96%
+}
+.cityMarkPage .fFields .dateField {
+    width: 22%
+}
+.cityMarkPage .fFields .custom-night {
+    width: 12%
+}
+.cityMarkPage .fFields .custom-traveller {
+    width: 23%;
+}
+.cityMarkPage .optWidget .roomsWidgetContent {
+    width: 50%;
+    float: right;
+}
+.cityMarkPage .optWidget .roomTit {
+    min-width: 60px;
+}
+.cityMarkPage .optWidget .adult,
+.cityMarkPage .optWidget .child {
+    width: 16%;
+    margin-bottom: 5px;
+}
+.cityMarkPage .optWidget .childAge {
+    width: 15%;
+    margin-bottom: 5px;
+}
+.cityMarkPage .specifyAge {
+    width: 100%
+}
+.cityMarkPage .specifyAge .custom-select-v3 select {
+    height: 30px;
+}
+.cityMarkPage .specifyAge .custom-select-v3:before {
+    font-size: 9px;
+    top: -2px
+}
+.cityMarkPage .btn.LoadBtn {
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+
+.stepCont ul li {
+    display: block;
+    line-height: normal;
+    font-size: 18px;
+    padding-left: 50px;
+    margin-bottom: 34px;
+    position: relative;
+}
+.stepCont ul li em {
+    position: absolute;
+    font-style: normal;
+    left: 0;
+    width: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 26px;
+    top: -2px;
+}
+.stepCont ul li::after {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 18px;
+    background: #fff;
+    left: 14px;
+    top: 33px;
+    position: absolute
+}
+.stepCont ul li:last-child {
+    margin-bottom: 0;
+}
+.stepCont ul li:last-child::after {
+    display: none;
+}
+.stepCont small {
+    font-size: 14px;
+    display: block;
+    margin-top: 30px;
+}
+.opSecBtn {
+    background: #fec524;
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.opSecBtn:hover {
+    background: #e0ad1c;
+    color: #000
+}
+.opHotels {
+    padding-bottom: 40px;
+}
+.opHotels ul li {
+    position: relative;
+    width: 31.5%;
+    margin-right: 2.75%;
+    margin-bottom: 2.75%;
+    float: left;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #ddd;
+}
+.opHotels .clrBoth {
+    clear: both;
+}
+.opHotels ul li .ophImg {
+    height: 200px;
+    overflow: hidden;
+}
+.opHotels ul li img {
+    max-width: 100%;
+    border-radius: 3px 3px 0 0;
+}
+.opHotels ul li:nth-child(3n+3) {
+    margin: 0;
+}
+.opHotels ul li > strong {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    background-image: url("../img/marketing/offers/special-offer.png");
+    width: 50px;
+    height: 59px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+.opHotels ul li > strong span {
+    position: absolute;
+    font-size: 10px;
+    top: 25px;
+    text-align: center;
+    width: 100%;
+}
+.opHotels ul li > strong span em {
+    font-style: normal;
+    display: block;
+    font-size: 7px;
+}
+.opHotels .hotelInfo {
+    background: #fff;
+    margin: -80px 20px 20px 20px;
+    position: relative;
+    padding: 15px;
+    box-shadow: 0 2px 5px #ddd;
+}
+.opHotels .hotelInfmH {
+    min-height: 195px;
+}
+.opHotels .hotelInfo h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.opHotels .hotelInfo span {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.opHotels .hotelInfo span.divider {
+    padding: 0 5px;
+}
+.opHotels .hotelInfo address {
+    margin: 15px 0 5px 0;
+}
+.opHotels .hotelInfo em {
+    font-style: normal;
+    margin-bottom: 10px;
+    display: block;
+    color: #666;
+    line-height: 24px;
+    padding-left: 24px;
+    position: relative;
+}
+.opHotels .hotelInfo em::before {
+    position: absolute;
+    left: 0;
+}
+.opHotels .hotelInfo em strong {
+    color: #194e91
+}
+.opHotels .hotelInfo [class*="flaticon-"]:before {
+    margin-right: 10px;
+}
+.opHotels .hotelInfo em[class*="flaticon-"]:before {
+    font-size: 12px;
+    color: #93ba86
+}
+.opHotels ul li a.btn {
+    padding: 5px 0;
+    width: 120px;
+    color: #fff;
+    display: block;
+    margin: 0 auto 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.fastBookingTags {
+    margin-top: 30px;
+    display: none;
+}
+.homePage .fastBookingTags {
+    display: block;
+}
+.fastBookingTags h4 {
+    margin-bottom: 10px;
+}
+.fastBookingTags a {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+}
+.fastBookingTags a:hover {
+    color: #fff;
+    background-color:#266AA5;
+}
+.fbt-clone {
+    position: fixed;
+    z-index: 9999;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(102, 152, 216, 0.5);
+    padding: 8px 10px;
+    display: inline-block;
+    text-align: center
+}
+
+
+@keyframes animText {
+    10%, 90% {
+        color: #000;
+        border: 3px solid #ffd14d;
+    }
+    20%,
+    80% {
+        color: #fff;
+        border: 3px solid #ffd14d
+    }
+    30%,
+    50%,
+    70% {
+        color: #fff;
+        text-indent: -100px;
+        border: 3px solid #ffd14d
+    }
+    40%,
+    60% {
+        color: #fff;
+        text-indent: 0;
+        border: 3px solid #ffd14d;
+    }
+}
+.aniBorder {
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #000;
+    animation: animText 0.82s cubic-bezier(.36, .07, .19, .97) both;
+} 

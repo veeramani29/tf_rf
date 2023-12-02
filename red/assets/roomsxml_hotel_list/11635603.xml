@@ -1,0 +1,16 @@
+<?xml version="1.0"?><HotelElement><Id>11635603</Id><Name>New</Name><Region><Id>21075</Id><Name>Lido Di Jesolo</Name><CityId>17174</CityId></Region><Type>Hotel</Type><Address><Address1>Via Dalmazia, 21</Address1><Address2 /><Address3 /><City /><State /><Zip>30016</Zip><Country>Italy</Country><Tel /><Fax /><Email /><Url /></Address><Stars>3</Stars><GeneralInfo /><Description><Language>en</Language><Type>General</Type><Text>Position
+The hotel is located 60 meters from the sea with private beach.
+
+Restaurant
+The meals will be served at Hotel Astromare Restaurant.
+
+Outside
+
+
+Lobby
+
+
+More Informations
+Beach service included from may to september with 2 deck chairs and 1 sun umbrella per room. 
+Check in: 13.00 
+Check out: 10.00</Text></Description><Amenity><Code>PetsAllowed</Code><Text>Pets allowed</Text></Amenity><Amenity><Code>CarRentDesk</Code><Text>Car rental desk</Text></Amenity><Amenity><Code>Bar</Code><Text>Bar</Text></Amenity><Amenity><Code>Restaurant</Code><Text>Restaurant</Text></Amenity><Amenity><Code>Lift</Code><Text>Lift</Text></Amenity><Amenity><Code>MultilingualStaff</Code><Text>Multilingual Staff</Text></Amenity><Rating><System>Stars</System><Score>30</Score><Description>Three star</Description></Rating><Rank>1</Rank></HotelElement>

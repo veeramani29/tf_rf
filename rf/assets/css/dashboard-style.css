@@ -1,0 +1,842 @@
+.dashnav_container {
+	background: none repeat scroll 0 0 #727272;
+	position: relative;
+}
+.nav>li>a{
+	color: #ffffff;
+}
+.dashnav_container .nav-pills>li.active>a{
+	background-color: transparent;
+	color: #FFD627;
+	border-bottom: 3px solid #FFD627;
+	border-radius: 0;
+}
+.dashnav_container .nav-pills>li>a:hover{
+	background-color: transparent;
+	color: #FFD627;
+	border-radius: 0;
+}
+.dash_container{
+	background: #f5f5f5;
+	padding: 15px;
+}
+.dash_container .profile_photo{width: 100%;}
+.dashrow{
+	border: 1px solid #ddd;
+}
+.userprowrp {
+	background: none repeat scroll 0 0 #fff;
+	display: block;
+	overflow: hidden;
+	padding: 0 0 20px;
+	border: 1px solid #ddd;
+}
+.profileusrs {
+	transition: all 0.4s ease-in-out 0s;
+	display: block;
+	text-align: center;
+}
+.proname {
+	display: block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	text-align: center;
+}
+.dashed {
+	color: #ffd627;
+	border-bottom:1px solid #626365;
+	font-size: 18px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+.onlysent {
+	display: block;
+	font-size: 13px;
+	line-height: 1.9;
+	margin-bottom: 15px;
+	padding: 10px 0;
+}
+.dshcol {
+	float: left;
+	width: 25%;
+}
+.indash {
+	padding: 10px;
+}
+.dashico {
+	border: 1px solid #ddd;
+	border-radius: 100%;
+	display: table;
+	height: 119px;
+	margin: 0 auto;
+	padding: 25px 0 0;
+	text-align: center;
+	width: 119px;
+}
+.dashico  img{width: 60px;}
+.dashico  img.bookings{width: 77px;}
+.dashico  img.settings{width: 48px;}
+.dashico  img.faqs{width: 61px;}
+.dashinhed {
+	color: #333;
+	display: block;
+	font-size: 14px;
+	margin: 10px 0;
+	text-align: center;
+}
+.indash p {
+	color: #666;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+}
+.tab-content5> .tab-pane, .pill-content > .pill-pane {
+	display: none;
+}
+.tab-content5 > .active, .pill-content > .active {
+	display: block;
+}
+.cntbos {
+	background: none repeat scroll 0 0 #f5f5f5;
+	display: block;
+	overflow: hidden;
+}
+.clrbos {
+	display: block;
+	height: 100px;
+}
+.fagren {
+	background: none repeat scroll 0 0 #6ccac9;
+}
+.countbos {
+	box-shadow: -2px 0 10px -4px #a0a0a0;
+	color: #fff;
+	float: right;
+	padding: 10px;
+}
+.fared {
+	background: none repeat scroll 0 0 #ff6c60;
+}
+.fayello {
+	background: none repeat scroll 0 0 #f8d347;
+}
+.fablu {
+	background: none repeat scroll 0 0 #57c8f2;
+}
+.tab-pane.rfboxed-background.active{
+	padding: 20px 0;
+}
+.sidewisehed {
+	background: none repeat scroll 0 0 #ddd;
+	color: #333;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+}
+.sideop {
+	isplay: block;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+/*profile tab css start*/
+	ul.grey.list-inline li{
+		border: 1px solid #ddd;
+		display: table-cell;
+		border-right: 0;
+		width: 20%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		vertical-align: middle;
+	}
+	ul.grey.list-inline li:last-child{
+		border-right: 1px solid #ddd;
+	}
+	.inrowit {
+		background: none repeat scroll 0 0 #fff;
+		display: block;
+		margin: 10px;
+		overflow: hidden;
+		border:1px solid #ddd;
+	}
+	.inrowit .clblue{
+		padding-bottom: 10px;
+		display: inline-block;
+	}
+	.inrowit .pro_title{
+		padding: 10px;
+		display: inline-block;
+	}
+	.inrowit .pro_contant{
+		padding: 10px;
+	}
+	.overlaychange {
+		background: url("../images/change.png") no-repeat scroll center center rgba(0, 0, 0, 0.6);
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		opacity: 0;
+		transition: all 0.5s ease-in-out 0s;
+	}
+	.profileusrs {
+		transition: all 0.4s ease-in-out 0s;
+		display: block;
+		text-align: center;
+	}
+	.rschange {
+		bottom: 0;
+		cursor: pointer;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+	.chngers {
+		bottom: 0;
+		color: #fff;
+		left: 0;
+		padding: 20px 0;
+		position: absolute;
+		right: 0;
+		text-align: center;
+	}
+	.profileusrs:hover .overlaychange {
+		opacity: 1;
+	}
+	.fstusrp {
+		float: left;
+		height: 80px;
+		margin-right: 10px;
+		overflow: hidden;
+		width: 80px;
+	}
+	.pro_userdatails{
+		display: inline-block;
+		width: 100%;
+	}
+
+/*booking admin tab css start*/
+	ul.grey.bookingdetails_list{
+		float: left;
+		width: 100%;
+		display: table;
+		padding-left: 0;
+	}
+	ul.grey.bookingdetails_list li {
+		width: 20%;
+		display: table-cell;
+		border: 1px solid #ddd;
+		border-right: 0;
+		padding: 10px;
+		text-align: center;
+	}
+	ul.grey.bookingdetails_list li:last-child{
+		border-right: 1px solid #ddd;
+	}
+
+/*setting admin tab css start*/
+	.settingtab_container{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.rowit {
+		float: left;
+		padding: 20px 0;
+		position: relative;
+		width: 100%;
+	}
+	.stepshed {
+		color: #2980CD;
+		display: block;
+		font-weight: normal;
+		margin: 8px 0;
+	}
+	.stepspara {
+		display: block;
+		font-weight: normal;
+		line-height: 22px;
+		overflow: hidden;
+	}
+	.enbleink {
+		background: none repeat scroll 0 0 #38c3a8;
+		border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-o-border-radius: 2px;
+		box-shadow: 0 3px 0 0 #18a388;
+		-webkit-box-shadow: 0 3px 0 0 #18a388;
+		-moz-box-shadow: 0 3px 0 0 #18a388;
+		-o-box-shadow: 0 3px 0 0 #18a388;
+		color: #fff;
+		display: table;
+		margin: auto;
+		padding: 7px;
+		text-align: center;
+	}
+	.fullquestions {
+		display: table;
+		margin: 0 auto;
+		width: 50%;
+		border: 1px solid #ddd;
+	}
+	.editquestions {
+		padding: 10px 10px 15px;
+		margin: 0;
+		background-color: #ddd;
+	}
+	.rowshare {
+		border-bottom: 1px dotted #ddd;
+		display: block;
+		overflow: hidden;
+		padding: 10px 0;
+	}
+	.lablshare {
+		float: left;
+		font-size: 13px;
+		line-height: 30px;
+	}
+	.comnbutton{
+		margin: 10px auto;
+	}
+	.fullquestionswrp, .fullquestionswrpshare, .fullquestionswrp2, .fullquestionswrp3 {
+		display: none;
+	}
+	form#change_password {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.enbleink.redcancel {
+		background: none repeat scroll 0 0 #fa7a00;
+		box-shadow: 0 3px 0 0 #da5a00;
+	}
+	.popup_wrapper {display: none; }
+	.cancelaccount_settings.rfboxed-backgroundf .pophed{margin-bottom: 10px; }
+	.cancelaccount_settings.rfboxed-backgroundf .signdiv{padding: 10px 10px 20px; }
+	.cancelaccount_settings.rfboxed-backgroundf .rowlistwish{padding-bottom: 20px; }
+	.passucss {
+		color: #060;
+		display: none;
+		float: right;
+		padding: 10px 20px;
+	}
+	.set_cancelmodal.wellme.modal-lg{
+		padding: 0;
+	}
+	.set_cancelmodal.wellme .signdiv{
+		padding: 10px 10px 20px;
+	}
+	.set_cancelmodal.wellme .pophed{
+		margin-bottom: 10px;
+	}
+
+/*newsletter css start*/
+	.newsletter_container{
+		float: left;
+		width: 100%;
+	}
+
+/*loader css start*/
+	.lodrefrentrev {
+		background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+		display: none;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 100;
+	}
+	.sorrydiv {
+	    display: block;
+	    margin-bottom: 15px;
+	    text-align: center;
+	}
+
+/*how it works how.php page css start*/
+	.howitworks_container .rfboxed-background{
+		padding: 25px 0 15px;
+	}
+	.toplitileimg {
+		margin-top: 0;
+		position: relative;
+	}
+	.shadeback {
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
+	}
+	.helpgo {
+		background: url("../images/icons/search-icon.png") no-repeat center;
+		background-size: 23px 23px;
+		border: 0;
+		height: 27px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 37px;
+	}
+	.serchhlp {
+		border: 1px solid #ddd;
+		padding-right: 37px;
+		width: 100%;
+	}
+	.helpsearch {
+		display: table;
+		margin: 40px auto 10px;
+		position: relative;
+		width: 50%;
+		z-index: 10;
+	}
+	.popsrch {
+		display: table;
+		margin: 10px auto 0;
+		position: relative;
+		z-index: 10;
+	}
+	.poli strong {
+		color: #fff;
+		float: left;
+		padding: 10px;
+	}
+
+	.poli a {
+		color: #fff;
+		float: left;
+		font-size: 14px;
+		padding: 10px;
+	}
+	.columnsc {
+		float: left;
+		position: relative;
+		width: 100%;
+	}
+	.howitworks_container .hiw_leftbarmenu li{
+		padding-bottom: 5px;
+	}
+	.inpagehed {
+		text-align: center;
+		display: block;
+		font-size: 32px;
+		font-weight: normal;
+		margin: 0 0 15px;
+		overflow: hidden;
+	}
+	.contentdivi {
+		border: 1px solid #e8e8e8;
+		margin-bottom: 20px;
+		padding: 10px 0;
+		display: inline-block;
+		width: 100%;
+	}
+	.divip{font-size: 13px;}
+	.fullmorehow {display: none; padding: 20px;}
+	.demonsimg img{width: 100%;}
+	.demonsimg {
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+/*support conversation page css start*/
+	.paymentpage {
+		padding: 30px 0 10px;
+	}
+	.sidepro.active a {
+		font-weight: bold;
+		color: #2980cd;
+	}
+	.padtabnenopad {
+		background: #e9e9e9;
+		display: block;
+		overflow: hidden;
+		padding: 5px;
+	}
+	ul.normal-list li.sidepro.active:last-child a:hover{
+		color: #ffffff;
+	}
+	.tickthed {
+		float: left;
+		padding: 10px;
+	}
+	.searchtickt {
+		background: url("../images/icons/search-icon.png") no-repeat right;
+		background-size: 23px 23px;
+		background-position-x: 97%;
+		border: 1px solid #bbb;
+		float: right;
+		font-size: 14px;
+		height: 36px;
+		margin: 7px;
+		padding-right: 27px;
+		width: 30%;
+	}
+	.withedrow {
+		display: block;
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+	.rowit.chngecolr {
+		background: #f0f0f0;
+	}
+	.fulrowtikt {
+		/*background: none repeat scroll 0 0 #fff;*/
+		display: block;
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+	.tiktcntnt {
+		float: left;
+		padding: 10px 0;
+		width: 100%;
+	}
+	.srywrap b {
+		color: #666;
+		display: block;
+		letter-spacing: 1px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.holdere {
+		margin: 15px 0;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.holdere a.jp-current, a.jp-current:hover, .holdere a.jp-disabled, a.jp-disabled:hover {
+		cursor: default;
+		background: none;
+	}
+	.holdere a.jp-current, a.jp-current:hover {
+		color: #2980CD;
+		font-weight: bold;
+	}
+	.holdere a.jp-disabled, a.jp-disabled:hover {color: #bbb; }
+	.holdere a.jp-previous {margin-right: 15px; }
+	.holdere a:hover {text-decoration: none; background: #FCFCFC; }
+	.holdere a {
+		color: #666;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: normal;
+		text-align: center;
+		border: 1px solid #BBB;
+		min-width: 14px;
+		padding: 0 7px;
+		margin: 0 5px 0 0;
+		border-radius: 3px;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+	.holdere a.jp-current {
+		border-color: #444;
+		box-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 0 2px rgba(0, 0, 0, 0.3) inset;
+	}
+	.holdere span {margin: 0 5px; }
+	.holdere a.jp-next {margin-left: 15px; }
+	.likrticktsec {display: block; overflow: hidden; }
+	.cobldo {
+		color: #666;
+		float: left;
+		line-height: 30px;
+		min-width: 20%;
+		padding: 5px 0;
+	}
+	.coltcnt {
+		display: block;
+		overflow: hidden;
+		padding: 3px;
+	}
+	.payinselect {
+		border: 1px solid #ddd;
+		color: #666;
+		height: 35px;
+		padding: 5px;
+		width: 100%;
+	}
+	.payinput {
+		border: 1px solid #ddd;
+		color: #666;
+		height: 35px;
+		padding: 5px;
+		width: 100%;
+	}
+	.tikttext {
+		border: 1px solid #ddd;
+		float: left;
+		min-height: 80px;
+		width: 100%;
+	}
+	.addtiktble{
+		padding: 0 15px;
+	}
+
+/*edit profile page css start*/
+	#editprofile .form-control, #editprofile1 .form-control, #editprofile2 .form-control{border:1px solid #ddd;}
+	.padtabne {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #616162;
+		width: 100%;
+		display: inline-block;
+	}
+	.inreprow .imagestep{
+    border: 1px solid #616162;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    padding-top: 26px;
+    text-align: center;
+	}
+	.inreprow .stepshed{padding-top: 32px;}
+	.inreprow .stepsbtn{padding-top: 45px;}
+/*bookings page css start*/
+	.rowitbk {
+		float: left;
+		position: relative;
+		width: 100%;
+	}
+	.bookingicon.p_flight {
+		background-position: 0 0;
+	}
+	.bookingicon {
+		background: url("../images/bookingicon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+		height: 60px;
+		left: -5px;
+		position: absolute;
+		top: -5px;
+		width: 60px;
+		z-index: 10;
+	}
+	.tablofcon {
+		display: table;
+		width: 100%;
+	}
+	.concell {
+		display: table-cell;
+		float: none;
+		vertical-align: top;
+	}
+	.onwyrow {
+		display: block;
+		overflow: hidden;
+		border: 1px solid #ddd;
+	}
+	.fblueline22.linegreen {
+		background: #d8d8d8;
+	}
+	.fblueline22 {
+		background: #eeeeee;
+		color: #666;
+		font-size: 13px;
+		margin: 0 0 10px;
+		padding: 8px 10px;
+	}
+	span.farrow {
+		background: url("../images/arrow2.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+		display: inline-block;
+		height: 12px;
+		position: relative;
+		width: 30px;
+	}
+	.flitsecimg {
+		display: block;
+		margin: 20px 0;
+		text-align: center;
+	}
+	.simle, .nortosimle {
+		display: block;
+		overflow: visible;
+		font-size: 12px;
+		color: #666;
+	}
+	.rittextalign {
+		text-align: right;
+	}
+	.norto {
+		color: #666;
+		display: block;
+		overflow: hidden;
+	}
+	.flightimgs {
+		background: none repeat scroll 0 0 #A2C8EE;
+		border: 1px solid #A2C8EE;
+		border-radius: 100%;
+		display: block;
+		height: 40px;
+		margin: 10px auto;
+		padding-top: 7px;
+		text-align: center;
+		width: 40px;
+	}
+	.radiobtn {
+		color: #666;
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		overflow: hidden;
+	}
+	.litgrycell {
+		background: #f6f6f6;
+	}
+	.concell {
+		display: table-cell;
+		float: none;
+		vertical-align: top;
+	}
+	.topfisconf {
+		display: block;
+		overflow: hidden;
+	}
+	.rowfux {
+		display: block;
+		overflow: hidden;
+	}
+	.lablofux {
+		border: 1px solid #f3f3f3;
+		color: #666;
+		display: block;
+		margin-bottom: -1px;
+		margin-right: -1px;
+		overflow: hidden;
+		padding: 10px;
+		height: 41px;
+	}
+	.answrfux {
+		border: 1px solid #eee;
+		color: #333;
+		display: block;
+		margin-bottom: -1px;
+		overflow: hidden;
+		padding: 10px;
+		height: 41px;
+	}
+	.botufis a {
+		float: right;
+		font-size: 14px;
+		margin: 10px 0 0 10px;
+		padding: 8px 10px;
+	}
+	.loadr, .loadr-tick {
+		display: none;
+		margin-left: 10px;
+	}
+	.botufis a.left {
+		float: left;
+	}
+	.holdereBookings a.jp-disabled, a.jp-disabled:hover {
+		color: #bbb;
+	}
+	.holdereBookings a.jp-previous {
+		margin-right: 15px;
+	}
+	.holdereBookings a {
+		float: left;
+		color: #666;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: normal;
+		text-align: center;
+		border: 1px solid #BBB;
+		min-width: 14px;
+		padding: 0 7px;
+		margin: 0 5px 0 0;
+		border-radius: 3px;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+		background: #efefef;
+		background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #efefef));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #efefef 100%);
+		background: -o-linear-gradient(top, #ffffff 0%, #efefef 100%);
+		background: -ms-linear-gradient(top, #ffffff 0%, #efefef 100%);
+		background: linear-gradient(top, #ffffff 0%, #efefef 100%);
+	}
+	.holdereBookings a.jp-current, a.jp-current:hover {
+		color: #FF4242;
+		font-weight: bold;
+	}
+	.holdereBookings a.jp-current, a.jp-current:hover, .holderResHistory a.jp-disabled, a.jp-disabled:hover {
+		cursor: default;
+		background: none;
+	}
+	.holdereBookings a.jp-current {
+		background: #666;
+		color: #FFF;
+		border-color: #444;
+		box-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 0 2px rgba(0, 0, 0, 0.3) inset;
+		cursor: default;
+	}
+	.holdereBookings a.jp-next {
+		margin-left: 15px;
+	}
+	ul.bookings_retrnflight{
+		display: inline-block;
+    width: 100%;
+	}
+	ul#user_bookings>li {margin-bottom: 45px;}
+	ul.bookings_retrnflight li.fs_singleflight li.fs_airlinecontainer.fs_book{width: 157px;}
+	ul.bookings_retrnflight li.fs_singleflight li{vertical-align: middle;padding-bottom: 10px;}
+	ul.bookings_retrnflight li.fs_singleflight{border:2px solid #2980CD;border-radius: 3px;margin: 15px 0 0;}
+	ul.bookings_hotel{display: inline-block;width: 100%;}
+	ul.bookings_hotel li.HotelInfoBox ul.hotel_singlehdetails{
+		border:2px solid #2980CD;
+		border-radius: 3px;
+		margin: 15px 0 15px;
+		padding: 10px 0;
+	}
+	ul.bookings_retrnflight li.fs_singleflight ul.list-inline{padding: 10px 0;display: inline-block;width: 100%;}
+	ul.bookings_hotel ul.hotel_singlehdetails li{vertical-align: middle;}
+	ul.bookings_hotel li.fs_singleflight ul.list-inline li.fs_airlinecontainer.fsa_departure.hotel_singlehdeparture{width: 363px;}
+	ul.bookings_hotel li.fs_airlinecontainer ul.hotelpreferences.allamn{height: 95px;}
+	.topfisconf a.btn.btn-secondry{padding: 5px 10px;font-size: 12px;font-weight: normal;}
+	.topfisconf a.btn.btn-gray{background-color: #626365;border-color: #626365;padding: 5px 10px;font-size: 12px;font-weight: normal;color: #ffffff;}
+	.topfisconf a.btn.btn-gray:hover{background-color: #FFD627;border-color: #FFD627;color: #616265;}
+	ul.bookings_hotel li.csr_incluprice{width: 45%;}
+	ul.bookings_hotel li.hs_image{max-height: 100%;}
+	.multibooklist_con>ul>li.fs_book{ display: none;}
+	.multibooklist_con>ul:last-child>li.fs_book{ display: inline-block;}
+
+/*profile page css start*/
+	.dashboard_profilecontainer .rfboxed-background{padding: 15px 0;}
+	.sidewiserow {
+	border:1px solid #ddd;
+	box-shadow: 0 3px 0 0 #d8d8d8;
+	display: block;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+/*utility classes*/
+	/*margins*/
+	.marbtm20 {margin-bottom: 20px; }
+	/*font color*/
+	.dark {color: #333; }
+	.grey {color: #999; }
+	.lred {color: #ff9966; }
+	/*font sizes*/
+	.size12 {font-size: 12px; }
+	.size30 {font-size: 30px; }
+	.size16, .size20 {font-size: 16px; }
+	/*line height*/
+	.lh4 {line-height: 17px; }
+	/*dividers*/
+	.line2{background: #e8e8e8; height: 1px; margin: 0; padding: 0; display: block; }
+	/*list style*/
+	ul, li {list-style: none; margin: 0; padding: 0; }
+	/*panel border*/
+	.dashboardpanel_border{float: left; width: 100%; border: 1px solid #ddd; margin-bottom: 15px;}
+	/*float styles*/
+	.right {float: right; }
+	/*display*/
+	.dis-inlineb{display: inline-block;}

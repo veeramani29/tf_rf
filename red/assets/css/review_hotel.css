@@ -1,0 +1,108 @@
+/* CSS Document */
+
+.sum{padding:10px;
+     background: #FE8003;
+	  border-radius:4px 4px 0px 0px;
+	  text-align:center;
+	  color:#FFF;
+	  margin-top:0px;
+	  }
+.paddright{
+background-color: #FCF7F2;
+padding-left: 0px;
+padding-right: 0px;
+border: 1px solid #ccc;
+border-radius: 5px 5px 0px 0px;
+}
+.paddright1{
+background-color: #FCF7F2;
+padding: 15px;
+border: 1px solid #ccc;
+}
+.paddleft{ padding-left: 0px;
+padding-right: 0px;}
+.bomba{
+padding: 10px;
+background: #FE8003 !important;
+border-radius: 5px;
+margin-left: 17px;
+width: 98%;
+color:#FFF;
+}
+.bomba14{
+padding: 10px;
+background-color: #86DBDF;
+border-radius: 5px;
+margin-left: 17px;
+width: 96%;
+color:#FFF;
+}
+.padtb10{ padding-bottom:10px;
+padding-top:10px;}
+.bomba2{
+padding: 10px;
+background-color: #86DBDF;
+border-radius: 5px;
+margin-left: 17px;
+width: 96%;
+}
+.bomba1{
+padding: 10px;
+border:1px solid #d5b7e1;
+border-radius: 5px;
+margin-left: 17px;
+width: 98%;
+background-color:#FFF;
+}
+.hyder{ background-color: #86DBDF;
+        padding:10px;}
+.margn5{ margin-right:1%;}
+.my_hr{width: 100%; margin: 0 auto; margin-top: 5%; margin-bottom: 5% ; color:#9853b9 !important; background-color:#9853b9 !important;}
+/*-----------------------------------------*/
+.imghote{
+width: 100%;
+border: 3px solid #ccc;
+}
+.imghote1{
+border: 3px solid #ccc;
+}
+/*-----------------------------------------*/
+.amu{padding-top: 15px;
+font-size: 16px;
+font-weight: bold;
+color: #fed189;}
+
+.rendom{  color: #fff;
+  background-color: #BA630D;
+  border-color: #ECA055;}
+.rendom:hover{color: #fff;
+  background-color: #86DBDF;
+  border-color: #86DBDF;}
+.rendom12{color: #fff;
+  background-color: #DF1500;
+  border-color: #BA1D17;}
+.rendom12:hover{color: #fff;
+  background-color: #0B9CA2;
+  border-color: #86DBDF;}
+  
+  
+ /*-------------holidays--------------------------*/
+
+.traveller_blue_bg {
+  background-color: #86DBDF;
+  line-height: 26px;
+}
+.left10 {
+  margin-left: 10px;
+}
+.top10 {
+  margin-top: 10px;
+}
+.top20 {
+  margin-top: 20px;
+}
+.car_left_grd{
+  padding-left: 62px;
+  padding-top: 20px;
+  padding-bottom: 11px;
+}

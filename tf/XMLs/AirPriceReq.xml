@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <Action xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none" s:mustUnderstand="1">http://localhost:8080/kestrel/AirService</Action>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AirPriceReq xmlns="http://www.travelport.com/schema/air_v33_0" xmlns:common_v33_0="http://www.travelport.com/schema/common_v33_0" TargetBranch="P2629804">
+      <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v33_0" OriginApplication="UAPI"/>
+      <AirItinerary>
+        <AirSegment Key="M10vFjBAAA/BxUuF7GAAAA==" Group="0" Carrier="EK" FlightNumber="150" ProviderCode="1G" Origin="AMS" Destination="DXB" DepartureTime="2016-12-28T22:00:00.000+01:00" ArrivalTime="2016-12-29T07:35:00.000+04:00" FlightTime="395" Distance="3216" ClassOfService="R" Equipment="388" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" AvailabilityDisplayType="Fare Shop/Optimal Shop" ETicketability="Yes" LinkAvailability="true">
+          <CodeshareInfo/>
+          <AirAvailInfo ProviderCode="1G">
+            <BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P4|Y9|E9|R9|W0|M0|B0|U0|K0|H0|Q0|L0|T0|V0|X0"/>
+          </AirAvailInfo>
+          <FlightDetails Equipment="388" DestinationTerminal="3" Destination="DXB" Origin="AMS" Key="M10vFjBAAA/ByUuF7GAAAA==" FlightTime="395" ArrivalTime="2016-12-29T07:35:00.000+04:00" DepartureTime="2016-12-28T22:00:00.000+01:00"/>
+        </AirSegment>
+        <AirSegment Key="M10vFjBAAA/BzUuF7GAAAA==" Group="0" Carrier="EK" FlightNumber="506" ProviderCode="1G" Origin="DXB" Destination="BOM" DepartureTime="2016-12-29T09:35:00.000+04:00" ArrivalTime="2016-12-29T14:00:00.000+05:30" FlightTime="175" Distance="1201" ClassOfService="R" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" AvailabilityDisplayType="Fare Shop/Optimal Shop" ETicketability="Yes" LinkAvailability="true">
+          <CodeshareInfo/>
+          <AirAvailInfo ProviderCode="1G">
+            <BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P0|Y9|E9|R9|W0|M0|B0|U0|K0|H0|Q0|L0|T0|V0|X0"/>
+          </AirAvailInfo>
+          <FlightDetails Equipment="77W" OriginTerminal="3" DestinationTerminal="2" Destination="BOM" Origin="DXB" Key="M10vFjBAAA/B0UuF7GAAAA==" FlightTime="175" ArrivalTime="2016-12-29T14:00:00.000+05:30" DepartureTime="2016-12-29T09:35:00.000+04:00"/>
+        </AirSegment>
+        <AirSegment Key="M10vFjBAAA/B1UuF7GAAAA==" Group="1" Carrier="EK" FlightNumber="507" ProviderCode="1G" Origin="BOM" Destination="DXB" DepartureTime="2017-01-12T15:30:00.000+05:30" ArrivalTime="2017-01-12T17:20:00.000+04:00" FlightTime="200" Distance="1201" ClassOfService="U" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="P" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists" AvailabilityDisplayType="Fare Shop/Optimal Shop" ETicketability="Yes" LinkAvailability="true">
+          <CodeshareInfo/>
+          <AirAvailInfo ProviderCode="1G">
+            <BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P0|Y9|E9|R9|W9|M9|B9|U9|K9|H0|Q9|L9|T9|V0|X5|X0|L0|K0|U0|T0|O0|I6|Q0"/>
+          </AirAvailInfo>
+          <FlightDetails Equipment="77W" OriginTerminal="2" DestinationTerminal="3" Destination="DXB" Origin="BOM" Key="M10vFjBAAA/B2UuF7GAAAA==" FlightTime="200" ArrivalTime="2017-01-12T17:20:00.000+04:00" DepartureTime="2017-01-12T15:30:00.000+05:30"/>
+          <Connection/>
+        </AirSegment>
+        <AirSegment Key="M10vFjBAAA/B3UuF7GAAAA==" Group="1" Carrier="EK" FlightNumber="149" ProviderCode="1G" Origin="DXB" Destination="AMS" DepartureTime="2017-01-13T15:15:00.000+04:00" ArrivalTime="2017-01-13T20:00:00.000+01:00" FlightTime="465" Distance="3216" ClassOfService="U" Equipment="388" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="P" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists" AvailabilityDisplayType="Fare Shop/Optimal Shop" ETicketability="Yes" LinkAvailability="true">
+          <CodeshareInfo/>
+          <AirAvailInfo ProviderCode="1G">
+            <BookingCodeInfo BookingCounts="F4|A4|J7|C7|I7|O7|P0|Y9|E9|R9|W9|M9|B9|U9|K9|H0|Q9|L9|T9|V0|X5"/>
+          </AirAvailInfo>
+          <FlightDetails Equipment="388" OriginTerminal="3" Destination="AMS" Origin="DXB" Key="M10vFjBAAA/B4UuF7GAAAA==" FlightTime="465" ArrivalTime="2017-01-13T20:00:00.000+01:00" DepartureTime="2017-01-13T15:15:00.000+04:00"/>
+        </AirSegment>
+      </AirItinerary>
+      <AirPricingModifiers PlatingCarrier="EK"/>
+      <SearchPassenger xmlns="http://www.travelport.com/schema/common_v33_0" BookingTravelerRef="0" Code="ADT"/>
+      <AirPricingCommand CabinClass="Economy">
+        <AirSegmentPricingModifiers AirSegmentRef="M10vFjBAAA/BxUuF7GAAAA==" FareBasisCode="RKRZFNL1"/>
+        <AirSegmentPricingModifiers AirSegmentRef="M10vFjBAAA/BzUuF7GAAAA==" FareBasisCode="RKRZFNL1"/>
+        <AirSegmentPricingModifiers AirSegmentRef="M10vFjBAAA/B1UuF7GAAAA==" FareBasisCode="UKEESNL1"/>
+        <AirSegmentPricingModifiers AirSegmentRef="M10vFjBAAA/B3UuF7GAAAA==" FareBasisCode="UKEESNL1"/>
+      </AirPricingCommand>
+      <FormOfPayment xmlns="http://www.travelport.com/schema/common_v33_0" Type="Cash"/>
+    </AirPriceReq>
+  </s:Body>
+</s:Envelope>

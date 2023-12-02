@@ -1,0 +1,11 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-05-21 02:21:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 10:32:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 10:42:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 10:42:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 16:51:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 16:53:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 16:53:59 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 21:10:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-05-21 21:11:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /home/asfarportal/public_html/beta/system/database/drivers/mysql/mysql_driver.php 91

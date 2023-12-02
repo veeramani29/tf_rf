@@ -1,0 +1,15 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Feb 22 15:17:30 2016
+Invocation: foremost man 
+Output directory: /home/rftekhne/public_html/output
+Configuration file: /usr/local/etc/foremost.conf
+------------------------------------------------------------------
+File: stdin
+Start: Mon Feb 22 15:17:30 2016
+Length: Unknown
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Interrupt received at Mon Feb 22 15:18:48 2016

@@ -1,0 +1,9 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-06-06 09:36:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2017-06-06 09:37:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2017-06-06 09:37:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2017-06-06 09:38:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2017-06-06 09:39:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2017-06-06 09:39:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2017-06-06 09:39:37 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\Work\www\sandbox\salman\agent\system\database\drivers\mysql\mysql_driver.php 91

@@ -1,0 +1,25 @@
+
+ .ui-autocomplete{background:#fff;border-top:none;}
+ .ui-menu-item{cursor: default;color: #6d7275;padding-right: 3px;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;}
+ .ui-menu-item{border-bottom: medium none #6d7275;
+    overflow: hidden;
+	border-top: 1px solid #e6e6e6;
+    color: #999;
+    cursor: default;
+    font-size: 13px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+ .ui-menu-item:hover{background:#4a8cf7;color:#fff;cursor:pointer;font-weight:bold}
+ .ui-menu-item a.ui-corner-all{color:#6d7275;padding: 10px;}
+ .ui-menu-item:hover a.ui-corner-all,  .ui-menu-item a.ui-corner-all.ui-state-focus{color:#fff}
+ .ui-menu-item:nth-child(odd){background:#f5f5f5}
+ .ui-menu-item:nth-child(odd):hover{background:#4a8cf7}
+ .ui-autocomplete,.ui-autocomplete .ui-menu-item:last-child{-moz-border-radius:0 0 2px 2px;-webkit-border-radius:0 0 2px 2px;border-radius:0 0 2px 2px}
+ .ui-autocomplete-loading {background: url("../images/Preloader.gif") no-repeat scroll right center #fff;}
+.ui-state-focus{}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <air:AirTicketingReq xmlns:air="http://www.travelport.com/schema/air_v33_0" AuthorizedBy="user" BulkTicket="false" ReturnInfoOnFail="true" TargetBranch="P2629804" TraceId="trace">
+      <com:BillingPointOfSaleInfo xmlns:com="http://www.travelport.com/schema/common_v33_0" OriginApplication="UAPI"/>
+      <air:AirReservationLocatorCode>L2X05V</air:AirReservationLocatorCode>
+      <air:AirPricingInfoRef Key="fx3T9t/kQb25fmvgmfs54Q=="/>
+    </air:AirTicketingReq>
+  </soapenv:Body>
+</soapenv:Envelope>

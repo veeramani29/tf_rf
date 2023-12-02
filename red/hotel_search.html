@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if IE 8]>          <html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>          <html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->  <html> <!--<![endif]-->
+    <head>
+        <title>Redtag - Agent's Portal</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Redtag Travels" />
+        <meta name="description" content="Redtag Travels">
+        <meta name="author" content="Redtag Travels">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Theme Styles -->
+        <link href="http://www.redtagtravels.com/agent/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://www.redtagtravels.com/agent/assets/css/style.css" type="text/css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="http://www.redtagtravels.com/agent/assets/css/font-awesome.min.css">
+        
+        <link href="http://www.redtagtravels.com/agent/assets/css/styles.css" type="text/css" rel="stylesheet" media="all">
+        <link id="main-style" rel="stylesheet" href="http://www.redtagtravels.com/agent/assets/css/search.css">
+        <link rel="stylesheet" href="http://www.redtagtravels.com/agent/assets/css/responsive.css">
+        <link rel="stylesheet" href="http://www.redtagtravels.com/agent/assets/css/hotel-style12.css">
+        
+        
+    </head>
+    <body>
+        <!--########################### HEADER STARTS HERE ###############################################################--->
+<div class="full-width top-header" id="redtop">
+    <div class="navbar-header">
+        <a href="http://www.redtagtravels.com/agent//home"><img src="http://www.redtagtravels.com/agent/assets/images/logo.png" height="150px;" width="250px;"  style="padding-bottom: 10px; margin-top: 0px;" class="img-responsive"></img></a>
+    </div>
+    <div class="container" id="sub">
+        <ul id="top">
+            <li>
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                ask@redtagtravels.com
+            </li>
+            <li style="padding-right: 14px;">
+                <span class="glyphicon glyphicon-earphone"></span>&nbsp;
+                <a href="tel:(63) (02) 8012620, +639253115987">(63) (02) 8012620 / +639253115987</a>
+            </li>
+                        <li class="welcom">Welcome, &nbsp;</li>
+            <li>|</li>
+            <li style="padding-right: 14px;"><a href="http://www.redtagtravels.com/agent/index.php/home/logout" class="log_ou">Log Out</a></li>
+                    </ul>
+    </div>
+</div>
+<nav class="navbar navbar-default" id="nav">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="http://www.redtagtravels.com/agent/index.php/home/dashboard">Home</a></li>
+                <li><a href="http://www.redtagtravels.com/agent/index.php/home/searchengine">Flight</a></li>
+                <li><a href="http://www.redtagtravels.com/agent/index.php/home/searchengine">Hotel</a></li>
+            </ul>
+                        <ul class="nav navbar-nav" style="float:right;margin-top: 15px;">
+                <li style="color:#ffffff;">Account Id : --------</li>
+                <li style="color:#ffffff;">Deposit Balance : PHP 0</li>
+            </ul>
+                    </div>
+    </div>
+</nav>
+<!--############################ HEADER ENDS HERE ##############################################################--->
+
+        <div class="page-title-container">
+            <div class="container">
+                <div class="page-title pull-left">
+                    <h2 class="entry-title" style="font-size: 18px;">London , United Kingdom,&nbsp;&nbsp;&nbsp;&nbsp;Adults : 1&nbsp;&nbsp;&nbsp;&nbsp;Child : 0&nbsp;&nbsp;&nbsp;&nbsp;Nights : 1</h2>
+                </div>
+                <ul class="breadcrumbs pull-right">
+                    <li style="color:#ffffff;font-size:13px;">Wed 16, Aug, 2017 &nbsp;&nbsp;To&nbsp;&nbsp; Thu 17, Aug, 2017</li>
+                </ul>
+            </div>
+        </div>
+
+        <section id="content">
+            <div class="container">
+                <div id="main">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-3">
+                            <h4 class="search-results-title"><i class="soap-icon-search"></i><b><span id="count_progress"></span></b><span id="flight_found" style="display:none;"> Hotels Found.</span><img src="http://www.redtagtravels.com/agent/assets/images/small_loader.gif" id="small_progress"></h4>
+                            <div class="toggle-container filters-container">
+
+                                <div class="panel style1 arrow-right ">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#modify-search-panel" class="collapsed">Modify Search</a>
+                                    </h4>
+                                    <div id="modify-search-panel" class="panel-collapse collapse">
+                                        <div class="panel-content">
+                                            <form method="post">
+                                                <div class="form-group">
+                                                    <label>destination</label>
+                                                    <input type="text" class="input-text full-width" placeholder="" value="Paris" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>check in</label>
+                                                    <div class="datepicker-wrap">
+                                                        <input type="text" class="input-text full-width" placeholder="mm/dd/yy" />
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>check out</label>
+                                                    <div class="datepicker-wrap">
+                                                        <input type="text" class="input-text full-width" placeholder="mm/dd/yy" />
+                                                    </div>
+                                                </div>
+                                                <br />
+                                                <button class="btn-medium icon-check uppercase full-width">search again</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel style1 arrow-right">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#price-filter" class="collapsed">Price</a>
+                                    </h4>
+                                    <div id="price-filter" class="panel-collapse collapse">
+                                        <div class="panel-content">
+                                            <span id="priceSliderOutput" class="pric"></span>
+                                            <div class="pr_sl">
+                                                <div id="priceSlider" style="width:175px">
+
+                                                </div>
+                                                <input type="hidden" name="minPrice" id="minPrice" class="autoSubmit"  />
+                                                <input type="hidden" name="maxPrice" id="maxPrice" class="autoSubmit"  />
+                                            </div>
+                                            <div class="clearer"></div>
+                                        </div><!-- end content -->
+                                    </div>
+                                </div>
+
+                                <div class="panel style1 arrow-right">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#name-filter" class="collapsed">Hotel Name</a>
+                                    </h4>
+                                    <div id="name-filter" class="panel-collapse collapse">
+                                        <div class="panel-content">
+                                            <input type="text" id="hotelName" name="hotel_name" class="form-control" placeholder="Hotel Name">
+                                            <div class="clearer"></div>
+                                        </div><!-- end content -->
+                                    </div>
+                                </div>
+
+                                <div class="panel style1 arrow-right">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#rating-filter" class="collapsed">Star Rating</a>
+                                    </h4>
+                                    <div id="rating-filter" class="panel-collapse collapse filters-container">
+                                        <div class="panel-content">
+                                            <div style="margin-left:30px;">
+                                                <input type="checkbox"  class="star" checked="checked" id="1" value="1" name="starr"><div class="five-stars-container" style="font-size: 23px;"><span class="five-stars" style="width: 20%"></span></div><br />
+                                                <input type="checkbox"  class="star" checked="checked" id="2" value="2" name="starr"><div class="five-stars-container" style="font-size: 23px;"><span class="five-stars" style="width: 40%"></span></div><br />
+                                                <input type="checkbox"  class="star" checked="checked" id="3" value="3" name="starr"><div class="five-stars-container" style="font-size: 23px;"><span class="five-stars" style="width: 60%"></span></div><br />
+                                                <input type="checkbox"  class="star" checked="checked" id="4" value="4" name="starr"><div class="five-stars-container" style="font-size: 23px;"><span class="five-stars" style="width: 80%"></span></div><br />
+                                                <input type="checkbox"  class="star" checked="checked" id="5" value="5" name="starr"><div class="five-stars-container" style="font-size: 23px;"><span class="five-stars" style="width: 100%"></span></div><br />
+
+                                            </div>
+                                            <br />
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel style1 arrow-right">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#accomodation-type-filter" class="collapsed">Hotel Location</a>
+                                    </h4>
+                                    <div id="accomodation-type-filter" class="panel-collapse collapse">
+                                        <div class="panel-content">
+                                            <ul class="check-square filters-option" id="location">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel style1 arrow-right">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#amenities-filter" class="collapsed">Amenities</a>
+                                    </h4>
+                                    <div id="amenities-filter" class="panel-collapse collapse">
+                                        <div class="panel-content">
+                                            <ul class="check-square filters-option" id="facilities">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel style1 arrow-right">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#language-filter" class="collapsed">Accommodation Type</a>
+                                    </h4>
+                                    <div id="language-filter" class="panel-collapse collapse">
+                                        <div class="panel-content">
+                                            <ul class="check-square filters-option" id="accomodation_type">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!--############################## AJAX LODER MIDDLE PART  #####################################--->
+                        
+                        
+                        <div class="col-sm-8 col-md-9">
+                            <div class="sort-by-section clearfix">
+                                <h4 class="sort-by-title block-sm so_rt">Sort results by:</h4>
+                                <ul class="sort-bar clearfix block-sm" style="padding-left:14px;">
+                                    <li class="sort-by-name"><a class="sort-by-container" href="#"><span>name</span></a></li>
+                                    <li class="sort-by-price"><a class="sort-by-container" href="#"><span>price</span></a></li>
+                                    <li class="clearer visible-sms"></li>
+                                    <li class="sort-by-rating active"><a class="sort-by-container" href="#"><span>rating</span></a></li>
+                                    <li class="sort-by-popularity"><a class="sort-by-container" href="#"><span>popularity</span></a></li>
+                                </ul>
+
+
+                            </div>
+                            <!---<div class="hotel-list listing-style3 hotel resultHotels">
+
+                                <div class="searchhotel_box">
+                                <article class="box HotelInfoBox searchflight" data-price="353.3" data-hotel-name="Metropolitan" data-star="5" data-facility="" data-location="West End &amp; Marble Arch" data-type="Hotel" data-api="1" style="margin-bottom:0px;">
+                                    <figure class="col-sm-5 col-md-4">
+                                        <a title="" href="http://www.redtagtravels.com/agent/index.php/hotel/details/1/0" class="hover-effect popup-gallery">
+
+                                                                <img alt="" src="http://www.roomsxml.com/RXLImages/7/LON-MET5hotel_Lobby_1.jpg" class="ro_xl">
+                                                            </a>
+                                    </figure>
+                                    <div class="details col-sm-7 col-md-8">
+                                        <div class="col-md-8" style="border-right:1px solid #ccc;">
+                                                <h4 class="box-title wid_100">Metropolitan<small><i class="soap-icon-departure yellow-color">
+                                                    </i> OLD PARK LANE LONDON...</small></h4>
+                                                <div style="clear:both; border:0px;"></div>
+                                                <div class="amenities wid_100">
+                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="amenities wid_100">
+                                                    <i class="soap-icon-wifi circle pull-left"></i>
+                                                    <i class="soap-icon-fitnessfacility circle pull-left"></i>
+                                                    <i class="soap-icon-fork circle pull-left"></i>
+                                                    <i class="soap-icon-television circle pull-left"></i>
+                                                </div>
+                                                
+                                            
+                                            
+                                            
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <div style="border-right:0px;">
+                                                <span class="price"><small>Total</small><small>PHP</small>353.3</span>
+                                                <a class="button btn-small full-width text-center" title="" href="http://www.redtagtravels.com/agent/index.php/hotel/details/1/0">SELECT</a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </article>
+                                </div>
+ 
+<input type="hidden" id="setMinPrice" value="25.5">
+<input type="hidden" id="setMaxPrice" value="919.4">
+<input type="hidden" id="setCurrency" value="PHP">
+</div></div>--->
+                            <div class="hotel-item" style="margin-top: 22px;">
+                                                            <div class="item-media">
+                                                                <div class="image-cover"><img src="http://www.redtagtravels.com/agent/assets/images/img/11.jpg" alt=""></div>
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <div class="item-title">
+                                                                    <p style="margin-bottom:0px;"><a href="hotel-detail.html" style="font-size: 27px;color: #616161;">Hotel Dubai</a></p></div>
+                                                                <div class="con-location-city-name">
+                                                                    <p>Dubai, 16.3 km to city centre</p>
+                                                                </div>
+                                                                
+                                                                <div class="amenities" style="padding-top:32px;"> 
+                                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star pull-left" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star pull-left" aria-hidden="true" style="color:#ccc;"></i>
+                                                                </div>
+                                                                <div style="clear:both;"></div>
+                                                                <div class="amenities" style="padding-top:25px;">
+					                            <i class="soap-icon-wifi circle"></i>
+					                            <i class="soap-icon-fitnessfacility circle"></i>
+					                            <i class="soap-icon-fork circle"></i>
+					                            <i class="soap-icon-television circle"></i>
+					                        </div>
+                                                             </div>
+                                                            
+                                                            
+
+                                                            <div class="item-price-more text-center">
+                                                                <p class="st_fr">Starting From</p>
+                                                                <div class="">
+                                                                    
+                                                                <p class="amount amount-sec text_fon p_sy"><span style="font-size:27px;">&#8369;</span>4200</p>
+                                                                <p class="to_prin">(Total Price Including Tax)</p>
+                                                                </div><a href="hotel-detail.html" class="awe-btn">Select Rooms</a></div>
+                                                        </div>
+                        
+                        
+                        <!--############################## AJAX LODER MIDDLE PART  #####################################--->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                        <!--######################### FOOTER STARTS HERE #################################################################--->
+            
+            
+            <!-- Start of whateversupport Zendesk Widget script -->
+<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//assets.zendesk.com/embeddable_framework/main.js","whateversupport.zendesk.com");
+/*]]>*/</script>
+<!-- End of whateversupport Zendesk Widget script -->
+            <div class="full-width footer-sub">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4 col-md-4 details">
+                    <div class="image">
+                      <img src="http://www.redtagtravels.com/agent/assets/images/footer-logo.png" style="padding: 0px 20px 20px 0px ; margin: auto ;" class="img-responsive">
+                    </div>
+                    <div class="details">
+                      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 contact-details">
+                    <h3>CONTACT INFO</h3>
+                    <li class="list-item">
+                      <i class="fa fa-map-marker"></i>
+                      <p>732/21 Second Street, Manchester, King Street, Kingston United Kingdom</p>
+                    </li>
+                    <li class="list-item">
+                      <i class="fa fa-phone"></i>
+                      <a href="tel:345-677-554">345-677-554</a>
+                    </li>
+                    <li class="list-item">
+                      <i class="fa fa-envelope-o"></i>
+                      <a href="mailto:info@altairtheme.com">info@altairtheme.com</a>
+                    </li>
+                    <li class="list-item">
+                      <i class="fa fa-globe"></i>
+                      <a href="#" target="_blank">www.google.com</a>
+                    </li>
+                  </div>
+                  <div class="col-sm-4 col-md-4 recent-posts">
+                    <h3>Recent Posts</h3>
+                    <li class="list-item">
+                      <p>Recent Post Item</p>
+                    </li>
+                    <li class="list-item">
+                      <p>Recent Post Item</p>
+                    </li>
+                    <li class="list-item">
+                      <p>Recent Post Item</p>
+                    </li>
+                    <li class="list-item">
+                      <p>Recent Post Item</p>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="full-width footer" id="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="social-media navbar-left">
+                    <p class="lead-text">Stay connected with us</p>
+                    <a class="list-item twitter" target="_blank" href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="list-item facebook" target="_blank" href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="list-item instagram" target="_blank" href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="list-item google-plus" target="_blank" href="#">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </div>
+                  <p class="float-right">Copyright (c) Red Tag Travels All Rights Reserved 2016</p>
+                </div>
+              </div>
+            </div>
+
+<!--######################### FOOTER ENDS HERE #################################################################--->
+<script type="text/javascript">
+    var Site_Url = 'http://www.redtagtravels.com/agent/index.php';
+    var Base_Url = 'http://www.redtagtravels.com/agent/';
+</script>    </body>
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/js/jquery-ui.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/js/common.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/vendor/datatables-responsive/dataTables.responsive.js"></script>
+    <script src="http://www.redtagtravels.com/agent/assets/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="http://www.redtagtravels.com/agent/assets/js/theme-scripts.js"></script>
+    <script type="text/javascript" src="http://www.redtagtravels.com/agent/assets/js/scripts.js"></script>
+    <script type="text/javascript">
+        var Site_Url = 'http://www.redtagtravels.com/agent/index.php';
+        var Base_Url = 'http://www.redtagtravels.com/agent/';
+
+        $(document).ready(function ()
+        {
+            var api_array = ["1"];
+            var successHandler = function (data) {
+                $('#progressbar').hide();
+                $('#small_progress').hide();
+
+                $('#result').append(data.hotel_search_result);
+                var hotelCount = 0;
+                $(".HotelInfoBox").each(function ()
+                {
+                    hotelCount++;
+                });
+
+                $("#count_progress").text(hotelCount);
+                $('#flight_found').show();
+                $('#facilities').html(data.amenities);
+                $('#accomodation_type').html(data.type);
+                $('#location').html(data.locations);
+                setPriceSlider();
+
+                $order = 'asc';
+                $sortBy = 'data-price';
+                sortHotels($order, $sortBy, $('.HotelSorting'));
+
+            }
+
+            // these will basically all execute at the same time:
+            for (var i = 0, l = api_array.length; i < l; i++)
+            {
+                $.ajax({
+                    url: Site_Url + '/hotel/getHotelSearchData/' + api_array[i],
+                    data: 'searchId=1',
+                    dataType: 'json',
+                    type: 'get',
+                    beforeSend: function ()
+                    {
+                        $('#progressbar').show();
+                        $('#small_progress').show();
+                    },
+                    success: successHandler
+
+                });
+            }
+
+
+
+        });
+
+        $(document).ready(function ()
+        {
+            $("#hotelName").keyup(function ()
+            {
+                var filter = $(this).val(), count = 0;
+
+                var regex = new RegExp(filter, "i");
+
+                $(".HotelInfoBox").each(function ()
+                {
+                    if ($(this).attr('data-hotel-name').search(regex) < 0)
+                    {
+                        $(this).parents(".searchhotel_box").hide();
+                    } else
+                    {
+                        count++;
+                        $(this).parents(".searchhotel_box").show();
+
+                    }
+
+                });
+
+                // Update the count
+                $("#hotel_count").text(count + ' Hotels Found');
+
+            });
+
+        });
+
+        $(document).ready(function ()
+        {
+            $(".HotelSorting").click(function ()
+            {
+                //alert('dfdffdsf');
+                $order = $(this).attr("data-order");
+                $sortBy = $(this).attr("rel");
+                sortHotels($order, $sortBy, $(this));
+
+            });
+
+        });
+    </script>
+</html>
